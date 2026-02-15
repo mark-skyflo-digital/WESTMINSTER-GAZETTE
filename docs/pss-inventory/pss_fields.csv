@@ -1,0 +1,690 @@
+EntityDefinition.QualifiedApiName,QualifiedApiName,DataType
+PublicSector__EmergencyRequestVisitFlowSetting__mdt,DeveloperName,Text(40)
+PublicSector__EmergencyRequestVisitFlowSetting__mdt,Id,Lookup()
+PublicSector__EmergencyRequestVisitFlowSetting__mdt,Label,Text(40)
+PublicSector__EmergencyRequestVisitFlowSetting__mdt,Language,Picklist
+PublicSector__EmergencyRequestVisitFlowSetting__mdt,ManageableState,Picklist
+PublicSector__EmergencyRequestVisitFlowSetting__mdt,MasterLabel,Text(40)
+PublicSector__EmergencyRequestVisitFlowSetting__mdt,MasterLabelNorm,Text(80)
+PublicSector__EmergencyRequestVisitFlowSetting__mdt,NamespacePrefix,Text
+PublicSector__EmergencyRequestVisitFlowSetting__mdt,PublicSector__ActionPlanTemplateName__c,Text(100)  (Unique Case Insensitive)
+PublicSector__EmergencyRequestVisitFlowSetting__mdt,PublicSector__Event_Type__c,Text(100)  (Unique Case Insensitive)
+PublicSector__EmergencyRequestVisitFlowSetting__mdt,QualifiedApiName,Text(70)
+PublicSector__EmergencyRequestVisitFlowSetting__mdt,SystemModstamp,Date/Time
+PublicSector__EmergencyRequest__c,CreatedById,Lookup(User)
+PublicSector__EmergencyRequest__c,CreatedDate,Date/Time
+PublicSector__EmergencyRequest__c,CurrencyIsoCode,Picklist
+PublicSector__EmergencyRequest__c,Id,Lookup()
+PublicSector__EmergencyRequest__c,IsDeleted,Checkbox
+PublicSector__EmergencyRequest__c,IsLocked,Checkbox
+PublicSector__EmergencyRequest__c,LastActivityDate,Date
+PublicSector__EmergencyRequest__c,LastModifiedById,Lookup(User)
+PublicSector__EmergencyRequest__c,LastModifiedDate,Date/Time
+PublicSector__EmergencyRequest__c,LastReferencedDate,Date/Time
+PublicSector__EmergencyRequest__c,LastViewedDate,Date/Time
+PublicSector__EmergencyRequest__c,MayEdit,Checkbox
+PublicSector__EmergencyRequest__c,Name,Auto Number
+PublicSector__EmergencyRequest__c,OwnerId,"Lookup(User,Group)"
+PublicSector__EmergencyRequest__c,PublicSector__Account__c,Lookup(Account)
+PublicSector__EmergencyRequest__c,PublicSector__Address__c,Lookup(Address)
+PublicSector__EmergencyRequest__c,PublicSector__BusinessApplication__c,Lookup(Business License Application)
+PublicSector__EmergencyRequest__c,PublicSector__Contact_Address__c,Long Text Area(32768)
+PublicSector__EmergencyRequest__c,PublicSector__DateRequired__c,Date
+PublicSector__EmergencyRequest__c,PublicSector__DeliveryInstructions__c,Long Text Area(131072)
+PublicSector__EmergencyRequest__c,PublicSector__DeliverySafetyConcerns__c,Long Text Area(131072)
+PublicSector__EmergencyRequest__c,PublicSector__DisinfectantQuantity__c,"Number(18, 0)"
+PublicSector__EmergencyRequest__c,PublicSector__DropOffDate__c,Date/Time
+PublicSector__EmergencyRequest__c,PublicSector__Email__c,Email
+PublicSector__EmergencyRequest__c,PublicSector__FaceShieldsQuantity__c,"Number(18, 0)"
+PublicSector__EmergencyRequest__c,PublicSector__GlovesQuantity__c,"Number(18, 0)"
+PublicSector__EmergencyRequest__c,PublicSector__GogglesQuantity__c,"Number(18, 0)"
+PublicSector__EmergencyRequest__c,PublicSector__GownsQuantity__c,"Number(18, 0)"
+PublicSector__EmergencyRequest__c,PublicSector__HandSanitizerQuantity__c,"Number(18, 0)"
+PublicSector__EmergencyRequest__c,PublicSector__IndividualApplication__c,Lookup(Individual Application)
+PublicSector__EmergencyRequest__c,PublicSector__IsDropOffDonation__c,Checkbox
+PublicSector__EmergencyRequest__c,PublicSector__MasksQuantity__c,"Number(18, 0)"
+PublicSector__EmergencyRequest__c,PublicSector__OrganizationAddress__c,Text(255)
+PublicSector__EmergencyRequest__c,PublicSector__OrganizationName__c,Text(100)
+PublicSector__EmergencyRequest__c,PublicSector__OrganizationType__c,Picklist
+PublicSector__EmergencyRequest__c,PublicSector__Phone__c,Phone
+PublicSector__EmergencyRequest__c,PublicSector__PickUpDate__c,Date/Time
+PublicSector__EmergencyRequest__c,PublicSector__PrimaryContactName__c,Text(255)
+PublicSector__EmergencyRequest__c,PublicSector__PrimaryContactPhone__c,Phone
+PublicSector__EmergencyRequest__c,PublicSector__PrimaryContactTitle__c,Text(255)
+PublicSector__EmergencyRequest__c,PublicSector__RequestDetails__c,Long Text Area(32768)
+PublicSector__EmergencyRequest__c,PublicSector__RequestedLengthOfStay__c,Text(255)
+PublicSector__EmergencyRequest__c,PublicSector__RequestedService__c,Picklist
+PublicSector__EmergencyRequest__c,PublicSector__RequestedStartDateOfStay__c,Date
+PublicSector__EmergencyRequest__c,PublicSector__RequestorName__c,Text(100)
+PublicSector__EmergencyRequest__c,PublicSector__RequestReason__c,Picklist
+PublicSector__EmergencyRequest__c,PublicSector__RespiratorN95MaskQuantity__c,"Number(18, 0)"
+PublicSector__EmergencyRequest__c,PublicSector__SecondaryContactName__c,Text(255)
+PublicSector__EmergencyRequest__c,PublicSector__SecondaryContactPhone__c,Phone
+PublicSector__EmergencyRequest__c,PublicSector__SecondaryContactTitle__c,Text(255)
+PublicSector__EmergencyRequest__c,PublicSector__Title__c,Text(50)
+PublicSector__EmergencyRequest__c,PublicSector__VentilatorQuantity__c,"Number(18, 0)"
+PublicSector__EmergencyRequest__c,PublicSector__ViralSwabsQuantity__c,"Number(18, 0)"
+PublicSector__EmergencyRequest__c,RecordTypeId,Record Type
+PublicSector__EmergencyRequest__c,RecordVisibilityId,Lookup(Record Visibility)
+PublicSector__EmergencyRequest__c,SystemModstamp,Date/Time
+PublicSector__EmergencyRequest__c,UserRecordAccessId,Lookup(User Record Access)
+PublicSector__Incoming_Case_Assignment_Queue__mdt,DeveloperName,Text(40)
+PublicSector__Incoming_Case_Assignment_Queue__mdt,Id,Lookup()
+PublicSector__Incoming_Case_Assignment_Queue__mdt,Label,Text(40)
+PublicSector__Incoming_Case_Assignment_Queue__mdt,Language,Picklist
+PublicSector__Incoming_Case_Assignment_Queue__mdt,ManageableState,Picklist
+PublicSector__Incoming_Case_Assignment_Queue__mdt,MasterLabel,Text(40)
+PublicSector__Incoming_Case_Assignment_Queue__mdt,MasterLabelNorm,Text(80)
+PublicSector__Incoming_Case_Assignment_Queue__mdt,NamespacePrefix,Text
+PublicSector__Incoming_Case_Assignment_Queue__mdt,PublicSector__Queue_Dev_Name__c,Text(50)
+PublicSector__Incoming_Case_Assignment_Queue__mdt,QualifiedApiName,Text(70)
+PublicSector__Incoming_Case_Assignment_Queue__mdt,SystemModstamp,Date/Time
+PublicSector__Volunteer_Shift_Cancellation_Status__mdt,DeveloperName,Text(40)
+PublicSector__Volunteer_Shift_Cancellation_Status__mdt,Id,Lookup()
+PublicSector__Volunteer_Shift_Cancellation_Status__mdt,Label,Text(40)
+PublicSector__Volunteer_Shift_Cancellation_Status__mdt,Language,Picklist
+PublicSector__Volunteer_Shift_Cancellation_Status__mdt,ManageableState,Picklist
+PublicSector__Volunteer_Shift_Cancellation_Status__mdt,MasterLabel,Text(40)
+PublicSector__Volunteer_Shift_Cancellation_Status__mdt,MasterLabelNorm,Text(80)
+PublicSector__Volunteer_Shift_Cancellation_Status__mdt,NamespacePrefix,Text
+PublicSector__Volunteer_Shift_Cancellation_Status__mdt,PublicSector__Status__c,Text(255)
+PublicSector__Volunteer_Shift_Cancellation_Status__mdt,QualifiedApiName,Text(70)
+PublicSector__Volunteer_Shift_Cancellation_Status__mdt,SystemModstamp,Date/Time
+PublicSector__Volunteer_Shift_Default_Status__mdt,DeveloperName,Text(40)
+PublicSector__Volunteer_Shift_Default_Status__mdt,Id,Lookup()
+PublicSector__Volunteer_Shift_Default_Status__mdt,Label,Text(40)
+PublicSector__Volunteer_Shift_Default_Status__mdt,Language,Picklist
+PublicSector__Volunteer_Shift_Default_Status__mdt,ManageableState,Picklist
+PublicSector__Volunteer_Shift_Default_Status__mdt,MasterLabel,Text(40)
+PublicSector__Volunteer_Shift_Default_Status__mdt,MasterLabelNorm,Text(80)
+PublicSector__Volunteer_Shift_Default_Status__mdt,NamespacePrefix,Text
+PublicSector__Volunteer_Shift_Default_Status__mdt,PublicSector__Status__c,Text(255)
+PublicSector__Volunteer_Shift_Default_Status__mdt,QualifiedApiName,Text(70)
+PublicSector__Volunteer_Shift_Default_Status__mdt,SystemModstamp,Date/Time
+sfsp__AttainmentPlanConfigurationRowDetail__c,CreatedById,Lookup(User)
+sfsp__AttainmentPlanConfigurationRowDetail__c,CreatedDate,Date/Time
+sfsp__AttainmentPlanConfigurationRowDetail__c,CurrencyIsoCode,Picklist
+sfsp__AttainmentPlanConfigurationRowDetail__c,Id,Lookup()
+sfsp__AttainmentPlanConfigurationRowDetail__c,IsDeleted,Checkbox
+sfsp__AttainmentPlanConfigurationRowDetail__c,IsLocked,Checkbox
+sfsp__AttainmentPlanConfigurationRowDetail__c,LastModifiedById,Lookup(User)
+sfsp__AttainmentPlanConfigurationRowDetail__c,LastModifiedDate,Date/Time
+sfsp__AttainmentPlanConfigurationRowDetail__c,MayEdit,Checkbox
+sfsp__AttainmentPlanConfigurationRowDetail__c,Name,Text(80)
+sfsp__AttainmentPlanConfigurationRowDetail__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__AttainmentPlanConfigurationRowDetail__c,sfsp__AttainmentPlanConfiguration__c,Master-Detail(Attainment Plan Configuration)
+sfsp__AttainmentPlanConfigurationRowDetail__c,sfsp__SortOrder__c,"Number(18, 0)"
+sfsp__AttainmentPlanConfigurationRowDetail__c,SystemModstamp,Date/Time
+sfsp__AttainmentPlanConfigurationRowDetail__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__AttainmentPlanConfiguration__c,CreatedById,Lookup(User)
+sfsp__AttainmentPlanConfiguration__c,CreatedDate,Date/Time
+sfsp__AttainmentPlanConfiguration__c,CurrencyIsoCode,Picklist
+sfsp__AttainmentPlanConfiguration__c,Id,Lookup()
+sfsp__AttainmentPlanConfiguration__c,IsDeleted,Checkbox
+sfsp__AttainmentPlanConfiguration__c,IsLocked,Checkbox
+sfsp__AttainmentPlanConfiguration__c,LastModifiedById,Lookup(User)
+sfsp__AttainmentPlanConfiguration__c,LastModifiedDate,Date/Time
+sfsp__AttainmentPlanConfiguration__c,MayEdit,Checkbox
+sfsp__AttainmentPlanConfiguration__c,Name,Text(80)
+sfsp__AttainmentPlanConfiguration__c,OwnerId,"Lookup(User,Group)"
+sfsp__AttainmentPlanConfiguration__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__AttainmentPlanConfiguration__c,sfsp__Period__c,Text(18)
+sfsp__AttainmentPlanConfiguration__c,sfsp__User__c,Lookup(User)
+sfsp__AttainmentPlanConfiguration__c,SystemModstamp,Date/Time
+sfsp__AttainmentPlanConfiguration__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__AttainmentPlanRowDetail__c,CreatedById,Lookup(User)
+sfsp__AttainmentPlanRowDetail__c,CreatedDate,Date/Time
+sfsp__AttainmentPlanRowDetail__c,CurrencyIsoCode,Picklist
+sfsp__AttainmentPlanRowDetail__c,Id,Lookup()
+sfsp__AttainmentPlanRowDetail__c,IsDeleted,Checkbox
+sfsp__AttainmentPlanRowDetail__c,IsLocked,Checkbox
+sfsp__AttainmentPlanRowDetail__c,LastModifiedById,Lookup(User)
+sfsp__AttainmentPlanRowDetail__c,LastModifiedDate,Date/Time
+sfsp__AttainmentPlanRowDetail__c,MayEdit,Checkbox
+sfsp__AttainmentPlanRowDetail__c,Name,Text(80)
+sfsp__AttainmentPlanRowDetail__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month10__c,"Number(18, 0)"
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month11__c,"Number(18, 0)"
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month12__c,"Number(18, 0)"
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month1__c,"Number(18, 0)"
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month2__c,"Number(18, 0)"
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month3__c,"Number(18, 0)"
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month4__c,"Number(18, 0)"
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month5__c,"Number(18, 0)"
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month6__c,"Number(18, 0)"
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month7__c,"Number(18, 0)"
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month8__c,"Number(18, 0)"
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month9__c,"Number(18, 0)"
+sfsp__AttainmentPlanRowDetail__c,sfsp__AttainmentPlanRow__c,Master-Detail(Attainment Plan Row)
+sfsp__AttainmentPlanRowDetail__c,sfsp__IsCustomDetailRow__c,Checkbox
+sfsp__AttainmentPlanRowDetail__c,SystemModstamp,Date/Time
+sfsp__AttainmentPlanRowDetail__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__AttainmentPlanRow__c,CreatedById,Lookup(User)
+sfsp__AttainmentPlanRow__c,CreatedDate,Date/Time
+sfsp__AttainmentPlanRow__c,CurrencyIsoCode,Picklist
+sfsp__AttainmentPlanRow__c,Id,Lookup()
+sfsp__AttainmentPlanRow__c,IsDeleted,Checkbox
+sfsp__AttainmentPlanRow__c,IsLocked,Checkbox
+sfsp__AttainmentPlanRow__c,LastModifiedById,Lookup(User)
+sfsp__AttainmentPlanRow__c,LastModifiedDate,Date/Time
+sfsp__AttainmentPlanRow__c,MayEdit,Checkbox
+sfsp__AttainmentPlanRow__c,Name,Text(80)
+sfsp__AttainmentPlanRow__c,OwnerId,"Lookup(User,Group)"
+sfsp__AttainmentPlanRow__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__AttainmentPlanRow__c,sfsp__Account__c,Lookup(Account)
+sfsp__AttainmentPlanRow__c,sfsp__AttainmentPlan__c,Lookup(Attainment Plan)
+sfsp__AttainmentPlanRow__c,sfsp__IsPriority__c,Checkbox
+sfsp__AttainmentPlanRow__c,sfsp__Notes__c,Long Text Area(32768)
+sfsp__AttainmentPlanRow__c,SystemModstamp,Date/Time
+sfsp__AttainmentPlanRow__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__AttainmentPlan__c,CreatedById,Lookup(User)
+sfsp__AttainmentPlan__c,CreatedDate,Date/Time
+sfsp__AttainmentPlan__c,CurrencyIsoCode,Picklist
+sfsp__AttainmentPlan__c,Id,Lookup()
+sfsp__AttainmentPlan__c,IsDeleted,Checkbox
+sfsp__AttainmentPlan__c,IsLocked,Checkbox
+sfsp__AttainmentPlan__c,LastModifiedById,Lookup(User)
+sfsp__AttainmentPlan__c,LastModifiedDate,Date/Time
+sfsp__AttainmentPlan__c,MayEdit,Checkbox
+sfsp__AttainmentPlan__c,Name,Text(80)
+sfsp__AttainmentPlan__c,OwnerId,"Lookup(User,Group)"
+sfsp__AttainmentPlan__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__AttainmentPlan__c,sfsp__Period__c,Text(18)
+sfsp__AttainmentPlan__c,sfsp__Quota_Month10__c,"Number(18, 0)"
+sfsp__AttainmentPlan__c,sfsp__Quota_Month11__c,"Number(18, 0)"
+sfsp__AttainmentPlan__c,sfsp__Quota_Month12__c,"Number(18, 0)"
+sfsp__AttainmentPlan__c,sfsp__Quota_Month1__c,"Number(18, 0)"
+sfsp__AttainmentPlan__c,sfsp__Quota_Month2__c,"Number(18, 0)"
+sfsp__AttainmentPlan__c,sfsp__Quota_Month3__c,"Number(18, 0)"
+sfsp__AttainmentPlan__c,sfsp__Quota_Month4__c,"Number(18, 0)"
+sfsp__AttainmentPlan__c,sfsp__Quota_Month5__c,"Number(18, 0)"
+sfsp__AttainmentPlan__c,sfsp__Quota_Month6__c,"Number(18, 0)"
+sfsp__AttainmentPlan__c,sfsp__Quota_Month7__c,"Number(18, 0)"
+sfsp__AttainmentPlan__c,sfsp__Quota_Month8__c,"Number(18, 0)"
+sfsp__AttainmentPlan__c,sfsp__Quota_Month9__c,"Number(18, 0)"
+sfsp__AttainmentPlan__c,sfsp__Strategy__c,Long Text Area(32768)
+sfsp__AttainmentPlan__c,sfsp__User__c,Lookup(User)
+sfsp__AttainmentPlan__c,SystemModstamp,Date/Time
+sfsp__AttainmentPlan__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__ListViewColumn__c,CreatedById,Lookup(User)
+sfsp__ListViewColumn__c,CreatedDate,Date/Time
+sfsp__ListViewColumn__c,CurrencyIsoCode,Picklist
+sfsp__ListViewColumn__c,Id,Lookup()
+sfsp__ListViewColumn__c,IsDeleted,Checkbox
+sfsp__ListViewColumn__c,IsLocked,Checkbox
+sfsp__ListViewColumn__c,LastModifiedById,Lookup(User)
+sfsp__ListViewColumn__c,LastModifiedDate,Date/Time
+sfsp__ListViewColumn__c,MayEdit,Checkbox
+sfsp__ListViewColumn__c,Name,Auto Number
+sfsp__ListViewColumn__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__ListViewColumn__c,sfsp__Column__c,Text(80)
+sfsp__ListViewColumn__c,sfsp__ListView__c,Master-Detail(List View)
+sfsp__ListViewColumn__c,sfsp__Order__c,"Number(18, 0)"
+sfsp__ListViewColumn__c,sfsp__SalesAssignmentObject__c,Lookup(Sales Assignment Object)
+sfsp__ListViewColumn__c,sfsp__SalesNodeBoundary__c,Lookup(Sales Node Boundary)
+sfsp__ListViewColumn__c,sfsp__SummaryFormat__c,Picklist
+sfsp__ListViewColumn__c,sfsp__Type__c,Picklist
+sfsp__ListViewColumn__c,SystemModstamp,Date/Time
+sfsp__ListViewColumn__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__ListView__c,CreatedById,Lookup(User)
+sfsp__ListView__c,CreatedDate,Date/Time
+sfsp__ListView__c,CurrencyIsoCode,Picklist
+sfsp__ListView__c,Id,Lookup()
+sfsp__ListView__c,IsDeleted,Checkbox
+sfsp__ListView__c,IsLocked,Checkbox
+sfsp__ListView__c,LastModifiedById,Lookup(User)
+sfsp__ListView__c,LastModifiedDate,Date/Time
+sfsp__ListView__c,MayEdit,Checkbox
+sfsp__ListView__c,Name,Text(80)
+sfsp__ListView__c,OwnerId,"Lookup(User,Group)"
+sfsp__ListView__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__ListView__c,sfsp__Area__c,Picklist (Multi-Select)
+sfsp__ListView__c,sfsp__LastViewed__c,Date/Time
+sfsp__ListView__c,sfsp__SalesPlan__c,Lookup(Sales Plan)
+sfsp__ListView__c,SystemModstamp,Date/Time
+sfsp__ListView__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesActivity__c,CreatedById,Lookup(User)
+sfsp__SalesActivity__c,CreatedDate,Date/Time
+sfsp__SalesActivity__c,CurrencyIsoCode,Picklist
+sfsp__SalesActivity__c,Id,Lookup()
+sfsp__SalesActivity__c,IsDeleted,Checkbox
+sfsp__SalesActivity__c,IsLocked,Checkbox
+sfsp__SalesActivity__c,LastModifiedById,Lookup(User)
+sfsp__SalesActivity__c,LastModifiedDate,Date/Time
+sfsp__SalesActivity__c,MayEdit,Checkbox
+sfsp__SalesActivity__c,Name,Text(80)
+sfsp__SalesActivity__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesActivity__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesActivity__c,sfsp__Data__c,Long Text Area(131072)
+sfsp__SalesActivity__c,sfsp__Description__c,Text Area(255)
+sfsp__SalesActivity__c,sfsp__RecordType__c,Text(80)
+sfsp__SalesActivity__c,sfsp__SalesNode__c,Lookup(Sales Node)
+sfsp__SalesActivity__c,sfsp__SalesPlan__c,Lookup(Sales Plan)
+sfsp__SalesActivity__c,sfsp__Subtype__c,Picklist
+sfsp__SalesActivity__c,sfsp__Type__c,Picklist
+sfsp__SalesActivity__c,SystemModstamp,Date/Time
+sfsp__SalesActivity__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesAssignmentObject__c,CreatedById,Lookup(User)
+sfsp__SalesAssignmentObject__c,CreatedDate,Date/Time
+sfsp__SalesAssignmentObject__c,CurrencyIsoCode,Picklist
+sfsp__SalesAssignmentObject__c,External_ID__c,Text(255)  (External ID) (Unique Case Insensitive)
+sfsp__SalesAssignmentObject__c,Id,Lookup()
+sfsp__SalesAssignmentObject__c,IsDeleted,Checkbox
+sfsp__SalesAssignmentObject__c,IsLocked,Checkbox
+sfsp__SalesAssignmentObject__c,LastModifiedById,Lookup(User)
+sfsp__SalesAssignmentObject__c,LastModifiedDate,Date/Time
+sfsp__SalesAssignmentObject__c,MayEdit,Checkbox
+sfsp__SalesAssignmentObject__c,Name,Text(80)
+sfsp__SalesAssignmentObject__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesAssignmentObject__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesAssignmentObject__c,sfsp__Label__c,Text(80)
+sfsp__SalesAssignmentObject__c,sfsp__ReferenceFields__c,Long Text Area(32768)
+sfsp__SalesAssignmentObject__c,sfsp__SalesPlan__c,Lookup(Sales Plan)
+sfsp__SalesAssignmentObject__c,SystemModstamp,Date/Time
+sfsp__SalesAssignmentObject__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesAsyncJob__c,CreatedById,Lookup(User)
+sfsp__SalesAsyncJob__c,CreatedDate,Date/Time
+sfsp__SalesAsyncJob__c,CurrencyIsoCode,Picklist
+sfsp__SalesAsyncJob__c,Id,Lookup()
+sfsp__SalesAsyncJob__c,IsDeleted,Checkbox
+sfsp__SalesAsyncJob__c,IsLocked,Checkbox
+sfsp__SalesAsyncJob__c,LastModifiedById,Lookup(User)
+sfsp__SalesAsyncJob__c,LastModifiedDate,Date/Time
+sfsp__SalesAsyncJob__c,MayEdit,Checkbox
+sfsp__SalesAsyncJob__c,Name,Auto Number
+sfsp__SalesAsyncJob__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesAsyncJob__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesAsyncJob__c,sfsp__Details__c,Long Text Area(32768)
+sfsp__SalesAsyncJob__c,sfsp__MaioEndpoint__c,Text(255)
+sfsp__SalesAsyncJob__c,sfsp__SalesAssignmentObject__c,Lookup(Sales Assignment Object)
+sfsp__SalesAsyncJob__c,sfsp__Splunk__c,Long Text Area(32768)
+sfsp__SalesAsyncJob__c,sfsp__Status__c,Picklist
+sfsp__SalesAsyncJob__c,sfsp__Type__c,Text(255)
+sfsp__SalesAsyncJob__c,SystemModstamp,Date/Time
+sfsp__SalesAsyncJob__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesBoundary__c,CreatedById,Lookup(User)
+sfsp__SalesBoundary__c,CreatedDate,Date/Time
+sfsp__SalesBoundary__c,CurrencyIsoCode,Picklist
+sfsp__SalesBoundary__c,Id,Lookup()
+sfsp__SalesBoundary__c,IsDeleted,Checkbox
+sfsp__SalesBoundary__c,IsLocked,Checkbox
+sfsp__SalesBoundary__c,LastModifiedById,Lookup(User)
+sfsp__SalesBoundary__c,LastModifiedDate,Date/Time
+sfsp__SalesBoundary__c,MayEdit,Checkbox
+sfsp__SalesBoundary__c,Name,Text(80)
+sfsp__SalesBoundary__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesBoundary__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesBoundary__c,sfsp__ContainerSet__c,Text(255)
+sfsp__SalesBoundary__c,sfsp__IncludePoints__c,Checkbox
+sfsp__SalesBoundary__c,sfsp__SalesPlan__c,Lookup(Sales Plan)
+sfsp__SalesBoundary__c,SystemModstamp,Date/Time
+sfsp__SalesBoundary__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesDataSourceCRMFieldMapping__c,CreatedById,Lookup(User)
+sfsp__SalesDataSourceCRMFieldMapping__c,CreatedDate,Date/Time
+sfsp__SalesDataSourceCRMFieldMapping__c,CurrencyIsoCode,Picklist
+sfsp__SalesDataSourceCRMFieldMapping__c,Id,Lookup()
+sfsp__SalesDataSourceCRMFieldMapping__c,IsDeleted,Checkbox
+sfsp__SalesDataSourceCRMFieldMapping__c,IsLocked,Checkbox
+sfsp__SalesDataSourceCRMFieldMapping__c,LastModifiedById,Lookup(User)
+sfsp__SalesDataSourceCRMFieldMapping__c,LastModifiedDate,Date/Time
+sfsp__SalesDataSourceCRMFieldMapping__c,MayEdit,Checkbox
+sfsp__SalesDataSourceCRMFieldMapping__c,Name,Auto Number
+sfsp__SalesDataSourceCRMFieldMapping__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesDataSourceCRMFieldMapping__c,sfsp__CRMFieldName__c,Text(255)
+sfsp__SalesDataSourceCRMFieldMapping__c,sfsp__SalesDataSourceId__c,Master-Detail(Sales Data Source)
+sfsp__SalesDataSourceCRMFieldMapping__c,sfsp__SalesDataSourceReferenceFieldId__c,Text(255)
+sfsp__SalesDataSourceCRMFieldMapping__c,SystemModstamp,Date/Time
+sfsp__SalesDataSourceCRMFieldMapping__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesDataSource__c,CreatedById,Lookup(User)
+sfsp__SalesDataSource__c,CreatedDate,Date/Time
+sfsp__SalesDataSource__c,CurrencyIsoCode,Picklist
+sfsp__SalesDataSource__c,External_Id__c,Text(255)  (External ID) (Unique Case Insensitive)
+sfsp__SalesDataSource__c,Id,Lookup()
+sfsp__SalesDataSource__c,IsDeleted,Checkbox
+sfsp__SalesDataSource__c,IsLocked,Checkbox
+sfsp__SalesDataSource__c,LastModifiedById,Lookup(User)
+sfsp__SalesDataSource__c,LastModifiedDate,Date/Time
+sfsp__SalesDataSource__c,MayEdit,Checkbox
+sfsp__SalesDataSource__c,Name,Text(80)
+sfsp__SalesDataSource__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesDataSource__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesDataSource__c,sfsp__ETMCompatibilityEnabled__c,Checkbox
+sfsp__SalesDataSource__c,sfsp__ReferenceFields__c,Long Text Area(32768)
+sfsp__SalesDataSource__c,sfsp__SourceId__c,Text(255)
+sfsp__SalesDataSource__c,SystemModstamp,Date/Time
+sfsp__SalesDataSource__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesGoal__c,CreatedById,Lookup(User)
+sfsp__SalesGoal__c,CreatedDate,Date/Time
+sfsp__SalesGoal__c,CurrencyIsoCode,Picklist
+sfsp__SalesGoal__c,Id,Lookup()
+sfsp__SalesGoal__c,IsDeleted,Checkbox
+sfsp__SalesGoal__c,IsLocked,Checkbox
+sfsp__SalesGoal__c,LastModifiedById,Lookup(User)
+sfsp__SalesGoal__c,LastModifiedDate,Date/Time
+sfsp__SalesGoal__c,MayEdit,Checkbox
+sfsp__SalesGoal__c,Name,Text(80)
+sfsp__SalesGoal__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesGoal__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesGoal__c,sfsp__Description__c,Text Area(255)
+sfsp__SalesGoal__c,sfsp__SalesPlan__c,Lookup(Sales Plan)
+sfsp__SalesGoal__c,SystemModstamp,Date/Time
+sfsp__SalesGoal__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesMetric__c,CreatedById,Lookup(User)
+sfsp__SalesMetric__c,CreatedDate,Date/Time
+sfsp__SalesMetric__c,CurrencyIsoCode,Picklist
+sfsp__SalesMetric__c,External_ID__c,Text(255)  (External ID) (Unique Case Insensitive)
+sfsp__SalesMetric__c,Id,Lookup()
+sfsp__SalesMetric__c,IsDeleted,Checkbox
+sfsp__SalesMetric__c,IsLocked,Checkbox
+sfsp__SalesMetric__c,LastModifiedById,Lookup(User)
+sfsp__SalesMetric__c,LastModifiedDate,Date/Time
+sfsp__SalesMetric__c,MayEdit,Checkbox
+sfsp__SalesMetric__c,Name,Text(80)
+sfsp__SalesMetric__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesMetric__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesMetric__c,sfsp__Description__c,Text Area(255)
+sfsp__SalesMetric__c,sfsp__SalesPlan__c,Lookup(Sales Plan)
+sfsp__SalesMetric__c,sfsp__SalesPlanMetric__c,Lookup(Sales Metric)
+sfsp__SalesMetric__c,sfsp__TargetOverrideEnabled__c,Checkbox
+sfsp__SalesMetric__c,sfsp__Type__c,Picklist
+sfsp__SalesMetric__c,SystemModstamp,Date/Time
+sfsp__SalesMetric__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesMilestone__c,CreatedById,Lookup(User)
+sfsp__SalesMilestone__c,CreatedDate,Date/Time
+sfsp__SalesMilestone__c,CurrencyIsoCode,Picklist
+sfsp__SalesMilestone__c,Id,Lookup()
+sfsp__SalesMilestone__c,IsDeleted,Checkbox
+sfsp__SalesMilestone__c,IsLocked,Checkbox
+sfsp__SalesMilestone__c,LastModifiedById,Lookup(User)
+sfsp__SalesMilestone__c,LastModifiedDate,Date/Time
+sfsp__SalesMilestone__c,MayEdit,Checkbox
+sfsp__SalesMilestone__c,Name,Text(80)
+sfsp__SalesMilestone__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesMilestone__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesMilestone__c,sfsp__CompletedDate__c,Date/Time
+sfsp__SalesMilestone__c,sfsp__Description__c,Text Area(255)
+sfsp__SalesMilestone__c,sfsp__DueDate__c,Date/Time
+sfsp__SalesMilestone__c,sfsp__Owner__c,Lookup(User)
+sfsp__SalesMilestone__c,sfsp__Segment__c,Lookup(Sales Node)
+sfsp__SalesMilestone__c,sfsp__Status__c,Picklist
+sfsp__SalesMilestone__c,SystemModstamp,Date/Time
+sfsp__SalesMilestone__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesNodeAssignment__c,CreatedById,Lookup(User)
+sfsp__SalesNodeAssignment__c,CreatedDate,Date/Time
+sfsp__SalesNodeAssignment__c,CurrencyIsoCode,Picklist
+sfsp__SalesNodeAssignment__c,Id,Lookup()
+sfsp__SalesNodeAssignment__c,IsDeleted,Checkbox
+sfsp__SalesNodeAssignment__c,IsLocked,Checkbox
+sfsp__SalesNodeAssignment__c,LastModifiedById,Lookup(User)
+sfsp__SalesNodeAssignment__c,LastModifiedDate,Date/Time
+sfsp__SalesNodeAssignment__c,MayEdit,Checkbox
+sfsp__SalesNodeAssignment__c,Name,Text(80)
+sfsp__SalesNodeAssignment__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesNodeAssignment__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesNodeAssignment__c,sfsp__AssignmentType__c,Text(20)
+sfsp__SalesNodeAssignment__c,sfsp__RecordId__c,Text(18)
+sfsp__SalesNodeAssignment__c,sfsp__SalesAssignmentObject__c,Lookup(Sales Assignment Object)
+sfsp__SalesNodeAssignment__c,sfsp__SalesNode__c,Lookup(Sales Node)
+sfsp__SalesNodeAssignment__c,sfsp__Status__c,Text(20)
+sfsp__SalesNodeAssignment__c,SystemModstamp,Date/Time
+sfsp__SalesNodeAssignment__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesNodeBoundary__c,CreatedById,Lookup(User)
+sfsp__SalesNodeBoundary__c,CreatedDate,Date/Time
+sfsp__SalesNodeBoundary__c,CurrencyIsoCode,Picklist
+sfsp__SalesNodeBoundary__c,Id,Lookup()
+sfsp__SalesNodeBoundary__c,IsDeleted,Checkbox
+sfsp__SalesNodeBoundary__c,IsLocked,Checkbox
+sfsp__SalesNodeBoundary__c,LastModifiedById,Lookup(User)
+sfsp__SalesNodeBoundary__c,LastModifiedDate,Date/Time
+sfsp__SalesNodeBoundary__c,MayEdit,Checkbox
+sfsp__SalesNodeBoundary__c,Name,Text(80)
+sfsp__SalesNodeBoundary__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesNodeBoundary__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesNodeBoundary__c,sfsp__ContainerSet__c,Text(255)
+sfsp__SalesNodeBoundary__c,sfsp__Filter__c,Long Text Area(32768)
+sfsp__SalesNodeBoundary__c,sfsp__IncludePoints__c,Checkbox
+sfsp__SalesNodeBoundary__c,sfsp__SalesBoundary__c,Lookup(Sales Boundary)
+sfsp__SalesNodeBoundary__c,sfsp__SalesNode__c,Lookup(Sales Node)
+sfsp__SalesNodeBoundary__c,sfsp__SalesPlan__c,Lookup(Sales Plan)
+sfsp__SalesNodeBoundary__c,SystemModstamp,Date/Time
+sfsp__SalesNodeBoundary__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesNodeExternalAsset__c,CreatedById,Lookup(User)
+sfsp__SalesNodeExternalAsset__c,CreatedDate,Date/Time
+sfsp__SalesNodeExternalAsset__c,CurrencyIsoCode,Picklist
+sfsp__SalesNodeExternalAsset__c,Id,Lookup()
+sfsp__SalesNodeExternalAsset__c,IsDeleted,Checkbox
+sfsp__SalesNodeExternalAsset__c,IsLocked,Checkbox
+sfsp__SalesNodeExternalAsset__c,LastModifiedById,Lookup(User)
+sfsp__SalesNodeExternalAsset__c,LastModifiedDate,Date/Time
+sfsp__SalesNodeExternalAsset__c,MayEdit,Checkbox
+sfsp__SalesNodeExternalAsset__c,Name,Text(80)
+sfsp__SalesNodeExternalAsset__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesNodeExternalAsset__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesNodeExternalAsset__c,sfsp__AssetId__c,Text(255)  (External ID)
+sfsp__SalesNodeExternalAsset__c,sfsp__AssetType__c,Text(255)
+sfsp__SalesNodeExternalAsset__c,sfsp__SalesNode__c,Lookup(Sales Node)
+sfsp__SalesNodeExternalAsset__c,SystemModstamp,Date/Time
+sfsp__SalesNodeExternalAsset__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesNodeMetric__c,CreatedById,Lookup(User)
+sfsp__SalesNodeMetric__c,CreatedDate,Date/Time
+sfsp__SalesNodeMetric__c,CurrencyIsoCode,Picklist
+sfsp__SalesNodeMetric__c,External_ID__c,Text(255)  (External ID) (Unique Case Insensitive)
+sfsp__SalesNodeMetric__c,Id,Lookup()
+sfsp__SalesNodeMetric__c,IsDeleted,Checkbox
+sfsp__SalesNodeMetric__c,IsLocked,Checkbox
+sfsp__SalesNodeMetric__c,LastModifiedById,Lookup(User)
+sfsp__SalesNodeMetric__c,LastModifiedDate,Date/Time
+sfsp__SalesNodeMetric__c,MayEdit,Checkbox
+sfsp__SalesNodeMetric__c,Name,Text(80)
+sfsp__SalesNodeMetric__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesNodeMetric__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesNodeMetric__c,sfsp__SalesMetric__c,Lookup(Sales Metric)
+sfsp__SalesNodeMetric__c,sfsp__SalesNode__c,Lookup(Sales Node)
+sfsp__SalesNodeMetric__c,sfsp__SalesPlan__c,Lookup(Sales Plan)
+sfsp__SalesNodeMetric__c,sfsp__Target_Month10__c,"Number(18, 0)"
+sfsp__SalesNodeMetric__c,sfsp__Target_Month11__c,"Number(18, 0)"
+sfsp__SalesNodeMetric__c,sfsp__Target_Month12__c,"Number(18, 0)"
+sfsp__SalesNodeMetric__c,sfsp__Target_Month1__c,"Number(18, 0)"
+sfsp__SalesNodeMetric__c,sfsp__Target_Month2__c,"Number(18, 0)"
+sfsp__SalesNodeMetric__c,sfsp__Target_Month3__c,"Number(18, 0)"
+sfsp__SalesNodeMetric__c,sfsp__Target_Month4__c,"Number(18, 0)"
+sfsp__SalesNodeMetric__c,sfsp__Target_Month5__c,"Number(18, 0)"
+sfsp__SalesNodeMetric__c,sfsp__Target_Month6__c,"Number(18, 0)"
+sfsp__SalesNodeMetric__c,sfsp__Target_Month7__c,"Number(18, 0)"
+sfsp__SalesNodeMetric__c,sfsp__Target_Month8__c,"Number(18, 0)"
+sfsp__SalesNodeMetric__c,sfsp__Target_Month9__c,"Number(18, 0)"
+sfsp__SalesNodeMetric__c,sfsp__TargetOverrideAmount__c,"Number(18, 0)"
+sfsp__SalesNodeMetric__c,sfsp__TargetOverrideType__c,Picklist
+sfsp__SalesNodeMetric__c,SystemModstamp,Date/Time
+sfsp__SalesNodeMetric__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesNodeRuleItem__c,CreatedById,Lookup(User)
+sfsp__SalesNodeRuleItem__c,CreatedDate,Date/Time
+sfsp__SalesNodeRuleItem__c,CurrencyIsoCode,Picklist
+sfsp__SalesNodeRuleItem__c,External_Id__c,Text(255)  (External ID) (Unique Case Insensitive)
+sfsp__SalesNodeRuleItem__c,Id,Lookup()
+sfsp__SalesNodeRuleItem__c,IsDeleted,Checkbox
+sfsp__SalesNodeRuleItem__c,IsLocked,Checkbox
+sfsp__SalesNodeRuleItem__c,LastModifiedById,Lookup(User)
+sfsp__SalesNodeRuleItem__c,LastModifiedDate,Date/Time
+sfsp__SalesNodeRuleItem__c,MayEdit,Checkbox
+sfsp__SalesNodeRuleItem__c,Name,Text(80)
+sfsp__SalesNodeRuleItem__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesNodeRuleItem__c,sfsp__Field__c,Text(255)
+sfsp__SalesNodeRuleItem__c,sfsp__Operator__c,Picklist
+sfsp__SalesNodeRuleItem__c,sfsp__SalesNodeRule__c,Master-Detail(Sales Node Rule)
+sfsp__SalesNodeRuleItem__c,sfsp__SortOrder__c,"Number(18, 0)"
+sfsp__SalesNodeRuleItem__c,sfsp__Value__c,Long Text Area(32768)
+sfsp__SalesNodeRuleItem__c,SystemModstamp,Date/Time
+sfsp__SalesNodeRuleItem__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesNodeRule__c,CreatedById,Lookup(User)
+sfsp__SalesNodeRule__c,CreatedDate,Date/Time
+sfsp__SalesNodeRule__c,CurrencyIsoCode,Picklist
+sfsp__SalesNodeRule__c,External_Id__c,Text(255)  (External ID) (Unique Case Insensitive)
+sfsp__SalesNodeRule__c,Id,Lookup()
+sfsp__SalesNodeRule__c,IsDeleted,Checkbox
+sfsp__SalesNodeRule__c,IsLocked,Checkbox
+sfsp__SalesNodeRule__c,LastModifiedById,Lookup(User)
+sfsp__SalesNodeRule__c,LastModifiedDate,Date/Time
+sfsp__SalesNodeRule__c,MayEdit,Checkbox
+sfsp__SalesNodeRule__c,Name,Text(80)
+sfsp__SalesNodeRule__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesNodeRule__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesNodeRule__c,sfsp__BooleanFilter__c,Text Area(255)
+sfsp__SalesNodeRule__c,sfsp__FilterLogic__c,Picklist
+sfsp__SalesNodeRule__c,sfsp__SalesAssignmentObject__c,Lookup(Sales Assignment Object)
+sfsp__SalesNodeRule__c,sfsp__SalesNode__c,Lookup(Sales Node)
+sfsp__SalesNodeRule__c,sfsp__SalesNodeBoundary__c,Lookup(Sales Node Boundary)
+sfsp__SalesNodeRule__c,sfsp__SortOrder__c,"Number(18, 0)"
+sfsp__SalesNodeRule__c,SystemModstamp,Date/Time
+sfsp__SalesNodeRule__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesNodeUser__c,CreatedById,Lookup(User)
+sfsp__SalesNodeUser__c,CreatedDate,Date/Time
+sfsp__SalesNodeUser__c,CurrencyIsoCode,Picklist
+sfsp__SalesNodeUser__c,Id,Lookup()
+sfsp__SalesNodeUser__c,IsDeleted,Checkbox
+sfsp__SalesNodeUser__c,IsLocked,Checkbox
+sfsp__SalesNodeUser__c,LastModifiedById,Lookup(User)
+sfsp__SalesNodeUser__c,LastModifiedDate,Date/Time
+sfsp__SalesNodeUser__c,MayEdit,Checkbox
+sfsp__SalesNodeUser__c,Name,Auto Number
+sfsp__SalesNodeUser__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesNodeUser__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesNodeUser__c,sfsp__Role__c,Text(255)
+sfsp__SalesNodeUser__c,sfsp__SalesNode__c,Lookup(Sales Node)
+sfsp__SalesNodeUser__c,sfsp__User__c,Lookup(User)
+sfsp__SalesNodeUser__c,SystemModstamp,Date/Time
+sfsp__SalesNodeUser__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesNode__c,CreatedById,Lookup(User)
+sfsp__SalesNode__c,CreatedDate,Date/Time
+sfsp__SalesNode__c,CurrencyIsoCode,Picklist
+sfsp__SalesNode__c,External_ID__c,Text(255)  (External ID) (Unique Case Insensitive)
+sfsp__SalesNode__c,Id,Lookup()
+sfsp__SalesNode__c,IsDeleted,Checkbox
+sfsp__SalesNode__c,IsLocked,Checkbox
+sfsp__SalesNode__c,LastModifiedById,Lookup(User)
+sfsp__SalesNode__c,LastModifiedDate,Date/Time
+sfsp__SalesNode__c,MayEdit,Checkbox
+sfsp__SalesNode__c,Name,Text(80)
+sfsp__SalesNode__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesNode__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesNode__c,sfsp__AssignmentBehavior__c,Picklist
+sfsp__SalesNode__c,sfsp__Color__c,Text(80)
+sfsp__SalesNode__c,sfsp__HierarchyReferenceData__c,Long Text Area(131072)
+sfsp__SalesNode__c,sfsp__Owner__c,Lookup(User)
+sfsp__SalesNode__c,sfsp__Parent__c,Lookup(Sales Node)
+sfsp__SalesNode__c,sfsp__Priority__c,"Number(18, 0)"
+sfsp__SalesNode__c,sfsp__QuotaConfig__c,Long Text Area(32768)
+sfsp__SalesNode__c,sfsp__QuotaRollup__c,"Number(18, 0)"
+sfsp__SalesNode__c,sfsp__ReferenceFields__c,Long Text Area(131072)
+sfsp__SalesNode__c,sfsp__RuleLogics__c,Long Text Area(32768)
+sfsp__SalesNode__c,sfsp__SalesPlan__c,Lookup(Sales Plan)
+sfsp__SalesNode__c,sfsp__SalesPlanNode__c,Lookup(Sales Node)
+sfsp__SalesNode__c,sfsp__Segment__c,Lookup(Sales Node)
+sfsp__SalesNode__c,sfsp__SegmentConfig__c,Long Text Area(32768)
+sfsp__SalesNode__c,sfsp__StampDataSourceId__c,Text(255)
+sfsp__SalesNode__c,sfsp__Target__c,"Number(18, 0)"
+sfsp__SalesNode__c,SystemModstamp,Date/Time
+sfsp__SalesNode__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesPlanUser__c,CreatedById,Lookup(User)
+sfsp__SalesPlanUser__c,CreatedDate,Date/Time
+sfsp__SalesPlanUser__c,CurrencyIsoCode,Picklist
+sfsp__SalesPlanUser__c,Id,Lookup()
+sfsp__SalesPlanUser__c,IsDeleted,Checkbox
+sfsp__SalesPlanUser__c,IsLocked,Checkbox
+sfsp__SalesPlanUser__c,LastModifiedById,Lookup(User)
+sfsp__SalesPlanUser__c,LastModifiedDate,Date/Time
+sfsp__SalesPlanUser__c,MayEdit,Checkbox
+sfsp__SalesPlanUser__c,Name,Auto Number
+sfsp__SalesPlanUser__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesPlanUser__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesPlanUser__c,sfsp__Role__c,Text(255)
+sfsp__SalesPlanUser__c,sfsp__SalesPlan__c,Lookup(Sales Plan)
+sfsp__SalesPlanUser__c,sfsp__User__c,Lookup(User)
+sfsp__SalesPlanUser__c,SystemModstamp,Date/Time
+sfsp__SalesPlanUser__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesPlan__c,CreatedById,Lookup(User)
+sfsp__SalesPlan__c,CreatedDate,Date/Time
+sfsp__SalesPlan__c,CurrencyIsoCode,Picklist
+sfsp__SalesPlan__c,External_ID__c,Text(255)  (External ID) (Unique Case Insensitive)
+sfsp__SalesPlan__c,Id,Lookup()
+sfsp__SalesPlan__c,IsDeleted,Checkbox
+sfsp__SalesPlan__c,IsLocked,Checkbox
+sfsp__SalesPlan__c,LastModifiedById,Lookup(User)
+sfsp__SalesPlan__c,LastModifiedDate,Date/Time
+sfsp__SalesPlan__c,MayEdit,Checkbox
+sfsp__SalesPlan__c,Name,Text(80)
+sfsp__SalesPlan__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesPlan__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesPlan__c,sfsp__AssignmentBehavior__c,Picklist
+sfsp__SalesPlan__c,sfsp__Description__c,Text Area(255)
+sfsp__SalesPlan__c,sfsp__DueDate__c,Date/Time
+sfsp__SalesPlan__c,sfsp__FiscalYearStartDate__c,Date/Time
+sfsp__SalesPlan__c,sfsp__HierarchyReference__c,Long Text Area(131072)
+sfsp__SalesPlan__c,sfsp__Owner__c,Lookup(User)
+sfsp__SalesPlan__c,sfsp__Parent__c,Lookup(Sales Plan)
+sfsp__SalesPlan__c,sfsp__Period__c,Text(18)
+sfsp__SalesPlan__c,sfsp__ProductConfig__c,Long Text Area(32768)
+sfsp__SalesPlan__c,sfsp__QuotaConfig__c,Long Text Area(32768)
+sfsp__SalesPlan__c,sfsp__ReferenceFields__c,Long Text Area(32768)
+sfsp__SalesPlan__c,sfsp__SalesDataSource__c,Lookup(Sales Data Source)
+sfsp__SalesPlan__c,sfsp__Status__c,Picklist
+sfsp__SalesPlan__c,sfsp__Type__c,Picklist
+sfsp__SalesPlan__c,sfsp__Version__c,Text(20)
+sfsp__SalesPlan__c,SystemModstamp,Date/Time
+sfsp__SalesPlan__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesProduct__c,CreatedById,Lookup(User)
+sfsp__SalesProduct__c,CreatedDate,Date/Time
+sfsp__SalesProduct__c,CurrencyIsoCode,Picklist
+sfsp__SalesProduct__c,Id,Lookup()
+sfsp__SalesProduct__c,IsDeleted,Checkbox
+sfsp__SalesProduct__c,IsLocked,Checkbox
+sfsp__SalesProduct__c,LastModifiedById,Lookup(User)
+sfsp__SalesProduct__c,LastModifiedDate,Date/Time
+sfsp__SalesProduct__c,MayEdit,Checkbox
+sfsp__SalesProduct__c,Name,Text(80)
+sfsp__SalesProduct__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesProduct__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesProduct__c,sfsp__Config__c,Long Text Area(32768)
+sfsp__SalesProduct__c,sfsp__Description__c,Text Area(255)
+sfsp__SalesProduct__c,sfsp__Parent__c,Lookup(Sales Product)
+sfsp__SalesProduct__c,sfsp__SalesPlan__c,Lookup(Sales Plan)
+sfsp__SalesProduct__c,SystemModstamp,Date/Time
+sfsp__SalesProduct__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesUserAccess__c,CreatedById,Lookup(User)
+sfsp__SalesUserAccess__c,CreatedDate,Date/Time
+sfsp__SalesUserAccess__c,CurrencyIsoCode,Picklist
+sfsp__SalesUserAccess__c,Id,Lookup()
+sfsp__SalesUserAccess__c,IsDeleted,Checkbox
+sfsp__SalesUserAccess__c,IsLocked,Checkbox
+sfsp__SalesUserAccess__c,LastModifiedById,Lookup(User)
+sfsp__SalesUserAccess__c,LastModifiedDate,Date/Time
+sfsp__SalesUserAccess__c,MayEdit,Checkbox
+sfsp__SalesUserAccess__c,Name,Auto Number
+sfsp__SalesUserAccess__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesUserAccess__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesUserAccess__c,sfsp__AccessLevel__c,Picklist
+sfsp__SalesUserAccess__c,sfsp__ApplicationAccess__c,Picklist (Multi-Select)
+sfsp__SalesUserAccess__c,sfsp__SalesNode__c,Lookup(Sales Node)
+sfsp__SalesUserAccess__c,sfsp__SalesPlan__c,Lookup(Sales Plan)
+sfsp__SalesUserAccess__c,sfsp__User__c,Lookup(User)
+sfsp__SalesUserAccess__c,SystemModstamp,Date/Time
+sfsp__SalesUserAccess__c,UserRecordAccessId,Lookup(User Record Access)
+sfsp__SalesUserPreference__c,CreatedById,Lookup(User)
+sfsp__SalesUserPreference__c,CreatedDate,Date/Time
+sfsp__SalesUserPreference__c,CurrencyIsoCode,Picklist
+sfsp__SalesUserPreference__c,Id,Lookup()
+sfsp__SalesUserPreference__c,IsDeleted,Checkbox
+sfsp__SalesUserPreference__c,IsLocked,Checkbox
+sfsp__SalesUserPreference__c,LastModifiedById,Lookup(User)
+sfsp__SalesUserPreference__c,LastModifiedDate,Date/Time
+sfsp__SalesUserPreference__c,MayEdit,Checkbox
+sfsp__SalesUserPreference__c,Name,Auto Number
+sfsp__SalesUserPreference__c,OwnerId,"Lookup(User,Group)"
+sfsp__SalesUserPreference__c,RecordVisibilityId,Lookup(Record Visibility)
+sfsp__SalesUserPreference__c,sfsp__AccessLevel__c,Picklist
+sfsp__SalesUserPreference__c,sfsp__Preferences__c,Long Text Area(131072)
+sfsp__SalesUserPreference__c,sfsp__SalesNode__c,Lookup(Sales Node)
+sfsp__SalesUserPreference__c,sfsp__SalesPlan__c,Lookup(Sales Plan)
+sfsp__SalesUserPreference__c,sfsp__User__c,Lookup(User)
+sfsp__SalesUserPreference__c,SystemModstamp,Date/Time
+sfsp__SalesUserPreference__c,UserRecordAccessId,Lookup(User Record Access)

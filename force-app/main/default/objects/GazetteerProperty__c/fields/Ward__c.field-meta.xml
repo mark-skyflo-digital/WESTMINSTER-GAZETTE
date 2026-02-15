@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ward__c</fullName>
+    <label>Ward</label>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Abbey_Road</fullName><default>false</default><label>Abbey Road</label></value>
+            <value><fullName>Bayswater</fullName><default>false</default><label>Bayswater</label></value>
+            <value><fullName>Knightsbridge_and_Belgravia</fullName><default>false</default><label>Knightsbridge and Belgravia</label></value>
+            <value><fullName>Lancaster_Gate</fullName><default>false</default><label>Lancaster Gate</label></value>
+            <value><fullName>Marylebone</fullName><default>false</default><label>Marylebone</label></value>
+            <value><fullName>West_End</fullName><default>false</default><label>West End</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

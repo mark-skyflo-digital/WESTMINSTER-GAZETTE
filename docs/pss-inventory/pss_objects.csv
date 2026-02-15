@@ -1,0 +1,119 @@
+QualifiedApiName,NamespacePrefix,Label
+PublicSector__EmergencyRequest__c,PublicSector,Emergency Request
+PublicSector__EmergencyRequest__ChangeEvent,PublicSector,Change Event: Emergency Request
+PublicSector__EmergencyRequest__Feed,PublicSector,Feed: Emergency Request
+PublicSector__EmergencyRequest__OwnerSharingRule,PublicSector,Owner Rule: Emergency Request
+PublicSector__EmergencyRequest__Share,PublicSector,Share: Emergency Request
+PublicSector__EmergencyRequestVisitFlowSetting__mdt,PublicSector,Emergency Request Visit Flow Setting
+PublicSector__Incoming_Case_Assignment_Queue__mdt,PublicSector,Incoming Case Assignment Queue
+PublicSector__Volunteer_Shift_Cancellation_Status__mdt,PublicSector,Volunteer Shift Cancellation Status
+PublicSector__Volunteer_Shift_Default_Status__mdt,PublicSector,Volunteer Shift Default Status
+sfsp__AttainmentPlan__c,sfsp,Attainment Plan
+sfsp__AttainmentPlan__ChangeEvent,sfsp,Change Event: Attainment Plan
+sfsp__AttainmentPlan__OwnerSharingRule,sfsp,Owner Rule: Attainment Plan
+sfsp__AttainmentPlan__Share,sfsp,Share: Attainment Plan
+sfsp__AttainmentPlanConfiguration__c,sfsp,Attainment Plan Configuration
+sfsp__AttainmentPlanConfiguration__ChangeEvent,sfsp,Change Event: Attainment Plan Configuration
+sfsp__AttainmentPlanConfiguration__OwnerSharingRule,sfsp,Owner Rule: Attainment Plan Configuration
+sfsp__AttainmentPlanConfiguration__Share,sfsp,Share: Attainment Plan Configuration
+sfsp__AttainmentPlanConfigurationRowDetail__c,sfsp,Attainment Plan Configuration Row Detail
+sfsp__AttainmentPlanConfigurationRowDetail__ChangeEvent,sfsp,Change Event: Attainment Plan Configuration Row Detail
+sfsp__AttainmentPlanRow__c,sfsp,Attainment Plan Row
+sfsp__AttainmentPlanRow__ChangeEvent,sfsp,Change Event: Attainment Plan Row
+sfsp__AttainmentPlanRow__OwnerSharingRule,sfsp,Owner Rule: Attainment Plan Row
+sfsp__AttainmentPlanRow__Share,sfsp,Share: Attainment Plan Row
+sfsp__AttainmentPlanRowDetail__c,sfsp,Attainment Plan Row Detail
+sfsp__AttainmentPlanRowDetail__ChangeEvent,sfsp,Change Event: Attainment Plan Row Detail
+sfsp__ListView__c,sfsp,List View
+sfsp__ListView__ChangeEvent,sfsp,Change Event: List View
+sfsp__ListView__OwnerSharingRule,sfsp,Owner Rule: List View
+sfsp__ListView__Share,sfsp,Share: List View
+sfsp__ListViewColumn__c,sfsp,List View Column
+sfsp__ListViewColumn__ChangeEvent,sfsp,Change Event: List View Column
+sfsp__SalesActivity__c,sfsp,Sales Activity
+sfsp__SalesActivity__ChangeEvent,sfsp,Change Event: Sales Activity
+sfsp__SalesActivity__OwnerSharingRule,sfsp,Owner Rule: Sales Activity
+sfsp__SalesActivity__Share,sfsp,Share: Sales Activity
+sfsp__SalesAssignmentObject__c,sfsp,Sales Assignment Object
+sfsp__SalesAssignmentObject__ChangeEvent,sfsp,Change Event: Sales Assignment Object
+sfsp__SalesAssignmentObject__OwnerSharingRule,sfsp,Owner Rule: Sales Assignment Object
+sfsp__SalesAssignmentObject__Share,sfsp,Share: Sales Assignment Object
+sfsp__SalesAsyncJob__c,sfsp,Sales Async Job
+sfsp__SalesAsyncJob__ChangeEvent,sfsp,Change Event: Sales Async Job
+sfsp__SalesAsyncJob__OwnerSharingRule,sfsp,Owner Rule: Sales Async Job
+sfsp__SalesAsyncJob__Share,sfsp,Share: Sales Async Job
+sfsp__SalesBoundary__c,sfsp,Sales Boundary
+sfsp__SalesBoundary__ChangeEvent,sfsp,Change Event: Sales Boundary
+sfsp__SalesBoundary__OwnerSharingRule,sfsp,Owner Rule: Sales Boundary
+sfsp__SalesBoundary__Share,sfsp,Share: Sales Boundary
+sfsp__SalesDataSource__c,sfsp,Sales Data Source
+sfsp__SalesDataSource__ChangeEvent,sfsp,Change Event: Sales Data Source
+sfsp__SalesDataSource__OwnerSharingRule,sfsp,Owner Rule: Sales Data Source
+sfsp__SalesDataSource__Share,sfsp,Share: Sales Data Source
+sfsp__SalesDataSourceCRMFieldMapping__c,sfsp,Sales Data Source CRM Field Mapping
+sfsp__SalesDataSourceCRMFieldMapping__ChangeEvent,sfsp,Change Event: Sales Data Source CRM Field Mapping
+sfsp__SalesGoal__c,sfsp,Sales Goal
+sfsp__SalesGoal__ChangeEvent,sfsp,Change Event: Sales Goal
+sfsp__SalesGoal__OwnerSharingRule,sfsp,Owner Rule: Sales Goal
+sfsp__SalesGoal__Share,sfsp,Share: Sales Goal
+sfsp__SalesMetric__c,sfsp,Sales Metric
+sfsp__SalesMetric__ChangeEvent,sfsp,Change Event: Sales Metric
+sfsp__SalesMetric__OwnerSharingRule,sfsp,Owner Rule: Sales Metric
+sfsp__SalesMetric__Share,sfsp,Share: Sales Metric
+sfsp__SalesMilestone__c,sfsp,Sales Milestone
+sfsp__SalesMilestone__ChangeEvent,sfsp,Change Event: Sales Milestone
+sfsp__SalesMilestone__OwnerSharingRule,sfsp,Owner Rule: Sales Milestone
+sfsp__SalesMilestone__Share,sfsp,Share: Sales Milestone
+sfsp__SalesNode__c,sfsp,Sales Node
+sfsp__SalesNode__ChangeEvent,sfsp,Change Event: Sales Node
+sfsp__SalesNode__OwnerSharingRule,sfsp,Owner Rule: Sales Node
+sfsp__SalesNode__Share,sfsp,Share: Sales Node
+sfsp__SalesNodeAssignment__c,sfsp,Sales Node Assignment
+sfsp__SalesNodeAssignment__ChangeEvent,sfsp,Change Event: Sales Node Assignment
+sfsp__SalesNodeAssignment__OwnerSharingRule,sfsp,Owner Rule: Sales Node Assignment
+sfsp__SalesNodeAssignment__Share,sfsp,Share: Sales Node Assignment
+sfsp__SalesNodeBoundary__c,sfsp,Sales Node Boundary
+sfsp__SalesNodeBoundary__OwnerSharingRule,sfsp,Owner Rule: Sales Node Boundary
+sfsp__SalesNodeBoundary__Share,sfsp,Share: Sales Node Boundary
+sfsp__SalesNodeExternalAsset__c,sfsp,Sales Node External Asset
+sfsp__SalesNodeExternalAsset__ChangeEvent,sfsp,Change Event: Sales Node External Asset
+sfsp__SalesNodeExternalAsset__OwnerSharingRule,sfsp,Owner Rule: Sales Node External Asset
+sfsp__SalesNodeExternalAsset__Share,sfsp,Share: Sales Node External Asset
+sfsp__SalesNodeMetric__c,sfsp,Sales Node Metric
+sfsp__SalesNodeMetric__ChangeEvent,sfsp,Change Event: Sales Node Metric
+sfsp__SalesNodeMetric__OwnerSharingRule,sfsp,Owner Rule: Sales Node Metric
+sfsp__SalesNodeMetric__Share,sfsp,Share: Sales Node Metric
+sfsp__SalesNodeRule__c,sfsp,Sales Node Rule
+sfsp__SalesNodeRule__ChangeEvent,sfsp,Change Event: Sales Node Rule
+sfsp__SalesNodeRule__OwnerSharingRule,sfsp,Owner Rule: Sales Node Rule
+sfsp__SalesNodeRule__Share,sfsp,Share: Sales Node Rule
+sfsp__SalesNodeRuleItem__c,sfsp,Sales Node Rule Item
+sfsp__SalesNodeRuleItem__ChangeEvent,sfsp,Change Event: Sales Node Rule Item
+sfsp__SalesNodeUser__c,sfsp,Sales Node User
+sfsp__SalesNodeUser__ChangeEvent,sfsp,Change Event: Sales Node User
+sfsp__SalesNodeUser__OwnerSharingRule,sfsp,Owner Rule: Sales Node User
+sfsp__SalesNodeUser__Share,sfsp,Share: Sales Node User
+sfsp__SalesPlan__c,sfsp,Sales Plan
+sfsp__SalesPlan__ChangeEvent,sfsp,Change Event: Sales Plan
+sfsp__SalesPlan__OwnerSharingRule,sfsp,Owner Rule: Sales Plan
+sfsp__SalesPlan__Share,sfsp,Share: Sales Plan
+sfsp__SalesPlanUser__c,sfsp,Sales Plan User
+sfsp__SalesPlanUser__ChangeEvent,sfsp,Change Event: Sales Plan User
+sfsp__SalesPlanUser__OwnerSharingRule,sfsp,Owner Rule: Sales Plan User
+sfsp__SalesPlanUser__Share,sfsp,Share: Sales Plan User
+sfsp__SalesProduct__c,sfsp,Sales Product
+sfsp__SalesProduct__ChangeEvent,sfsp,Change Event: Sales Product
+sfsp__SalesProduct__OwnerSharingRule,sfsp,Owner Rule: Sales Product
+sfsp__SalesProduct__Share,sfsp,Share: Sales Product
+sfsp__SalesUserAccess__c,sfsp,Sales Planning User Access
+sfsp__SalesUserAccess__ChangeEvent,sfsp,Change Event: Sales Planning User Access
+sfsp__SalesUserAccess__OwnerSharingRule,sfsp,Owner Rule: Sales Planning User Access
+sfsp__SalesUserAccess__Share,sfsp,Share: Sales Planning User Access
+sfsp__SalesUserPreference__c,sfsp,Sales User Preference
+sfsp__SalesUserPreference__ChangeEvent,sfsp,Change Event: Sales User Preference
+sfsp__SalesUserPreference__OwnerSharingRule,sfsp,Owner Rule: Sales User Preference
+sfsp__SalesUserPreference__Share,sfsp,Share: Sales User Preference
+sfsp__Secret__mdt,sfsp,Sales Planning Secret
+sfsp__Setting__c,sfsp,Sales Planning Setting
+sfsp__Setting__ChangeEvent,sfsp,Change Event: Sales Planning Setting
+sfsp__Setting__OwnerSharingRule,sfsp,Owner Rule: Sales Planning Setting

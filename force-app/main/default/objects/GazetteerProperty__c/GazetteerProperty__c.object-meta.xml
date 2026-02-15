@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Gazetteer property reference keyed by UPRN.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <label>Gazetteer Property</label>
+    <nameField>
+        <displayFormat>GP-{00000}</displayFormat>
+        <label>Property Reference</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Gazetteer Properties</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

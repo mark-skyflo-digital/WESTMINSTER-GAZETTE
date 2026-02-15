@@ -1,0 +1,2001 @@
+QualifiedApiName,NamespacePrefix,Label
+ContentHubRepository,,Files Connect repository
+Contract,,Contract
+ContractHistory,,Contract History
+ContractFeed,,Contract Feed
+ContractChangeEvent,,Contract Change Event
+Order,,Order
+OrderShare,,Order Share
+OrderOwnerSharingRule,,Order Owner Sharing Rule
+OrderHistory,,Order History
+OrderFeed,,Order Feed
+OrderChangeEvent,,Order Change Event
+OrderItem,,Order Product
+OrderItemHistory,,Order Product History
+OrderItemFeed,,Order Product Feed
+OrderItemChangeEvent,,Order Product Change Event
+ContractContactRole,,Contract Contact Role
+FieldAttributesLocalization,,Translation
+CustomObject,,Custom Object Definition
+CustomEntityDefinitionLocalization,,Translation
+CustomField,,Custom Field Definition
+CustomFieldDefinitionLocalization,,Translation
+PicklistMasterLocalization,,Translation
+OpportunityStage,,Opportunity Stage
+LeadStatus,,Lead Status Value
+CaseStatus,,Case Status Value
+SolutionStatus,,Solution Status Value
+PartnerRole,,Partner Role Value
+TaskPriority,,Task Priority Value
+TaskStatus,,Task Status Value
+ContractStatus,,Contract Status Value
+RecordType,,Record Type
+RecordTypeLocalization,,Translation
+BusinessProcess,,Business Process
+GlobalValueSet,,Global Value Set
+SharedPicklistDefinitionLocalization,,Translation
+Layout,,Page Layout
+LayoutSectionLocalization,,Translation
+ProfileLayout,,Profile Layout
+FieldSet,,Field Set
+FieldSetLocalization,,Translation
+Organization,,Organization
+AllOrganization,,AllOrganization
+AllOrganizationValue,,All Organization Value
+GlobalOrganization,,GlobalOrganization
+ValidationRule,,Validation Rule
+ValidationFormulaLocalization,,Translation
+MailmergeTemplate,,Mail Merge Template
+Scontrol,,Custom S-Control
+ScontrolLocalization,,Scontrol Localization
+EmailRoutingAddress,,Email-to-Case Routing Address
+Document,,Document
+Folder,,Folder
+EmailStatus,,Email Status
+WebLink,,Custom Button or Link
+WebLinkLocalization,,Custom Link Localization
+LookupFilter,,Named Filter
+NamedFilterLocalization,,Translation
+EmailTemplate,,Email Template
+EmailTemplateChangeEvent,,Email Template Change Event
+DocumentAttachmentMap,,Document Entity Map
+BrandTemplate,,Letterhead
+HomePageLayout,,Custom Home Page
+HomePageComponent,,Home Page Component
+Name,,Name
+RecentlyViewed,,Recently Viewed
+ListLayout,,List Layout
+LoginHistory,,Login History
+CustomSetupDefinition,,Custom Setup Definition
+CustomSetup,,Custom Setup
+RemoteProxy,,Remote Site Setting
+LoginIp,,Login IP
+ClientBrowser,,Client Browser
+Vote,,Vote
+Community,,Zone
+AggregateResult,,Aggregate Result
+Campaign,,Campaign
+CampaignShare,,Campaign Share
+CampaignOwnerSharingRule,,Campaign Owner Rule
+CampaignHistory,,Campaign Field History
+CampaignFeed,,Campaign Feed
+CampaignChangeEvent,,Campaign Change Event
+CampaignMemberStatus,,Campaign Member Status
+CampaignMemberStatusChangeEvent,,Campaign Member Status Change Event
+CampaignMember,,Campaign Member
+CampaignMemberChangeEvent,,Campaign Member Change Event
+Account,,Account
+AccountShare,,Account Share
+AccountOwnerSharingRule,,Account Owner Rule
+AccountHistory,,Account History
+AccountFeed,,Account Feed
+AccountChangeEvent,,Account Change Event
+Contact,,Contact
+ContactShare,,Contact Share
+ContactOwnerSharingRule,,Contact Owner Rule
+ContactHistory,,Contact History
+ContactFeed,,Contact Feed
+ContactChangeEvent,,Contact Change Event
+Lead,,Lead
+LeadShare,,Lead Share
+LeadOwnerSharingRule,,Lead Owner Rule
+LeadHistory,,Lead History
+LeadFeed,,Lead Feed
+LeadChangeEvent,,Lead Change Event
+Opportunity,,Opportunity
+OpportunityShare,,Opportunity Share
+OpportunityOwnerSharingRule,,Opportunity Owner Rule
+OpportunityFieldHistory,,Opportunity Field History
+OpportunityFeed,,Opportunity Feed
+OpportunityChangeEvent,,Opportunity Change Event
+AccountContactRelation,,Account Contact Relationship
+AccountContactRelationChangeEvent,,Account Contact Relationship Change Event
+OpportunityContactRole,,Opportunity Contact Role
+OpportunityContactRoleChangeEvent,,Opportunity Contact Role Change Event
+OpportunityHistory,,Opportunity History
+OpportunityLineItem,,Opportunity Product
+OpportunityLineItemChangeEvent,,Opportunity Product Change Event
+OpportunityLineItemSchedule,,Line Item Schedule
+OpportunityCompetitor,,Opportunity: Competitor
+UserTeamMember,,User Team Member
+UserAccountTeamMember,,User Account Team Member
+OpportunityTeamMember,,Opportunity Team Member
+OpportunityTeamMemberHistory,,Opportunity Team Member History
+AccountTeamMember,,Account Team Member
+AccountTeamMemberChangeEvent,,Account Team Member Change Event
+Partner,,Partner
+AccountPartner,,Account Partner
+OpportunityPartner,,Opportunity Partner
+ForecastingItem,,Forecasting Item
+ForecastingFact,,Forecasting Fact
+ForecastingAdjustment,,Forecasting Adjustment
+ForecastingQuota,,Forecasting Quota
+Attachment,,Attachment
+FiscalYearSettings,,Fiscal Year Settings
+Period,,Period
+QuoteDocument,,Quote PDF
+PricebookEntry,,Price Book Entry
+PricebookEntryHistory,,Price Book Entry History
+PricebookEntryChangeEvent,,Price Book Entry Change Event
+Product2,,Product
+Product2History,,Product History
+Product2Feed,,Product Feed
+Product2ChangeEvent,,Product Change Event
+Asset,,Asset
+AssetShare,,Asset Share
+AssetOwnerSharingRule,,Asset Owner Rule
+AssetHistory,,Asset History
+AssetFeed,,Asset Feed
+AssetChangeEvent,,Asset Change Event
+BusinessHours,,Business Hours
+Case,,Case
+CaseShare,,Case Share
+CaseOwnerSharingRule,,Case Owner Rule
+CaseHistory,,Case History
+CaseFeed,,Case Feed
+CaseTeamTemplate,,Predefined Case Team
+CaseTeamTemplateMember,,Predefined Case Team Member
+CaseTeamMember,,Case Team Member
+CaseTeamRole,,Case Team Member Role
+CaseTeamTemplateRecord,,Predefined Case Team Record
+CaseComment,,Case Comment
+CaseChangeEvent,,Case Change Event
+CaseContactRole,,Case Contact Role
+CaseHistory2,,Case History
+CaseHistory2ChangeEvent,,Case History Change Event
+CaseArticle,,Case Article
+CaseSolution,,Case Solution
+Solution,,Solution
+SolutionHistory,,Solution History
+SolutionFeed,,Solution Feed
+Holiday,,Holiday
+AdditionalNumber,,Additional Directory Number
+CallCenter,,Call Center
+EntitlementTemplate,,Entitlement Template
+ProductEntitlementTemplate,,Product Entitlement Template
+SlaProcess,,Entitlement Process
+MilestoneType,,Milestone
+CaseMilestone,,Case Milestone
+AssociationQueueItem,,Outlook Queue Item
+EventAssociationItem,,My Unresolved Items
+MailAssociationItem,,My Unresolved Items
+TaskAssociationItem,,My Unresolved Items
+MobileMarkedRecord,,Mobile Marked Record
+ContentVersion,,Content Version
+ContentVersionHistory,,Content Version History
+ContentVersionChangeEvent,,Content Version Change Event
+ContentDocument,,Content Document
+ContentDocumentHistory,,Content Document History
+ContentDocumentFeed,,ContentDocument Feed
+ContentDocumentChangeEvent,,Content Document Change Event
+ContentDocumentLink,,Content Document Link
+ContentDocumentLinkChangeEvent,,Content Document Link Change Event
+FolderedContentDocument,,Foldered Content Document
+ContentFolderItem,,Content Folder Item
+ContentWorkspace,,Library
+ContentWorkspaceDoc,,Library Document
+ContentWorkspacePermission,,Library Permission
+ContentVersionRenditionContent,,Content Rendition
+ContentTagName,,Content Tag
+ContentVersionTagName,,Content Tag Name
+ContentTagSubscription,,Content Tag Subscription
+ContentVersionComment,,Content Version Comment
+ContentNotification,,Content Notification
+ContentVersionRating,,Content Version Rating
+ContentWorkspaceSubscription,,Content Workspace Subscription
+ContentDocumentSubscription,,Content Document Subscription
+ContentWorkspaceMember,,Library Member
+ContentUserSubscription,,Content User Subscription
+ContentDistribution,,Content Delivery
+ContentDistributionView,,Content Delivery View
+AttachedContentDocument,,Attached Content Document
+CombinedAttachment,,"Note, Attachment, Google Doc And File"
+OwnedContentDocument,,User Owned File
+ContentFolderLink,,Content Folder Link
+ContentFolderMember,,Content Folder Member
+Note,,Note
+NoteAndAttachment,,Note and Attachment
+CronJobDetail,,Cron Job
+CronTrigger,,Scheduled Jobs
+Experiment,,Experiment
+FeedItem,,Feed Item
+FeedTrackedChange,,Feed Tracked Change
+FeedComment,,Feed Comment
+FeedLike,,Feed Like
+FeedAttachment,,Feed Attachment
+FeedPollChoice,,Feed Poll Choice
+FeedPollVote,,Feed Poll Vote
+EntitySubscription,,Entity Subscription
+GroupSubscription,,Group Subscription
+Photo,,Photo
+CollaborationGroup,,Group
+CollaborationGroupFeed,,Group Feed
+CollaborationGroupMember,,Group Member
+CollaborationGroupMemberRequest,,Group Member Request
+CollaborationInvitation,,Chatter Invitation
+ChatterActivity,,Chatter Activity
+ChatterMessage,,Chatter Message
+ChatterMessageThread,,Chatter Message Thread
+ChatterConversation,,Chatter Conversation
+ChatterConversationMember,,Chatter Conversation Member
+DirectMessage,,Direct Message
+DirectMessageFeed,,Direct Message Feed
+DirectMessageMember,,Direct Message Member
+NotificationMember,,Notification Member
+FeedRevision,,Feed Revision
+PushTopic,,Push Topic
+Translation,,Language Translation
+LocalizedValue,,Translation
+CurrencyType,,Currency Type
+DatedConversionRate,,Dated Conversion Rate
+ExternalString,,Custom Label
+ExternalStringLocalization,,Custom Label Translation
+PackageMember,,Package Member
+PackageMemberOwnerSharingRule,,Package Member Owner Rule
+AllPackage,,Package
+AllPackageVersion,,Package Version
+AllPackageVersionLm,,All Package Version Lm
+AllManagedPackageMember,,All Managed Package Member
+AllManagedMemberOption,,All Managed Member Option
+AllInstalledPackageVersion,,All Installed Package Version
+PackageEvent,,Package Event
+PushUpgradeRequest,,Push Upgrade Request
+PushUpgradeJob,,Push Upgrade Job
+PushUpgradeJobError,,Push Upgrade Job Error
+PackageOperationError,,Package Operation Error
+MetadataPackageVersion,,Metadata Package Version
+MetadataPackage,,Metadata Package
+SubscriberPackage,,Subscriber Package
+SubscriberPackageVersion,,Subscriber Package Version
+InstalledSubscriberPackage,,Installed Subscriber Package
+Report,,Report
+ReportLocalization,,Translation
+ReportFeed,,Report Feed
+CustomReportType,,Custom Report Type
+CustomReportTypeLocalization,,Translation
+CrtColumnLocalization,,Translation
+CrtLayoutSectionLocalization,,Translation
+Dashboard,,Dashboard
+DashboardLocalization,,Translation
+DashboardFeed,,Dashboard Feed
+DashboardComponent,,Dashboard Component
+DashboardComponentLocalization,,Translation
+DashboardComponentFeed,,Dashboard Component Feed
+WorkflowRule,,Workflow Rule
+AssignmentRule,,Assignment Rule
+AutoResponseRule,,Auto-Response Rule
+WorkflowFieldUpdate,,Field Update
+WorkflowOutboundMessage,,Workflow Outbound Message
+WorkflowTask,,Workflow Task
+ActionTaskLocalization,,Translation
+WorkflowAlert,,Email Alert
+ProcessDefinition,,Process Definition
+ProcessNode,,Process Node
+ProcessTransitionActionLocalization,,Translation
+PostTemplate,,Approval Post Template
+ProcessInstance,,Process Instance
+ProcessInstanceChangeEvent,,Process Instance Change Event
+ProcessInstanceStep,,Process Instance Step
+ProcessInstanceStepChangeEvent,,Process Instance Step Change Event
+ProcessInstanceWorkitem,,Approval Request
+ProcessInstanceHistory,,Process Instance History
+ApexClass,,Apex Class
+ApexTrigger,,Apex Trigger
+ApexLog,,Apex Debug Log
+ApexTestResult,,Application Test Result
+AsyncApexJob,,Apex Job
+ApexTestQueueItem,,Apex Test Queue Item
+UserRole,,Role
+Group,,Group
+GroupMember,,Group Member
+QueueSobject,,Queue sObject
+UserMembershipSharingRule,,User Membership Sharing Rule
+CustomShareRowCauseLocalization,,Translation
+SharingSet,,Sharing Set
+UserRecordAccess,,User Record Access
+GenericRecordUserAccess,,Generic Record User Access
+AccountRecordUserAccess,,Account Record User Access
+ApexPage,,Visualforce Page
+ApexComponent,,Visualforce Component
+StaticResource,,Static Resource
+UserLicense,,User License
+PackageLicense,,Package License
+UserPackageLicense,,User Package License
+CrossOrgLimitUsageHistory,,XI Limit Usage History
+Profile,,Profile
+ProfileLocalization,,Translation
+CustomPermissionSet,,Permission Set
+PermissionSetAssignment,,Permission Set Assignment
+ObjectPermissions,,Object Permissions
+FieldPermissions,,Field Permissions
+SetupEntityAccess,,Setup Entity Access
+SetupAuditTrail,,Setup Audit Trail Entry
+DelegateGroup,,Delegated Group
+DelegateGroupMember,,Delegated Administrators
+DelegateGroupGrant,,Delegated Group Grant
+LoginIpRange,,Login IP Range
+Task,,Task
+TaskFeed,,Task Feed
+TaskChangeEvent,,Task Change Event
+Event,,Event
+EventFeed,,Event Feed
+EventChangeEvent,,Event Change Event
+EventRecurrenceException,,Event Recurrence Exception
+TaskRecurrenceException,,Task Recurrence Exception
+Calendar,,Calendar
+TaskRelation,,Task Relation
+TaskRelationChangeEvent,,Task Relation Change Event
+EventRelation,,Event Relation
+EventRelationChangeEvent,,Event Relation Change Event
+TaskWhoRelation,,Task Who Relation
+EventWhoRelation,,Event Who Relation
+AcceptedEventRelation,,Accepted Event Relation
+UndecidedEventRelation,,Undecided Event Relation
+DeclinedEventRelation,,Declined Event Relation
+LookedUpFromActivity,,Lookups from Activity
+OpenActivity,,Open Activity
+ActivityHistory,,Activity History
+DataCategoryGroupLocalization,,Translation
+DataCategoryLocalization,,Translation
+CategoryNode,,Category Node
+CategoryNodeLocalization,,Category Node Localization
+CategoryData,,Category Data
+Site,,Site
+SiteHistory,,Site History
+SiteFeed,,Site
+CrossOrgSite,,All Domain Mapping
+SiteRedirectMapping,,Site Redirect Mapping
+Domain,,Domain
+DomainSite,,Custom URL
+FlowDefinition,,Flow Definition
+FlowDefinitionLocalization,,Translation
+Flow,,Flow Version
+InteractionDefinitionVersionLocalization,,Translation
+InteractionQuestionLocalization,,Translation
+InteractionChoiceLocalization,,Translation
+InteractionFormLocalization,,Translation
+InteractionResourceLocalization,,Translation
+OrgWideEmailAddress,,Organization-wide From Email Address
+OrgEmailAddressSecurity,,Organization Email Address Security
+Network,,Experience
+NetworkMemberGroup,,Network Member Group
+NetworkMember,,Site Member
+NetworkModeration,,Community Moderation
+CustomTab,,Custom Tab Definition
+CustomTabDefinitionLocalization,,Translation
+PermissionSetTabSetting,,Permission Set Tab Setting
+CustomApplication,,Custom App
+TabSetLocalization,,Translation
+CustomBrand,,Custom Brand
+CustomBrandAsset,,Custom Brand Asset
+LoginBrand,,Login Brand
+LoginBrandAsset,,Brand Asset
+EmailBrand,,Email Brand
+AppManifest,,Connected App
+AppManifestVersion,,Application Version
+AppIpRange,,Application IP Range
+ConnectedApplication,,Connected App
+AuthProvider,,Auth. Provider
+OauthConsumer,,Remote Access
+Certificate,,Certificates and Keys
+ServiceProvider,,Service Provider
+OauthConsumerScope,,Oauth Consumer Scope
+IdpEventLog,,Identity Provider Event Log
+LoginGeo,,Login Geo Data
+EmailServicesFunction,,Email Service
+EmailServicesAddress,,Email Services Address
+S2XEventMap,,S2XEventMap
+KnowledgeableUser,,Knowledgeable User
+Topic,,Topic
+TopicLocalization,,Translation
+TopicFeed,,Topic Feed
+TopicAssignment,,Topic Assignment
+TopicUserEvent,,Topic User Event
+User,,User
+UserShare,,User Share
+UserHistory,,User History
+UserFeed,,User Feed
+UserChangeEvent,,User Change Event
+UserLogin,,User Login
+AllUsersBasic,,All Users Basic
+UserPreference,,User Preference
+AuthSession,,Auth Session
+Territory2,,Territory
+ObjectTerritory2Association,,Object Territory Association
+UserTerritory2Association,,User Territory Association
+ListView,,List View
+ContentNote,,Note
+AttachedContentNote,,Note
+EmailMessage,,Email Message
+EmailMessageChangeEvent,,Email Message Change Event
+EmailMessageRelation,,Email Message Relation
+UserFavorite,,Favorite
+ActionOverride,,Standard Action Override
+PermissionSetLicense,,Permission Set License
+VerificationHistory,,Identity Verification History
+VoiceCall,,Voice Call
+VoiceCallShare,,Voice Call Share
+VoiceCallOwnerSharingRule,,Voice Call Owner Rule
+VoiceCallFeed,,Voice Call Feed
+VoiceCallChangeEvent,,Voice Call Change Event
+Activity,,Activity
+ActivityFeed,,__MISSING LABEL__ PropertyFile - val Activity not found in section StandardFeedLabel
+ContentBody,,Content Body
+OpportunityScore,,Opportunity Score
+ServiceAppointmentStatus,,Service Appointment Status Value
+WorkOrderLineItemStatus,,Work Order Line Item Status Value
+WorkOrderStatus,,Work Order Status Value
+RecordRecommendation,,Record Recommendation
+RecordVisibility,,Record Visibility
+FeedSignal,,Feed Signal
+RecommendationFeedback,,Recommendation Feedback
+VoiceCallRecording,,Voice Call Recording
+VoiceCallRecordingChangeEvent,,Voice Call Recording Change Event
+AccountUserTerritory2View,,Account User Territory2 View
+Individual,,Individual
+IndividualShare,,Individual Share
+IndividualOwnerSharingRule,,Individual Owner Sharing Rule
+IndividualHistory,,Individual History
+IndividualChangeEvent,,Individual Change Event
+ConversationEntry,,Conversation Entry
+OrderStatus,,Order Status Value
+FieldSecurityClassification,,Field Security Classification
+MutingPermissionSet,,Muting Permission Set
+OrderItemType,,Order Product Type
+ShiftStatus,,Shift Status Value
+Conversation,,Conversation
+ConversationParticipant,,Conversation Participant
+DeleteEvent,,Recycle Bin Item
+LoyaltyLedger,,Loyalty Ledger
+LoyaltyLedgerChangeEvent,,Loyalty Ledger Change Event
+TransactionJournal,,Transaction Journal
+TransactionJournalChangeEvent,,Transaction Journal Change Event
+WorkStepStatus,,Work Step Status Value
+DeliveryTaskStatus,,Delivery Task Status
+ContextParamMap,,Context Param Map
+JournalReason,,Journal Reason
+Participant,,Participant
+ProductServiceCampaignItemStatus,,Product Service Campaign Item Status
+ProductServiceCampaignStatus,,Product Service Campaign Status
+AttributeValueStoreChangeEvent,,Attribute Value Store Change Event
+LoyaltyAggrPointExprLedger,,Loyalty Aggregated Point Expiration Ledger
+LoyaltyAggrPointExprLedgerChangeEvent,,Loyalty Aggregated Point Expiration Ledger Change Event
+ActivityFieldChange,,Activity Field Change
+EngagementAttendee,,Engagement Attendee
+EngagementAttendeeHistory,,Engagement Attendee History
+EngagementAttendeeFeed,,Engagement Attendee Feed
+EngagementAttendeeChangeEvent,,Engagement Attendee Change Event
+EngagementInteraction,,Engagement Interaction
+EngagementInteractionShare,,Engagement Interaction Share
+EngagementInteractionHistory,,Engagement Interaction History
+EngagementInteractionFeed,,Engagement Interaction Feed
+EngagementInteractionChangeEvent,,Engagement Interaction Change Event
+EngagementTopic,,Engagement Topic
+EngagementTopicHistory,,Engagement Topic History
+EngagementTopicFeed,,Engagement Topic Feed
+EngagementTopicChangeEvent,,Engagement Topic Change Event
+LoyaltyProgramPartnerLedger,,Loyalty Program Partner Ledger
+LoyaltyProgramPartnerLedgerChangeEvent,,Loyalty Program Partner Ledger Change Event
+ObjectUserTerritory2View,,Object User Territory2 View
+Prospect,,Prospect
+ProspectChangeEvent,,Prospect Change Event
+DataDetectScanResult,,Data Detect Scan Result
+FldSvcObjChg,,Field Service Object Change
+FldSvcObjChgDtl,,Field Service Object Change Detail
+PackageSubscriberOrgInstall,,Package Subscriber Org Install
+SetupRecordShare,,Setup Record Share
+FieldHistoryArchive,,Field History Archive
+HistoryRetentionJob,,Field History Retention Job
+EventBusSubscriber,,Platform Event Subscription
+ContentHubItem,,Files Connect item
+SiqUserBlacklistShare,,Inbox User Excluded Address Share
+SiqUserBlacklistOwnerSharingRule,,Inbox User Excluded Address Owner Rule
+SiqUserBlacklistHistory,,Inbox User Excluded Address History
+StreamActivityAccessShare,,Stream Activity Access Share
+StreamActivityAccessOwnerSharingRule,,Stream Activity Access Owner Rule
+StreamActivityAccessHistory,,Stream Activity Access History
+RequestsForAccessSIQShare,,Request Access to SIQ Object Share
+RequestsForAccessSIQOwnerSharingRule,,Request Access to SIQ Object Owner Rule
+SalesforceIqInboxUser,,Inbox User
+EventLogFile,,Event Log File
+EntityLimit,,Entity Limit
+EntityDefinition,,Entity Definition
+FieldDefinition,,Field Definition
+EntityParticle,,Entity Particle
+PicklistValueInfo,,Picklist Value Info
+RelationshipInfo,,Relationship
+RelationshipDomain,,Relationship Domain
+CompactLayoutInfo,,Compact Layout
+CompactLayoutItemInfo,,Compact Layout Item
+SearchLayout,,Search Layout
+RelatedEntity,,Related Entity
+Publisher,,Publisher
+Service,,Service
+ServiceVersion,,Service Version
+WebServiceDefinition,,Web Service Definition
+XmlSchema,,XML Schema
+ServiceDataType,,Service Data Type
+WsdlDataType,,WSDL Data Type
+DataType,,Data Type
+UserFieldAccess,,User Field Access
+UserEntityAccess,,User Entity Access
+StandardAction,,Standard Action
+OwnerChangeOptionInfo,,Change Owner Option Info
+DataStatistics,,Data Statistics
+LoginEvent,,Login Event
+LoginEventStream,,Login Event Stream
+ApiEvent,,API Event
+Index,,Custom Index
+IndexField,,Custom Index Field
+LicenseDefinition,,License Definition
+LicensedCustomPermission,,Licensed Custom Permission
+StandardValueSet,,Standard Value Set
+LayoutParticle,,Layout Particle
+FlexiPage,,Lightning Page
+QuickActionDefinition,,Action
+QuickActionDefinitionLocalization,,Translation
+QuickActionList,,Action List
+QuickActionListItem,,Action List Item
+CorsWhitelistEntry,,CORS Allowed Origin List
+SearchPromotionRule,,Search Promotion Rule
+SearchActivity,,Search Activity
+FileSearchActivity,,FileSearchActivity
+CampaignInfluence,,Campaign Influence
+CampaignInfluenceModel,,Campaign Influence Model
+RecalcCampaignStats,,Recalc Campaign Stats
+DeployRequest,,Deploy Request
+DeployTestResult,,Deploy Test Result
+AccountContactRole,,Account Contact Role
+AccountContactRoleChangeEvent,,Account Contact Role Change Event
+OpportunitySplit,,Opportunity Split
+OpportunitySplitHistory,,Opportunity Split History
+OpportunitySplitChangeEvent,,Opportunity Split Change Event
+OpportunitySplitType,,Opportunity Split Type
+ForecastingType,,Forecasting Type
+ForecastingShare,,Forecasting Share
+ForecastingOwnerAdjustment,,Forecasting Owner Adjustment
+ForecastingOwnerAdjustmentChangeEvent,,Forecasting Owner Adjustment Change Event
+ForecastingCategoryMapping,,Forecasting Category Mapping
+ForecastingTypeToCategory,,Forecasting Type To Category Mapping
+ForecastingUserPreference,,Forecasting User Preference
+ForecastingItemPivot,,Forecasting Item Pivot
+Quote,,Quote
+QuoteShare,,Quote Share
+QuoteOwnerSharingRule,,Quote Owner Rule
+QuoteHistory,,Quote History
+QuoteFeed,,Quote Feed
+QuoteChangeEvent,,Quote Change Event
+QuoteLineItem,,Quote Line Item
+QuoteLineItemHistory,,Quote Line Item History
+QuoteLineItemChangeEvent,,Quote Line Item Change Event
+QuoteTemplateRichTextData,,Quote Template Rich Text Data
+Pricebook2,,Price Book
+Pricebook2History,,Price Book History
+Pricebook2ChangeEvent,,Price Book Change Event
+IdeaReputationLevel,,Idea Reputation Level
+Idea,,Idea
+IdeaComment,,Idea Comment
+CaptchaKey,,Captcha Key
+CustomConsoleComponent,,Custom Console Component
+FeedFilterDefinitionLocalization,,Translation
+Macro,,Macro
+MacroShare,,Macro Share
+MacroOwnerSharingRule,,Macro Owner Rule
+MacroHistory,,Macro History
+MacroChangeEvent,,Macro Change Event
+MacroInstruction,,Macro Instruction
+MacroInstructionChangeEvent,,Macro Instruction Change Event
+WorkOrder,,Work Order
+WorkOrderShare,,Work Order Share
+WorkOrderOwnerSharingRule,,Work Order Owner Rule
+WorkOrderHistory,,Work Order History
+WorkOrderFeed,,Work Order Feed
+WorkOrderChangeEvent,,Work Order Change Event
+WorkOrderLineItem,,Work Order Line Item
+WorkOrderLineItemHistory,,Work Order Line Item History
+WorkOrderLineItemFeed,,Work Order Line Item Feed
+WorkOrderLineItemChangeEvent,,Work Order Line Item Change Event
+ServiceAppointment,,Service Appointment
+ServiceAppointmentShare,,Service Appointment Share
+ServiceAppointmentOwnerSharingRule,,Service Appointment Owner Rule
+ServiceAppointmentHistory,,Service Appointment History
+ServiceAppointmentFeed,,Service Appointment Feed
+ServiceAppointmentChangeEvent,,Service Appointment Change Event
+WorkType,,Work Type
+WorkTypeShare,,Work Type Share
+WorkTypeOwnerSharingRule,,Work Type Owner Rule
+WorkTypeHistory,,Work Type History
+WorkTypeFeed,,Work Type Feed
+WorkTypeChangeEvent,,Work Type Change Event
+ServiceResource,,Service Resource
+ServiceResourceShare,,Service Resource Share
+ServiceResourceOwnerSharingRule,,Service Resource Owner Rule
+ServiceResourceHistory,,Service Resource History
+ServiceResourceFeed,,Service Resource Feed
+ServiceResourceChangeEvent,,Service Resource Change Event
+ServiceTerritory,,Service Territory
+ServiceTerritoryShare,,Service Territory Share
+ServiceTerritoryOwnerSharingRule,,Service Territory Owner Rule
+ServiceTerritoryHistory,,Service Territory History
+ServiceTerritoryFeed,,Service Territory Feed
+ServiceTerritoryChangeEvent,,Service Territory Change Event
+ServiceTerritoryMember,,Service Territory Member
+ServiceTerritoryMemberHistory,,Service Territory Member History
+ServiceTerritoryMemberFeed,,Service Territory Member Feed
+ServiceTerritoryMemberChangeEvent,,Service Territory Member Change Event
+ServiceResourceSkill,,Service Resource Skill
+ServiceResourceSkillHistory,,Service Resource Skill History
+ServiceResourceSkillFeed,,Service Resource Skill Feed
+ServiceResourceSkillChangeEvent,,Service Resource Skill Change Event
+SkillRequirement,,Skill Requirement
+SkillRequirementHistory,,Skill Requirement History
+SkillRequirementFeed,,Skill Requirement Feed
+SkillRequirementChangeEvent,,Skill Requirement Change Event
+AssignedResource,,Assigned Resource
+AssignedResourceHistory,,Assigned Resource History
+AssignedResourceFeed,,Assigned Resource Feed
+AssignedResourceChangeEvent,,Assigned Resource Change Event
+OperatingHours,,Operating Hours
+OperatingHoursShare,,Operating Hours Share
+OperatingHoursOwnerSharingRule,,Operating Hours Owner Rule
+OperatingHoursHistory,,Operating Hours History
+OperatingHoursFeed,,Operating Hours Feed
+OperatingHoursChangeEvent,,Operating Hours Change Event
+ResourceAbsence,,Resource Absence
+ResourceAbsenceHistory,,Resource Absence History
+ResourceAbsenceFeed,,Resource Absence Feed
+ResourceAbsenceChangeEvent,,Resource Absence Change Event
+TimeSlot,,Time Slot
+TimeSlotHistory,,Time Slot History
+TimeSlotChangeEvent,,Time Slot Change Event
+ServiceResourceCapacity,,Resource Capacity
+ServiceResourceCapacityHistory,,Resource Capacity History
+ServiceResourceCapacityFeed,,Resource Capacity Feed
+ServiceResourceCapacityChangeEvent,,Resource Capacity Change Event
+ResourcePreference,,Resource Preference
+ResourcePreferenceHistory,,Resource Preference History
+ResourcePreferenceFeed,,Resource Preference Feed
+ResourcePreferenceChangeEvent,,Resource Preference Change Event
+ProductItem,,Product Item
+ProductItemShare,,Product Item Share
+ProductItemOwnerSharingRule,,Product Item Owner Rule
+ProductItemHistory,,Product Item History
+ProductItemFeed,,Product Item Feed
+ProductItemChangeEvent,,Product Item Change Event
+ProductConsumed,,Product Consumed
+ProductConsumedHistory,,Product Consumed History
+ProductConsumedFeed,,Product Consumed Feed
+ProductConsumedChangeEvent,,Product Consumed Change Event
+ProductRequired,,Product Required
+ProductRequiredHistory,,Product Required History
+ProductRequiredFeed,,Product Required Feed
+ProductRequiredChangeEvent,,Product Required Change Event
+ProductItemTransaction,,Product Item Transaction
+ProductItemTransactionHistory,,Product Item Transaction History
+ProductItemTransactionFeed,,Product Item Transaction Feed
+ProductItemTransactionChangeEvent,,Product Item Transaction Change Event
+ServiceReport,,Service Report
+ServiceReportHistory,,Service Report History
+ServiceReportChangeEvent,,Service Report Change Event
+DigitalSignature,,Digital Signature
+DigitalSignatureChangeEvent,,Digital Signature Change Event
+ServiceReportLayout,,Service Report Layout
+ServiceReportLayoutChangeEvent,,Service Report Layout Change Event
+FieldServiceMobileSettings,,Field Service Mobile Settings
+FieldServiceMobileSettingsChangeEvent,,Field Service Mobile Settings Change Event
+AppExtension,,App Extension
+AppExtensionChangeEvent,,App Extension Change Event
+Entitlement,,Entitlement
+EntitlementHistory,,Entitlement History
+EntitlementFeed,,Entitlement Feed
+EntitlementChangeEvent,,Entitlement Change Event
+EntitlementContact,,Entitlement Contact
+EntityMilestone,,Object Milestone
+EntityMilestoneHistory,,Object Milestone History
+EntityMilestoneFeed,,Object Milestone Feed
+ServiceContract,,Service Contract
+ServiceContractShare,,Service Contract Share
+ServiceContractOwnerSharingRule,,Service Contract Owner Rule
+ServiceContractHistory,,Service Contract History
+ServiceContractFeed,,Service Contract Feed
+ServiceContractChangeEvent,,Service Contract Change Event
+ContractLineItem,,Contract Line Item
+ContractLineItemHistory,,Contract Line Item History
+ContractLineItemFeed,,Contract Line Item Feed
+ContractLineItemChangeEvent,,Contract Line Item Change Event
+ChannelLayout,,Communication Channel Layout
+LinkedArticle,,Linked Article
+LinkedArticleHistory,,Linked Article History
+LinkedArticleFeed,,Linked Article Feed
+LinkedArticleChangeEvent,,Linked Article Change Event
+ContentAsset,,Asset File
+ContentFolder,,Content Folder
+ContentFolderChangeEvent,,Content Folder Change Event
+CollaborationGroupRecord,,Group Record
+CollaborationGroupRecordChangeEvent,,Group Record Change Event
+Announcement,,Announcement
+StreamingChannel,,Streaming Channel
+StreamingChannelShare,,Streaming Channel Share
+StreamingChannelOwnerSharingRule,,Streaming Channel Owner Rule
+MobilePushServiceDevice,,Mobile Push Service Device
+ActionLinkGroupTemplate,,Action Link Group Template
+ActionLinkTemplate,,Action Link Template
+AddressCountryLocalization,,Translation
+AddressStateLocalization,,Translation
+Address,,Address
+AddressHistory,,Address History
+Location,,Location
+LocationShare,,Location Share
+LocationOwnerSharingRule,,Location Owner Rule
+LocationHistory,,Location History
+LocationFeed,,Location Feed
+LocationChangeEvent,,Location Change Event
+AssociatedLocation,,Associated Location
+AssociatedLocationHistory,,Associated Location History
+AssociatedLocationChangeEvent,,Associated Location Change Event
+PackageInstallRequest,,Subscriber Package Install Request
+PackageUploadRequest,,Metadata Package Upload Request
+PackageBooleanValue,,Feature Parameter Boolean
+PackageIntegerValue,,Feature Parameter Integer
+PackageDateValue,,Feature Parameter Date
+ProcessInstanceNode,,Process Instance Node
+FlexQueueItem,,Flex Queue Item
+ApexTestRunResult,,Apex Test Run Result
+ApexTestResultLimits,,Apex Test Result Limit
+ApexEmailNotification,,Apex Email Notification
+ApexTestSuite,,Apex Test Suite
+TestSuiteMembership,,Test Suite Membership
+ApexDebuggerSession,,Apex Debugger Session
+ApexDebuggerBreakpoint,,Apex Debugger Breakpoint
+ApexDebuggerRequest,,Apex Debugger Request
+ApexDebuggerEvent,,Apex Debugger Event
+LmaApiSession,,License Manager Application Session
+LmaApiSessionShare,,License Manager Application Session Share
+LmaApiSessionOwnerSharingRule,,License Manager Application Session Owner Rule
+DebugLevel,,Debug Level
+TraceFlag,,Trace Flag
+IDEPerspective,,IDE Perspective
+IDEWorkspace,,IDE Workspace
+ApexExecutionOverlayAction,,Apex Execution Overlay Action
+MetadataContainer,,Metadata Container
+MetadataContainerMember,,Metadata Container Member
+ApexClassMember,,Metadata Container Member
+ApexTriggerMember,,Metadata Container Member
+ApexPageMember,,Metadata Container Member
+ApexComponentMember,,Metadata Container Member
+WorkflowRuleMember,,Metadata Container Member
+WorkflowFieldUpdateMember,,Metadata Container Member
+WorkflowTaskMember,,Metadata Container Member
+WorkflowAlertMember,,Metadata Container Member
+WorkflowOutboundMessageMember,,Metadata Container Member
+ValidationRuleMember,,Metadata Container Member
+CustomFieldMember,,Metadata Container Member
+ContainerAsyncRequest,,Container Async Request
+ApexExecutionOverlayResult,,Apex Execution Overlay Result
+ApexCodeCoverage,,Apex Code Coverage Data
+ApexCodeCoverageAggregate,,Apex Code Coverage Aggregate Data
+ApexOrgWideCoverage,,Apex Org-wide Code Coverage
+OperationLog,,Operation Log
+ApexPageInfo,,Apex Page Info
+PermissionSetLicenseAssign,,Permission Set License Assignment
+GrantedByLicense,,Setting Granted By License
+TenantUsageEntitlement,,Tenant Usage Entitlement
+PermissionSet,,Permission Set
+CustomPermissionDependency,,Custom Permission Dependency
+CustomPermission,,Custom Permission
+SessionPermSetActivation,,Session Permission Set Activation
+ExternalServiceRegistration,,External Service Registration
+CalendarModel,,Calendar Model
+CalendarModelShare,,Calendar Model Share
+CalendarModelOwnerSharingRule,,Calendar Model Owner Rule
+CalendarView,,Calendar
+CalendarViewShare,,Calendar Share
+CalendarViewOwnerSharingRule,,Calendar Owner Rule
+CalendarViewChangeEvent,,Calendar Change Event
+SiteDetail,,Site Detail
+FlowInterview,,Flow Interview
+FlowInterviewShare,,Flow Interview Share
+FlowInterviewOwnerSharingRule,,Flow Interview Owner Rule
+InteractionRefOrValueLocalization,,Translation
+AccountCleanInfo,,Account Clean Info
+AccountCleanInfoChangeEvent,,Account Clean Info Change Event
+ContactCleanInfo,,Contact Clean Info
+ContactCleanInfoChangeEvent,,Contact Clean Info Change Event
+LeadCleanInfo,,Lead Clean Info
+CleanLeadBackupShare,,Data.com Clean Lead Backup Share
+CleanLeadBackupOwnerSharingRule,,Data.com Clean Lead Backup Owner Rule
+DataDotComEntitySetting,,Data.com Entity Setting
+DatacloudContact,,Data.com Contact
+DatacloudPurchaseUsage,,Data.com Usage
+DatacloudOwnedEntity,,Data.com Owned Entity
+DatacloudCompany,,Data.com Company
+DatacloudAddress,,Data.com Address
+EmailDomainKey,,Email Domain Key
+LiveChatTranscript,,Chat Transcript
+LiveChatTranscriptShare,,Chat Transcript Share
+LiveChatTranscriptOwnerSharingRule,,Chat Transcript Owner Rule
+LiveChatTranscriptHistory,,Chat Transcript History
+LiveChatTranscriptFeed,,Chat Transcript Feed
+LiveChatTranscriptChangeEvent,,Chat Transcript Change Event
+LiveChatTranscriptSkill,,LiveChatTranscriptSkill
+LiveChatTranscriptEvent,,Chat Transcript Event
+LiveChatTranscriptEventChangeEvent,,Chat Transcript Event Change Event
+LiveChatVisitor,,Chat Visitor
+LiveChatVisitorChangeEvent,,Chat Visitor Change Event
+Skill,,Skill
+SkillChangeEvent,,Skill Change Event
+SkillUser,,Skill User
+SkillProfile,,Skill Profile
+LiveChatUserConfig,,Chat Agent Configuration
+LiveChatUserConfigUser,,Chat User Config User
+LiveChatUserConfigProfile,,Chat User Config Profile
+SupervisorAgentConfigSkill,,SupervisorAgentConfigSkill
+UserConfigTransferSkill,,UserConfigTransferSkill
+UserConfigTransferButton,,UserConfigTransferButton
+LiveChatDeployment,,Chat Deployment
+LiveChatButton,,Chat Button
+LiveChatButtonSkill,,LiveChatButtonSkill
+LiveChatButtonDeployment,,LiveChatButtonDeployment
+QuickText,,Quick Text
+QuickTextShare,,Quick Text Share
+QuickTextOwnerSharingRule,,Quick Text Owner Rule
+QuickTextHistory,,Quick Text History
+QuickTextChangeEvent,,Quick Text Change Event
+LiveAgentSession,,Chat Session
+LiveAgentSessionShare,,Chat Session Share
+LiveAgentSessionOwnerSharingRule,,Chat Session Owner Rule
+LiveAgentSessionHistory,,Chat Session History
+LiveAgentSessionChangeEvent,,Chat Session Change Event
+LiveChatBlockingRule,,Chat Blocking Rule
+LiveChatSensitiveDataRule,,Sensitive Data Rule
+ServicePresenceStatus,,Service Presence Status
+ServicePresenceStatusInfo,,Service Presence Status Info
+ServiceChannel,,Service Channel
+ServiceChannelStatus,,Service Channel Status
+UserServicePresence,,User Presence
+UserServicePresenceShare,,User Presence Share
+UserServicePresenceOwnerSharingRule,,User Presence Owner Rule
+UserServicePresenceChangeEvent,,User Presence Change Event
+AgentWork,,Agent Work
+AgentWorkShare,,Agent Work Share
+AgentWorkOwnerSharingRule,,Agent Work Owner Rule
+AgentWorkChangeEvent,,Agent Work Change Event
+QueueRoutingConfig,,Routing Configuration
+PendingServiceRouting,,Pending Service Routing
+PendingServiceRoutingShare,,Pending Service Routing Share
+PendingServiceRoutingOwnerSharingRule,,Pending Service Routing Owner Rule
+PendingServiceRoutingChangeEvent,,Pending Service Routing Change Event
+PresenceUserConfig,,Presence Configuration
+PresenceUserConfigUser,,Presence Configuration for User
+PresenceUserConfigProfile,,Presence Configuration for Profile
+PresenceUserConfigInfo,,Presence User Configuration Info
+PresenceDeclineReason,,Presence Decline Reason
+PresenceConfigDeclineReason,,Presence Configuration Decline Reason
+SOSDeployment,,SOS Deployment
+SOSSession,,SOS Session
+SOSSessionShare,,SOS Session Share
+SOSSessionOwnerSharingRule,,SOS Session Owner Rule
+SOSSessionHistory,,SOS Session History
+SOSSessionFeed,,SOS Session Feed
+SOSSessionActivity,,SOS Session Activity
+ModerationRule,,Moderation Rule
+ModerationRuleLocalization,,Translation
+KeywordList,,Keyword List
+UserCriteria,,User Criteria
+NetworkActivityAudit,,Audited Object
+NetworkSelfRegistration,,Experience Self Registration
+NetworkPageOverride,,Experience Page Override
+NavigationMenu,,Navigation Link Set
+NavigationMenuItem,,Navigation Menu Item
+NavigationMenuItemLocalization,,Translation
+CommunityWorkspacesNode,,Experience Workspaces Node
+ReputationLevel,,Reputation Level
+ReputationLevelLocalization,,Translation
+ReputationPointsRule,,Reputation Points Rule
+Stamp,,Stamp
+StampLocalization,,Translation
+StampAssignment,,Stamp Assignment
+AuraDefinitionBundle,,Aura Component Bundle
+AuraDefinitionBundleInfo,,Aura Definition Bundle Info
+AuraDefinition,,Lightning Component Definition
+AuraDefinitionChange,,Metadata Container Member
+AuraDefinitionInfo,,Aura Definition Info
+CspTrustedSite,,Trusted URL
+SandboxInfo,,Sandbox Info
+SandboxProcess,,Sandbox Process
+CopyExport,,Copy Export
+SandboxObserver2,,Sandbox Observer
+CopyExportChunk2,,Export Chunk
+CopyImportChunk2,,Import Chunk
+PartitionLevelScheme,,Partition Level Scheme
+SampledEntity,,Sampled Entity
+SandOmInfo,,SandOm Info
+SandOmInfoDetail,,SandOm Info Detail
+SandOmObserver,,SandOm Observer
+ChunkableTask,,Chunkable Task
+ChunkableEntityTally,,Chunkable Entity Tally
+ChunkableEntityChunk,,Chunkable Entity Chunk
+ChunkableEntityTally2,,Chunkable Entity Tally
+ChunkableEntityChunk2,,Chunkable Entity Chunk
+TabDefinition,,Tab Definition
+ColorDefinition,,Color Definition
+IconDefinition,,Icon Definition
+AppDefinition,,App Definition
+AppTabMember,,App Tab Member
+UserAppInfo,,Last Used App
+UserAppInfoChangeEvent,,Last Used App Change Event
+SocialPersona,,Social Persona
+SocialPersonaHistory,,Social Persona History
+SocialPost,,Social Post
+SocialPostShare,,Social Post Share
+SocialPostOwnerSharingRule,,Social Post Owner Rule
+SocialPostHistory,,Social Post History
+SocialPostFeed,,Social Post Feed
+SocialPostChangeEvent,,Social Post Change Event
+ExternalSocialAccount,,Managed Social Account
+AppMenuItem,,AppMenuItem
+UserAppMenuItem,,Application
+UserAppMenuCustomization,,UserAppMenuCustomization
+UserAppMenuCustomizationShare,,UserAppMenuCustomization Share
+UserAppMenuCustomizationOwnerSharingRule,,UserAppMenuCustomization Owner Rule
+MenuItem,,MenuItem
+AuthConfig,,Auth Config
+SamlSsoConfig,,SAML Sso Setting
+SessionLevelPolicy,,Session Level Policy
+AuthConfigProviders,,Authentication Configuration Auth. Provider
+OauthToken,,Oauth Token
+ThirdPartyAccountLink,,Third Party Account Link
+ExternalDataUserAuth,,External Data User Authentication
+UserProvisioningConfig,,User Provisioning Configuration
+AssetTokenEvent,,Asset Token Event
+UserProvisioningRequest,,User Provisioning Request
+UserProvisioningRequestShare,,User Provisioning Request Share
+UserProvisioningRequestOwnerSharingRule,,User Provisioning Request Owner Rule
+UserProvisioningLog,,User Provisioning Log
+UserProvMockTarget,,User Provisioning Mock Target
+UserProvAccount,,User Provisioning Account
+UserProvAccountStaging,,User Provisioning Account Staging
+SPSamlAttributes,,Service Provider SAML Attribute
+TwoFactorTempCode,,Temporary Verification Code
+TwoFactorInfo,,Two Factor Info
+TwoFactorMethodsInfo,,Two Factor Registration
+TransactionSecurityPolicy,,Transaction Security Policy
+EmailCapture,,EmailCapture
+DataDotComCleanMetrics,,Data.com Clean Metrics
+NetworkCustomerLoginMetrics,,Customer Community Login Metrics
+NetworkPartnerLoginMetrics,,Partner Community Login Metrics
+NetworkCustMemberMetrics,,Customer Community Member Metrics
+NetworkPartnerMemberMetrics,,Partner Community Member Metrics
+NetworkPowerCustomerLoginMetrics,,Power Customer Community Login Metrics
+NetworkPowerCustomerMemberMetrics,,Power Customer Community Member Metrics
+NetworkRegularMemberMetrics,,Regular Site Member Metrics
+NetworkActiveMemberMetrics,,Site All Member Metric
+NetworkPublicUsageDailyMetrics,,Network Public Usage Daily Metrics
+ProcessMetrics,,Process Metric
+VisualforceMetrics,,Visualforce Metrics
+DataDotComCleanPrefMetrics,,Data.com Clean Pref Metrics
+XCleanMatchRateMetrics,,Data Integration Match Rate Metric
+DataAssessmentBIMetrics,,Data Assessment BI Metrics
+Canvas,,Canvas
+UserCustomBadge,,User Custom Badge
+UserCustomBadgeLocalization,,Translation
+ProfileSkill,,Skill
+ProfileSkillShare,,Skill Share
+ProfileSkillOwnerSharingRule,,Skill Owner Rule
+ProfileSkillHistory,,Skill History
+ProfileSkillFeed,,Skill Feed
+ProfileSkillUser,,Skill User
+ProfileSkillUserHistory,,Skill User History
+ProfileSkillUserFeed,,Skill User Feed
+ProfileSkillEndorsement,,Endorsement
+ProfileSkillEndorsementHistory,,Endorsement History
+ProfileSkillEndorsementFeed,,Endorsement Feed
+ProfileSkillEndorsementChangeEvent,,Endorsement Change Event
+WorkThanks,,Thanks
+WorkThanksShare,,Thanks Share
+WorkThanksOwnerSharingRule,,Thanks Owner Rule
+WorkThanksChangeEvent,,Thanks Change Event
+WorkBadgeDefinition,,Badge
+WorkBadgeDefinitionShare,,Badge Share
+WorkBadgeDefinitionOwnerSharingRule,,Badge Owner Rule
+WorkBadgeDefinitionHistory,,Badge History
+WorkBadgeDefinitionFeed,,Badge Feed
+WorkBadgeDefinitionChangeEvent,,Badge Change Event
+WorkBadge,,Badge Received
+WorkBadgeChangeEvent,,Badge Received Change Event
+WorkAccess,,Access
+WorkAccessShare,,Access Share
+WorkAccessOwnerSharingRule,,Access Owner Rule
+WorkAccessChangeEvent,,Access Change Event
+MobileApplicationDetail,,Mobile Application Detail
+InstalledMobileApp,,Installed Mobile App
+Territory2Type,,Territory Type
+Territory2Model,,Territory Model
+Territory2ModelHistory,,Territory Model History
+Territory2ModelFeed,,Territory Model Feed
+Territory2ModelChangeEvent,,Territory Model Change Event
+ObjectTerritory2AssignmentRule,,Object Territory Assignment Rule
+ObjectTerritory2AssignmentRuleItem,,Object Territory Assignment Rule Item
+RuleTerritory2Association,,Rule Territory Association
+NotifDeliveryUserPrefShare,,Notification Delivery User Preference Share
+NotifDeliveryUserPrefOwnerSharingRule,,Notification Delivery User Preference Owner Rule
+CustomNotificationType,,Custom Notification Type
+UserListView,,User List View
+UserListViewCriterion,,User List View Criteria
+ListViewChart,,List View Chart
+ListViewChartInstance,,List View Chart Instance
+ConferenceNumber,,Conference Number
+ConferenceNumberChangeEvent,,Conference Number Change Event
+ExternalEventMapping,,External Event Mapping
+ExternalEventMappingShare,,External Event Mapping Share
+ExternalEventMappingOwnerSharingRule,,External Event Mapping Owner Rule
+ExternalEvent,,External Event
+ExternalEventChangeEvent,,External Event Change Event
+MatchingInformation,,Matching Information
+TodayGoal,,Goal
+TodayGoalShare,,Goal Share
+TodayGoalOwnerSharingRule,,Goal Owner Rule
+TodayGoalChangeEvent,,Goal Change Event
+AssistantRecommendationShare,,Assistant Recommendation Share
+AssistantRecommendationOwnerSharingRule,,Assistant Recommendation Owner Rule
+AssistantInteractionShare,,Assistant Interaction Share
+AssistantInteractionOwnerSharingRule,,Assistant Interaction Owner Rule
+VoiceVendorInfo,,Voice Vendor Info
+VoiceVendorLine,,Voice Vendor Line
+VoiceVendorLineShare,,Voice Vendor Line Share
+VoiceVendorLineOwnerSharingRule,,Voice Vendor Line Owner Rule
+DuplicateRule,,Duplicate Rule
+DuplicateRecordSet,,Duplicate Record Set
+DuplicateRecordItem,,Duplicate Record Item
+MatchingRule,,Matching Rule
+MatchingRuleItem,,Matching Rule Item
+Lens,,Lens
+EdgeMart,,Dataset
+InsightsExternalData,,External Data
+InsightsExternalDataPart,,External Data Part
+WaveAnnotationTargetFeed,,Wave Annotation Feed
+ExternalDataSource,,External Data Source
+NamedCredential,,Named Credential
+BackgroundOperation,,Background Operation
+LeadConvertSettings,,Lead Convert Setting
+TenantSecret,,Tenant Secret
+PlatformAction,,Platform Action
+PlatformActionList,,Platform Action List
+PlatformActionListItem,,Platform Action List Item
+InvocableAction,,Invocable Action
+InvocableActionParameter,,Invocable Action Parameter
+InvocableActionPicklist,,Invocable Action Picklist
+MailAppOwaWhitelist,,Microsoft® Outlook® Web App Domain
+ExchangeUserMappingShare,,User Mapping Share
+ExchangeUserMappingOwnerSharingRule,,User Mapping Owner Rule
+OutgoingEmail,,Outgoing Email
+OutgoingEmailRelation,,Outgoing Email Relation
+PathAssistant,,Path Assistant
+PathAssistantStepItem,,Path Assistant Step Item
+PathAssistantStepInfo,,Path Assistant Step Info
+PathAssistantStepInfoLocalization,,Translation
+CleanDataService,,Data Service
+CleanRule,,Data Integration Rule
+DataAssessmentMetric,,Data Assessment Metric
+DataAssessmentFieldMetric,,Data Assessment Field Metric
+DataAssessmentValueMetric,,Data Assessment Field Value Metric
+SetupApp,,Setup App
+UserSetupAppInfo,,Last Used Setup App
+SetupNode,,Setup Node
+AssistantProgressShare,,Assistant Progress Share
+AssistantProgressOwnerSharingRule,,Assistant Progress Owner Rule
+ActionPlan,,Action Plan
+ActionPlanShare,,Action Plan Share
+ActionPlanOwnerSharingRule,,Action Plan Owner Rule
+ActionPlanFeed,,Action Plan Feed
+ActionPlanChangeEvent,,Action Plan Change Event
+ActionPlanItem,,Action Plan Item
+ActionPlanItemChangeEvent,,Action Plan Item Change Event
+ObjectMapping,,Object Mapping
+ObjectMappingField,,Object Mapping Field
+PlatformCachePartition,,Platform Cache Partition
+PlatformCachePartitionType,,Platform Cache Partition Type
+SecurityHealthCheckRisks,,Security Health Check Risks
+SecurityHealthCheck,,Security Health Check
+SecurityCustomBaseline,,Security Custom Baseline
+EmbeddedServiceConfig,,Embedded Service Deployment
+EmbeddedServiceLiveAgent,,Embedded Service Deployment for Chat
+EmbeddedServiceBranding,,Embedded Service Branding
+EmbeddedServiceQuickAction,,Pre-chat Form Quick Action
+EmbeddedServiceDetail,,Embedded Service
+FieldMapping,,Field Mapping
+FieldMappingRow,,Field Mapping Row
+FieldMappingField,,Field Mapping Field
+CommunityTemplateDefinition,,Experience Builder Template
+CommunityThemeDefinition,,Experience Builder Theme
+ProfileActionOverride,,Action Override By Profile and Record Type
+OverridableEntities,,Overridable Entity
+CompactLayout,,Compact Layout
+CompactLayoutMapping,,Compact Layout Mapping
+InsightUserValueShare,,Insight User Value Share
+InsightUserValueOwnerSharingRule,,Insight User Value Owner Rule
+UiFormulaRule,,Ui Formula Rule
+UiFormulaCriterion,,Ui Formula Criterion
+FormulaOperator,,Formula Operator
+FormulaFunction,,Formula Function
+FormulaFunctionCategory,,Formula Function Category
+GlobalVariable,,Global Variable
+GlobalVariableType,,Global Variable Type
+Survey,,Survey
+SurveyShare,,Survey Share
+SurveyOwnerSharingRule,,Survey Owner Rule
+SurveyFeed,,Survey Feed
+SurveyChangeEvent,,Survey Change Event
+SurveyVersion,,Survey Version
+SurveyVersionChangeEvent,,Survey Version Change Event
+SurveyPage,,Survey Page
+SurveyPageChangeEvent,,Survey Page Change Event
+SurveyQuestion,,Survey Question
+SurveyQuestionChangeEvent,,Survey Question Change Event
+SurveyQuestionChoice,,Survey Question Choice
+SurveyQuestionChoiceChangeEvent,,Survey Question Choice Change Event
+SurveyInvitation,,Survey Invitation
+SurveyInvitationShare,,Survey Invitation Share
+SurveyInvitationOwnerSharingRule,,Survey Invitation Owner Rule
+SurveyInvitationChangeEvent,,Survey Invitation Change Event
+SurveyQuestionResponse,,Survey Question Response
+SurveyQuestionResponseChangeEvent,,Survey Question Response Change Event
+SignupRequest,,Signup Request
+SignupRequestShare,,Signup Request Share
+SignupRequestOwnerSharingRule,,Signup Request Owner Rule
+SignupRequestHistory,,Signup Request History
+SignupRequestFeed,,Signup Request Feed
+SettingsTemplate,,Entity
+FormulaParticle,,Formula Particle
+DataAssessmentConfigItem,,Data Assessment Configuration Item
+ForecastingDisplayedFamily,,Forecasting Displayed Family
+MaintenancePlan,,Maintenance Plan
+MaintenancePlanShare,,Maintenance Plan Share
+MaintenancePlanOwnerSharingRule,,Maintenance Plan Owner Rule
+MaintenancePlanHistory,,Maintenance Plan History
+MaintenancePlanFeed,,Maintenance Plan Feed
+MaintenancePlanChangeEvent,,Maintenance Plan Change Event
+MessagingChannel,,Messaging Channel
+MessagingLink,,Messaging Link
+ForecastingPrediction,,Forecasting Prediction
+ServiceTerritoryLocation,,Service Territory Location
+ServiceTerritoryLocationHistory,,Territory Location History
+ServiceTerritoryLocationFeed,,Service Territory Location Feed
+ServiceTerritoryLocationChangeEvent,,Service Territory Location Change Event
+SurveyResponse,,Survey Response
+SurveyResponseChangeEvent,,Survey Response Change Event
+InstalledSubscriberPackageVersion,,Installed Second Generation Package Version
+Package2Member,,Second Generation Package Member
+Package2VersionBuildRequest,,Second Generation Package Version Build Request
+SubscriberPackageVersionInstallRequest,,Second Generation Package Version Install Request
+SubscriberPackageVersionUninstallRequest,,Second Generation Package Version Uninstall Request
+MaintenanceAsset,,Maintenance Asset
+MaintenanceAssetHistory,,Maintenance Asset History
+MaintenanceAssetFeed,,Maintenance Asset Feed
+MaintenanceAssetChangeEvent,,Maintenance Asset Change Event
+SandOmExportedBlob,,SandOm Exported Blob
+ProductRequest,,Product Request
+ProductRequestShare,,Product Request Share
+ProductRequestOwnerSharingRule,,Product Request Owner Rule
+ProductRequestHistory,,Product Request History
+ProductRequestFeed,,Product Request Feed
+ProductRequestChangeEvent,,Product Request Change Event
+PackageVersionInstallRequestError,,Second Generation Package Version Install Request Error
+ProductTransfer,,Product Transfer
+ProductTransferShare,,Product Transfer Share
+ProductTransferOwnerSharingRule,,Product Transfer Owner Rule
+ProductTransferHistory,,Product Transfer History
+ProductTransferFeed,,Product Transfer Feed
+ProductTransferChangeEvent,,Product Transfer Change Event
+DomainProvision,,Domain Provision
+PushUpgradeExcludedOrg,,Push Upgrade Excluded Org
+BrandingSetProperty,,Branding Set Property
+BrandingSet,,Branding Set
+ForecastingPredictionReason,,Forecasting Prediction Reason
+PredictionDefinitionField,,Prediction Definition Field
+ProductRequestLineItem,,Product Request Line Item
+ProductRequestLineItemHistory,,Product Request Line Item History
+ProductRequestLineItemFeed,,Product Request Line Item Feed
+ProductRequestLineItemChangeEvent,,Product Request Line Item Change Event
+ChunkableTask2,,Chunkable Task
+Shipment,,Shipment
+ShipmentShare,,Shipment Share
+ShipmentOwnerSharingRule,,Shipment Owner Rule
+ShipmentHistory,,Shipment History
+ShipmentFeed,,Shipment Feed
+ShipmentChangeEvent,,Shipment Change Event
+OutOfOffice,,Out Of Office
+ForecastingPredictionTrend,,Forecasting Prediction Trend
+ChatterExtension,,Extension
+ChatterExtensionLocalization,,Translation
+TimeSheet,,Time Sheet
+TimeSheetShare,,Time Sheet Share
+TimeSheetOwnerSharingRule,,Time Sheet Owner Rule
+TimeSheetHistory,,Time Sheet History
+TimeSheetFeed,,Time Sheet Feed
+TimeSheetChangeEvent,,Time Sheet Change Event
+VisualforceAccessMetrics,,Visualforce Access Metric
+AssetRelationship,,Asset Relationship
+AssetRelationshipHistory,,Asset Relationship History
+AssetRelationshipFeed,,Asset Relationship Feed
+AssetRelationshipChangeEvent,,Asset Relationship Change Event
+TimeSheetEntry,,Time Sheet Entry
+TimeSheetEntryHistory,,Time Sheet Entry History
+TimeSheetEntryFeed,,Time Sheet Entry Feed
+TimeSheetEntryChangeEvent,,Time Sheet Entry Change Event
+MessagingEndUser,,Messaging User
+MessagingEndUserShare,,Messaging User Share
+MessagingEndUserOwnerSharingRule,,Messaging User Owner Rule
+MessagingEndUserHistory,,Messaging User History
+MessagingEndUserChangeEvent,,Messaging User Change Event
+PackageVersionUninstallRequestError,,Second Generation Package Version Uninstall Request Error
+CMSConnectAsset,,CMS Connect Asset
+CMSConnectLanguage,,CMS Connect Language
+CMSConnectSource,,CMS Connect Source
+SurveyEmailBranding,,Survey Email Branding
+OrgLifecycleNotification,,Org Lifecycle Notification
+NetworkAffinity,,Default Community
+WaveAssetEvent,,Wave Asset Event
+ChatterExtensionConfig,,Chatter Extension Configuration
+Audience,,Audience
+ComponentResponseCacheShare,,Home Component Response Cache Share
+ComponentResponseCacheOwnerSharingRule,,Home Component Response Cache Owner Rule
+OmniSupervisorConfig,,Omni Supervisor Configuration
+OmniSupervisorConfigGroup,,Omni Supervisor Configuration for Public Group
+OmniSupervisorConfigProfile,,Omni Supervisor Configuration for Profile
+OmniSupervisorConfigUser,,Omni Supervisor Configuration for User
+CaseExternalDocument,,Case External Document
+ChannelProgram,,Channel Program
+ChannelProgramShare,,Channel Program Share
+ChannelProgramOwnerSharingRule,,Channel Program Owner Rule
+ChannelProgramHistory,,Channel Program History
+ChannelProgramFeed,,Channel Program Feed
+ChannelProgramLevel,,Channel Program Level
+ChannelProgramLevelShare,,Channel Program Level Share
+ChannelProgramLevelOwnerSharingRule,,Channel Program Level Owner Rule
+ChannelProgramLevelHistory,,Channel Program Level History
+ChannelProgramLevelFeed,,Channel Program Level Feed
+ChannelProgramMember,,Channel Program Member
+ChannelProgramMemberShare,,Channel Program Member Share
+ChannelProgramMemberOwnerSharingRule,,Channel Program Member Owner Rule
+ChannelProgramMemberHistory,,Channel Program Member History
+ChannelProgramMemberFeed,,Channel Program Member Feed
+ForecastingPredictionElement,,Forecasting Prediction Element
+UserLicenseMetrics,,User License Metrics
+ServiceCrew,,Service Crew
+ServiceCrewShare,,Service Crew Share
+ServiceCrewOwnerSharingRule,,Service Crew Owner Rule
+ServiceCrewHistory,,Service Crew History
+ServiceCrewFeed,,Service Crew Feed
+ServiceCrewChangeEvent,,Service Crew Change Event
+ServiceCrewMember,,Service Crew Member
+ServiceCrewMemberHistory,,Service Crew Member History
+ServiceCrewMemberFeed,,Service Crew Member Feed
+ServiceCrewMemberChangeEvent,,Service Crew Member Change Event
+NetworkCustomerDailyLoginMetrics,,Customer Community Daily Unique Login Metrics
+NetworkPCustDailyLoginMetrics,,Power Customer Community Daily Unique Login Metrics
+NetworkPartnerDailyLoginMetrics,,Partner Community Daily Unique Login Metrics
+LogoutEventStream,,Logout Event Stream
+MarketingForm,,Marketing Form
+MarketingFormFeed,,Marketing Form Feed
+MarketingFormChangeEvent,,Marketing Form Change Event
+ListEmail,,List Email
+ListEmailShare,,List Email Share
+ListEmailOwnerSharingRule,,List Email Owner Rule
+ListEmailChangeEvent,,List Email Change Event
+ListEmailRecipientSource,,List Email Recipient Source
+ListEmailSentResult,,List Email Sent Result
+ListEmailSentResultChangeEvent,,List Email Sent Result Change Event
+MobileSettingsAssignment,,Mobile Settings Assignment
+SandboxRelayObserver,,Sandbox Relay Observer
+PartnerFundAllocation,,Partner Fund Allocation
+PartnerFundAllocationShare,,Partner Fund Allocation Share
+PartnerFundAllocationOwnerSharingRule,,Partner Fund Allocation Owner Rule
+PartnerFundAllocationHistory,,Partner Fund Allocation History
+PartnerFundAllocationFeed,,Partner Fund Allocation Feed
+PartnerFundClaim,,Partner Fund Claim
+PartnerFundClaimShare,,Partner Fund Claim Share
+PartnerFundClaimOwnerSharingRule,,Partner Fund Claim Owner Rule
+PartnerFundClaimHistory,,Partner Fund Claim History
+PartnerFundClaimFeed,,Partner Fund Claim Feed
+PartnerFundRequest,,Partner Fund Request
+PartnerFundRequestShare,,Partner Fund Request Share
+PartnerFundRequestOwnerSharingRule,,Partner Fund Request Owner Rule
+PartnerFundRequestHistory,,Partner Fund Request History
+PartnerFundRequestFeed,,Partner Fund Request Feed
+PartnerMarketingBudget,,Partner Marketing Budget
+PartnerMarketingBudgetShare,,Partner Marketing Budget Share
+PartnerMarketingBudgetOwnerSharingRule,,Partner Marketing Budget Owner Rule
+PartnerMarketingBudgetHistory,,Partner Marketing Budget History
+PartnerMarketingBudgetFeed,,Partner Marketing Budget Feed
+ScorecardMetric,,Scorecard Metric
+NetworkUserHistoryRecent,,Experience User Access History Recent
+Scorecard,,Scorecard
+ScorecardShare,,Scorecard Share
+ScorecardOwnerSharingRule,,Scorecard Owner Rule
+UserPermissionAccess,,User Permission Access
+MessagingSession,,Messaging Session
+MessagingSessionShare,,Messaging Session Share
+MessagingSessionOwnerSharingRule,,Messaging Session Owner Rule
+MessagingSessionHistory,,Messaging Session History
+MessagingSessionFeed,,Messaging Session Feed
+MessagingSessionChangeEvent,,Messaging Session Change Event
+ActionPlanTemplate,,Action Plan Template
+ActionPlanTemplateShare,,Action Plan Template Share
+ActionPlanTemplateOwnerSharingRule,,Action Plan Template Owner Rule
+ActionPlanTemplateChangeEvent,,Action Plan Template Change Event
+ActionPlanTemplateItem,,Action Plan Template Item
+ActionPlanTemplateItemChangeEvent,,Action Plan Template Item Change Event
+ActionPlanTemplateItemValue,,Action Plan Template Item Value
+ActionPlanTemplateItemValueChangeEvent,,Action Plan Template Item Value Change Event
+ActionPlanTemplateVersion,,Action Plan Template Version
+ActionPlanTemplateVersionChangeEvent,,Action Plan Template Version Change Event
+CaseSubjectParticle,,Case Subject Particle
+WaveCompatibilityCheckItem,,Wave Compatibility Check Item
+CMSConnectPersonalization,,CMS Connect Personalization
+TrackedLink,,Tracked Link
+TrackedLinkChangeEvent,,Tracked Link Change Event
+DatasetExport,,Dataset Export
+DatasetExportPart,,Dataset Export Part
+CMSConnectResourceDefinition,,CMS Connect Resource Definition
+DatasetExportEvent,,Dataset Export Event
+ReportEvent,,Report Event
+LightningComponentBundle,,Lightning Web Component Bundle
+LightningComponentResource,,Lightning Component Resource
+UserNavItem,,Nav Item
+CMSConnectResourceType,,CMS Connect Resource Type
+ContactSuggestionInsight,,Einstein Contact Suggestion
+FlowCategory,,Flow Category
+LightningBolt,,Lightning Bolt
+LinkedInLeadGenAdAccount,,LinkedIn Lead Gen Ad Account
+LinkedInLeadGenConfig,,LinkedIn Lead Gen Config
+MarketingLink,,Marketing Link
+MarketingLinkFeed,,Marketing Link Feed
+MarketingLinkChangeEvent,,Marketing Link Change Event
+ReturnOrder,,Return Order
+ReturnOrderShare,,Return Order Share
+ReturnOrderOwnerSharingRule,,Return Order Owner Rule
+ReturnOrderHistory,,Return Order History
+ReturnOrderFeed,,Return Order Feed
+ReturnOrderChangeEvent,,Return Order Change Event
+RecommendationStrategy,,Recommendation Strategy
+ScorecardAssociation,,Scorecard Association
+OpportunityContactRoleSuggestionInsight,,Einstein Opportunity Contact Role Suggestion
+DataIntegrationRecordPurchasePermission,,Data Integration Record Purchase Permission
+InteractionStageLocalization,,Translation
+AIFilter,,AI Filter
+AIFilterGroup,,AI Filter Group
+AIFilterValue,,AI Filter Value
+AIModel,,AI Model
+AIModelDefinition,,AI Model Definition
+Package2UpgradeExport,,Second Generation Package Upgrade Export
+RecordAction,,RecordAction
+LightningUsageByAppTypeMetrics,,Lightning Usage By App Type Metrics
+LightningUsageByBrowserMetrics,,Lightning Usage By Browser Metrics
+OrgDeleteRequest,,Org Delete Request
+OrgDeleteRequestShare,,Org Delete Request Share
+OrgDeleteRequestOwnerSharingRule,,Org Delete Request Owner Rule
+LightningUsageByPageMetrics,,Lightning Usage By Page Metrics
+ReturnOrderLineItem,,Return Order Line Item
+ReturnOrderLineItemHistory,,Return Order Line Item History
+ReturnOrderLineItemFeed,,Return Order Line Item Feed
+ReturnOrderLineItemChangeEvent,,Return Order Line Item Change Event
+PersonEducation,,Person Education
+PersonEducationShare,,Person Education Share
+PersonEducationOwnerSharingRule,,Person Education Owner Rule
+PersonEducationHistory,,Person Education History
+PersonEducationFeed,,Person Education Feed
+PersonEducationChangeEvent,,Person Education Change Event
+PersonEmployment,,Person Employment
+PersonEmploymentShare,,Person Employment Share
+PersonEmploymentOwnerSharingRule,,Person Employment Owner Rule
+PersonEmploymentHistory,,Person Employment History
+PersonEmploymentFeed,,Person Employment Feed
+PersonEmploymentChangeEvent,,Person Employment Change Event
+LightningToggleMetrics,,Lightning Toggle Metrics
+AIManagedField,,AI Managed Field
+AIPredictionDefinition,,AI Prediction Definition
+AIPredictionField,,Entity
+AIPredictionTarget,,AI Prediction Target
+C2CPermissionBinding,,Cloud to Cloud Permission Binding
+FlowRecordRelation,,Flow Record Relation
+FlowStageRelation,,Flow Interview Stage Relation
+PredictionDefinition,,Prediction Definition
+MessagingTemplate,,Messaging Template
+ActivityRecurrence2,,ActivityRecurrence2
+ActivityRecurrence2Share,,ActivityRecurrence2 Share
+ActivityRecurrence2OwnerSharingRule,,ActivityRecurrence2 Owner Rule
+ActivityRecurrence2Exception,,ActivityRecurrence2Exception
+ActivityRecurrence2ExceptionShare,,ActivityRecurrence2Exception Share
+ActivityRecurrence2ExceptionOwnerSharingRule,,ActivityRecurrence2Exception Owner Rule
+LandingPage,,Landing Page
+LandingPageFeed,,Landing Page Feed
+LandingPageChangeEvent,,Landing Page Change Event
+LightningExperienceTheme,,Lightning Experience Theme
+WaveAutoInstallRequest,,Wave Auto Install Request
+WaveAutoInstallRequestChangeEvent,,Wave Auto Install Request Change Event
+LightningUsageByFlexiPageMetrics,,Lightning Usage By FlexiPage Metrics
+AIError,,AI Error
+AIState,,AI State
+OnboardingMetrics,,Onboarding Metrics
+AccountBrand,,Account Brand
+AccountBrandShare,,Account Brand Share
+AccountBrandOwnerSharingRule,,Account Brand Owner Rule
+EventTypeDefinition,,Event Type Definition
+CustomHttpHeader,,Custom HTTP Header
+EmailDomainFilter,,Email Domain Filter
+EmailRelay,,Email Relay
+ContactRequest,,Contact Request
+ContactRequestShare,,Contact Request Share
+ContactRequestOwnerSharingRule,,Contact Request Owner Rule
+ProcessPlugin,,Process Plugin
+ContactPointEmail,,Contact Point Email
+ContactPointEmailShare,,Contact Point Email Share
+ContactPointEmailOwnerSharingRule,,Contact Point Email Owner Rule
+ContactPointEmailHistory,,Contact Point Email History
+ContactPointEmailChangeEvent,,Contact Point Email Change Event
+ContactPointPhone,,Contact Point Phone
+ContactPointPhoneShare,,Contact Point Phone Share
+ContactPointPhoneOwnerSharingRule,,Contact Point Phone Owner Rule
+ContactPointPhoneHistory,,Contact Point Phone History
+ContactPointPhoneChangeEvent,,Contact Point Phone Change Event
+ProcessPluginParameter,,Process Plugin Parameter
+AccountRelationship,,Account Relationship
+AccountRelationshipShare,,Account Relationship Share
+AccountRelationshipOwnerSharingRule,,Account Relationship Owner Rule
+AccountRelationshipHistory,,Account Relationship History
+AccountRelationshipFeed,,Account Relationship Feed
+AccountRelationshipShareRule,,Account Relationship Data Sharing Rule
+EmbeddedServiceCustomLabel,,Custom Label for Embedded Service
+EngagementEvent,,Engagement Event
+EmbeddedServiceLayout,,Embedded Service Layout
+UserEmailPreferredPerson,,User Email Preferred Person
+UserEmailPreferredPersonShare,,User Email Preferred Person Share
+UserEmailPreferredPersonOwnerSharingRule,,User Email Preferred Person Owner Rule
+UserEmailPreferredPersonChangeEvent,,User Email Preferred Person Change Event
+AIApplication,,AI Application
+PersonalizationTargetInfo,,Personalization Target Info
+AIInsightAction,,AIInsightAction
+AIInsightFeedback,,AI Insight Feedback
+AIInsightReason,,AI Insight Reason
+AIInsightValue,,AI Insight Value
+AIRecordInsight,,AI Record Insight
+PermissionSetGroup,,Permission Set Group
+VisibilityUpdateEvent,,Visibility Update Event
+AIFactorComponent,,AI Factor Component
+AIModelFactor,,AI Model Factor
+AIModelMetric,,AI Model Metric
+AccessControlPolicy,,Access Control Policy
+EventTypeFieldDefinition,,Event Type Field Definition
+ManagedContent,,Managed Content
+ManagedContentChangeEvent,,Managed Content Change Event
+ManagedContentNodeType,,Managed Content Node Type
+ManagedContentNodeTypeLocalization,,Translation
+ManagedContentType,,Managed Content Type
+ManagedContentTypeLocalization,,Translation
+MetadataComponentDependency,,Metadata Component Dependency
+AIDataDefinition,,Data Definition
+AIModelGraph,,AI Model Graph
+ARAccountTypeJuncShare,,AR Account Type Junc Share
+ARAccountTypeJuncOwnerSharingRule,,AR Account Type Junc Owner Rule
+AppointmentSchedulingPolicy,,Appointment Scheduling Policy
+BatchApexErrorEvent,,Batch Apex Error Platform Event
+ConsumptionRate,,Consumption Rate
+ConsumptionRateHistory,,Consumption Rate History ID
+ConsumptionSchedule,,Consumption Schedule
+ConsumptionScheduleShare,,Consumption Schedule Share
+ConsumptionScheduleOwnerSharingRule,,Consumption Schedule Owner Rule
+ConsumptionScheduleHistory,,Consumption Schedule History ID
+ConsumptionScheduleFeed,,ConsumptionSchedule
+ContactPointEntityAssocSnapshotLocator,,Contact Point Entity Association Snapshot Locator
+ContentDocumentListViewMapping,,Quip Document from List View
+EmbeddedServiceCustomComponent,,Custom Component for Embedded Service
+EmbeddedServiceLabel,,Embedded Service Label
+EmbeddedServiceLayoutRule,,Embedded Service Layout Rule
+EntityAssociationDefinitionVersion,,Entity Association Definition Version
+FieldClassificationSetting,,Field Classification Setting
+FieldServiceOrgSettings,,Field Service Org Setting
+FlowElementTestCoverage,,"Flow Element Test Coverage Record (Relates a Flow Element's developer name to a Flow Coverage Record, eg: myAssignment)"
+FlowTestCoverage,,Flow Test Coverage Record (Relates a test method to flow version eg: MyTestClass.myTestMethod called MyFlow version 2)
+LightningExitByPageMetrics,,Lightning Exit By Page Metrics
+ListEmailIndividualRecipient,,List Email Individual Recipient
+LoginAsEvent,,LoginAs Event
+LoginAsEventStream,,LoginAs Event Stream
+MessagingConfiguration,,Messaging Configuration
+MessagingDeliveryError,,Messaging Delivery Error
+NetworkDiscoverableLogin,,Experience Discoverable Login
+OrderDeliveryGroup,,Order Delivery Group
+OrderDeliveryGroupHistory,,Order Delivery Group History
+OrderDeliveryGroupFeed,,Order Delivery Group Feed
+OrderDeliveryMethod,,Order Delivery Method
+OrderDeliveryMethodShare,,Order Delivery Method Share
+OrderDeliveryMethodOwnerSharingRule,,Order Delivery Method Owner Rule
+OrderDeliveryMethodHistory,,Order Delivery Method History
+OrderDeliveryMethodFeed,,Order Delivery Method Feed
+OrderDeliveryMethodChangeEvent,,Order Delivery Method Change Event
+PardotTenant,,Business Unit
+PrivacyConsent,,Privacy Consent
+ProcessTypeDefinition,,Process Type Definition
+ProdDbHammerFlaggedRequest,,Database Hammer Flagged Request
+ProductConsumptionSchedule,,Product Consumption Schedule
+RecordActionHistory,,Record Action History
+ServiceAppointmentCapacityUsage,,Service Appointment Capacity Usage
+ServiceAppointmentCapacityUsageHistory,,Service Appointment Capacity Usage History
+ServiceAppointmentCapacityUsageFeed,,Service Appointment Capacity Usage Feed
+ServiceTerritoryWorkType,,Service Territory Work Type
+ServiceTerritoryWorkTypeHistory,,Service Territory Work Type History
+ServiceTerritoryWorkTypeFeed,,Service Territory Work Type Feed
+SiteIframeWhiteListUrl,,Trusted Domains for Inline Frames
+SurveySubject,,Survey Subject
+SurveySubjectChangeEvent,,Survey Subject Change Event
+UriEvent,,URI Event
+UriEventStream,,URI Event Stream
+UserVerificationMessageUse,,Verification Message Credits
+VoiceJobStateShare,,VoiceJobState Share
+VoiceJobStateOwnerSharingRule,,VoiceJobState Owner Rule
+WorkTypeGroup,,Work Type Group
+WorkTypeGroupShare,,Work Type Group Share
+WorkTypeGroupOwnerSharingRule,,Work Type Group Owner Rule
+WorkTypeGroupHistory,,Work Type Group History
+WorkTypeGroupFeed,,Work Type Group Feed
+ActivityEngagementRollup,,Activity Engagement Rollup
+AppAnalyticsQueryRequest,,App Analytics Query Request
+BadgeMissionDefinition,,Badge Mission Definition
+BadgeMissionRule,,Mission
+CardPaymentMethod,,Card Payment Method
+CareBarrier,,Care Barrier
+CareBarrierShare,,Care Barrier Share
+CareBarrierOwnerSharingRule,,Care Barrier Owner Rule
+CareBarrierHistory,,Care Barrier History
+CareBarrierFeed,,Care Barrier Feed
+CareBarrierChangeEvent,,Care Barrier Change Event
+CareBarrierType,,Care Barrier Type
+CareBarrierTypeShare,,Care Barrier Type Share
+CareBarrierTypeOwnerSharingRule,,Care Barrier Type Owner Rule
+CareBarrierTypeHistory,,Care Barrier Type History
+CareBarrierTypeFeed,,Care Barrier Type Feed
+CareBarrierTypeChangeEvent,,Care Barrier Type Change Event
+CareProgram,,Care Program
+CareProgramShare,,Care Program Share
+CareProgramOwnerSharingRule,,Care Program Owner Rule
+CareProgramHistory,,Care Program History
+CareProgramFeed,,Care Program Feed
+CareProgramChangeEvent,,Care Program Change Event
+CareProgramCampaign,,Care Program Campaign
+CareProgramCampaignHistory,,Care Program Campaign History
+CareProgramCampaignFeed,,Care Program Campaign Feed
+CareProgramCampaignChangeEvent,,Care Program Campaign Change Event
+CareProgramEnrollee,,Care Program Enrollee
+CareProgramEnrolleeShare,,Care Program Enrollee Share
+CareProgramEnrolleeOwnerSharingRule,,Care Program Enrollee Owner Rule
+CareProgramEnrolleeHistory,,Care Program Enrollee History
+CareProgramEnrolleeFeed,,Care Program Enrollee Feed
+CareProgramEnrolleeChangeEvent,,Care Program Enrollee Change Event
+CareProgramTeamMember,,Care Program Team Member
+CareProgramTeamMemberHistory,,Care Program Team Member History
+CareProgramTeamMemberFeed,,Care Program Team Member Feed
+CareProgramTeamMemberChangeEvent,,Care Program Team Member Change Event
+Claim,,Claim
+ClaimShare,,Claim Share
+ClaimOwnerSharingRule,,Claim Owner Rule
+ClaimHistory,,Claim History
+ClaimFeed,,Claim Feed
+ClaimChangeEvent,,Claim Change Event
+ContactPointAddress,,Contact Point Address
+ContactPointAddressShare,,Contact Point Address Share
+ContactPointAddressOwnerSharingRule,,Contact Point Address Owner Rule
+ContactPointAddressHistory,,Contact Point Address History
+ContactPointAddressChangeEvent,,Contact Point Address Change Event
+ContactPointConsent,,Contact Point Consent
+ContactPointConsentShare,,Contact Point Consent Share
+ContactPointConsentOwnerSharingRule,,Contact Point Consent Owner Rule
+ContactPointConsentHistory,,Contact Point Consent History
+ContactPointConsentChangeEvent,,Contact Point Consent Change Event
+ContactPointTypeConsent,,Contact Point Type Consent
+ContactPointTypeConsentShare,,Contact Point Type Consent Share
+ContactPointTypeConsentOwnerSharingRule,,Contact Point Type Consent Owner Rule
+ContactPointTypeConsentHistory,,Contact Point Type Consent History
+ContactPointTypeConsentChangeEvent,,Contact Point Type Consent Change Event
+CustomHelpMenuItem,,Custom Help Menu Item
+CustomHelpMenuSection,,Custom Help Menu Section
+DataUseLegalBasis,,Data Use Legal Basis
+DataUseLegalBasisShare,,Data Use Legal Basis Share
+DataUseLegalBasisOwnerSharingRule,,Data Use Legal Basis Owner Rule
+DataUseLegalBasisHistory,,Data Use Legal Basis History
+DataUseLegalBasisChangeEvent,,Data Use Legal Basis Change Event
+DataUsePurpose,,Data Use Purpose
+DataUsePurposeShare,,Data Use Purpose Share
+DataUsePurposeOwnerSharingRule,,Data Use Purpose Owner Rule
+DataUsePurposeHistory,,Data Use Purpose History
+DataUsePurposeChangeEvent,,Data Use Purpose Change Event
+EmbeddedServiceFlow,,Embedded Service Flow
+EmbeddedServiceFlowConfig,,Embedded Service Flow Configuration
+ExpressionFilter,,Expression Filter
+ExpressionFilterCriteria,,Expression Filter Criteria
+ExternalServiceDataType,,External Service Data Type
+ExternalServiceListType,,External Service List Type
+ExternalServiceMapType,,External Service Map Type
+ExternalServiceObjectType,,External Service Object Type
+ExternalServiceOperation,,External Service Operation
+ExternalServiceParameter,,External Service Parameter
+ExternalServiceProperty,,External Service Property
+ExternalServiceSimpleType,,External Service Simple Type
+IframeWhiteListUrl,,Trusted Domain for Inline Frames
+Image,,Image
+ImageShare,,Image Share
+ImageOwnerSharingRule,,Image Owner Rule
+ImageHistory,,Image History
+ImageFeed,,Image Feed
+InsurancePolicy,,Insurance Policy
+InsurancePolicyShare,,Insurance Policy Share
+InsurancePolicyOwnerSharingRule,,Insurance Policy Owner Rule
+InsurancePolicyHistory,,Insurance Policy History
+InsurancePolicyFeed,,Insurance Policy Feed
+InsurancePolicyChangeEvent,,Insurance Policy Change Event
+IntegrationAuditingEvent,,Integration Auditing Event
+LogoutEvent,,Logout Event
+ManagedContentReleaseShare,,Managed Content Release Share
+ManagedContentReleaseOwnerSharingRule,,Managed Content Release Owner Rule
+ManagedContentSpace,,Managed Content Space
+MessagingChannelSkill,,Messaging Channel Skill
+MyDomainDiscoverableLogin,,My Domain Discoverable Login
+OrderItemSummary,,Order Product Summary
+OrderItemSummaryFeed,,Order Product Summary Feed
+OrderItemSummaryChangeEvent,,Order Product Summary Change Event
+OrderSummary,,Order Summary
+OrderSummaryShare,,Order Summary Share
+OrderSummaryOwnerSharingRule,,Order Summary Owner Rule
+OrderSummaryFeed,,Order Summary Feed
+OrderSummaryChangeEvent,,Order Summary Change Event
+PaymentAuthorization,,Payment Authorization
+PaymentGatewayLog,,Payment Gateway Log
+PaymentGroup,,Payment Group
+PermissionSetGroupComponent,,Permission Set Group Component
+PersonLifeEvent,,Person Life Event
+PersonLifeEventShare,,Person Life Event Share
+PersonLifeEventOwnerSharingRule,,Person Life Event Owner Rule
+PersonLifeEventHistory,,Person Life Event History
+PersonLifeEventFeed,,Person Life Event Feed
+PersonLifeEventChangeEvent,,Person Life Event Change Event
+PlatformEventChannel,,Platform Event Channel
+PlatformEventChannelMember,,Platform Event Channel Member
+PlatformStatusAlertEvent,,Platform Status Alert Event
+ProductCatalog,,Catalog
+ProductCatalogShare,,Catalog Share
+ProductCatalogOwnerSharingRule,,Catalog Owner Rule
+ProductCatalogHistory,,Product Catalog History
+ProductCatalogFeed,,Catalog Feed
+ProductCatalogChangeEvent,,Catalog Change Event
+ProductCategory,,Category
+ProductCategoryHistory,,Product Category History
+ProductCategoryFeed,,Category Feed
+ProductCategoryChangeEvent,,Category Change Event
+ProductCategoryProduct,,Product Category Product
+ProductCategoryProductHistory,,Product Category Product History
+ProductCategoryProductChangeEvent,,Product Category Product Change Event
+Recommendation,,Recommendation
+RecommendationChangeEvent,,Recommendation Change Event
+RecommendationReactionChangeEvent,,RecommendationReaction Change Event
+RecordActionDeployment,,Record Action Deployment
+SalesStore,,Sales Store
+SurveyQuestionScore,,Survey Question Score
+TimeSheetTemplate,,Time Sheet Template
+Visit,,Visit
+VisitShare,,Visit Share
+VisitOwnerSharingRule,,Visit Owner Rule
+VisitHistory,,Visit History
+VisitFeed,,Visit Feed
+WebStore,,Store
+WebStoreShare,,Store Share
+WebStoreOwnerSharingRule,,Store Owner Rule
+WebStoreChangeEvent,,Store Change Event
+WebStoreNetwork,,Store Site
+WebStorePricebook,,Store Price Book
+WebStorePricebookFeed,,Store Price Book Feed
+WorkForecastRun,,Intelligent Forecast
+WorkForecastRunShare,,Intelligent Forecast Share
+WorkForecastRunOwnerSharingRule,,Intelligent Forecast Owner Rule
+WorkTypeGroupMember,,Work Type Group Member
+WorkTypeGroupMemberHistory,,Work Type Group Member History
+WorkTypeGroupMemberFeed,,Work Type Group Member Feed
+AIMetric,,AI Live Model Metric
+AIPredictionEvent,,AI Prediction Event
+Accreditation,,Accreditation
+AccreditationShare,,Accreditation Share
+AccreditationOwnerSharingRule,,Accreditation Owner Rule
+AccreditationHistory,,Accreditation History
+AccreditationFeed,,Accreditation Feed
+AccreditationChangeEvent,,Accreditation Change Event
+AnimationRule,,Animation Rule
+AsyncOperationEvent,,Async Operation Event
+AsyncOperationStatus,,Async Operation Status
+AuthorizationForm,,Authorization Form
+AuthorizationFormShare,,Authorization Form Share
+AuthorizationFormOwnerSharingRule,,Authorization Form Owner Rule
+AuthorizationFormHistory,,Authorization Form History
+AuthorizationFormChangeEvent,,Authorization Form Change Event
+AuthorizationFormConsent,,Authorization Form Consent
+AuthorizationFormConsentShare,,Authorization Form Consent Share
+AuthorizationFormConsentOwnerSharingRule,,Authorization Form Consent Owner Rule
+AuthorizationFormConsentHistory,,Authorization Form Consent History
+AuthorizationFormConsentChangeEvent,,Authorization Form Consent Change Event
+AuthorizationFormDataUse,,Authorization Form Data Use
+AuthorizationFormDataUseShare,,Authorization Form Data Use Share
+AuthorizationFormDataUseOwnerSharingRule,,Authorization Form Data Use Owner Rule
+AuthorizationFormDataUseHistory,,Authorization Form Data Use History
+AuthorizationFormDataUseChangeEvent,,Authorization Form Data Use Change Event
+AuthorizationFormText,,Authorization Form Text
+AuthorizationFormTextHistory,,Authorization Form Text History
+AuthorizationFormTextFeed,,Authorization Form Text Feed
+AuthorizationFormTextChangeEvent,,Authorization Form Text Change Event
+Award,,Award
+AwardShare,,Award Share
+AwardOwnerSharingRule,,Award Owner Rule
+AwardHistory,,Award History
+AwardFeed,,Award Feed
+AwardChangeEvent,,Award Change Event
+BoardCertification,,Board Certification
+BoardCertificationShare,,Board Certification Share
+BoardCertificationOwnerSharingRule,,Board Certification Owner Rule
+BoardCertificationHistory,,Board Certification History
+BoardCertificationFeed,,Board Certification Feed
+BoardCertificationChangeEvent,,Board Certification Change Event
+BusinessLicense,,Business License
+BusinessLicenseShare,,Business License Share
+BusinessLicenseOwnerSharingRule,,Business License Owner Rule
+BusinessLicenseHistory,,Business License History
+BusinessLicenseFeed,,Business License Feed
+BusinessLicenseChangeEvent,,Business License Change Event
+BuyerAccount,,Buyer Account
+BuyerAccountShare,,Buyer Account Share
+BuyerAccountOwnerSharingRule,,Buyer Account Owner Rule
+BuyerAccountHistory,,Buyer Account History
+BuyerAccountFeed,,Buyer Account Feed
+BuyerGroup,,Buyer Group
+BuyerGroupShare,,Buyer Group Share
+BuyerGroupOwnerSharingRule,,Buyer Group Owner Rule
+BuyerGroupHistory,,Buyer Group History
+BuyerGroupFeed,,Buyer Group Feed
+BuyerGroupMember,,Buyer Group Member
+BuyerGroupMemberShare,,Buyer Group Member Share
+BuyerGroupMemberOwnerSharingRule,,Buyer Group Member Owner Rule
+BuyerGroupPricebook,,Buyer Group Price Book
+BuyerGroupPricebookFeed,,Buyer Group Price Book Feed
+CareProgramEligibilityRule,,Care Program Eligibility Rule
+CareProgramEligibilityRuleShare,,Care Program Eligibility Rule Share
+CareProgramEligibilityRuleOwnerSharingRule,,Care Program Eligibility Rule Owner Rule
+CareProgramEligibilityRuleHistory,,Care Program Eligibility Rule History
+CareProgramEligibilityRuleFeed,,Care Program Eligibility Rule Feed
+CareProgramEligibilityRuleChangeEvent,,Care Program Eligibility Rule Change Event
+CareProgramEnrolleeProduct,,Care Program Enrollee Product
+CareProgramEnrolleeProductShare,,Care Program Enrollee Product Share
+CareProgramEnrolleeProductOwnerSharingRule,,Care Program Enrollee Product Owner Rule
+CareProgramEnrolleeProductHistory,,Care Program Enrollee Product History
+CareProgramEnrolleeProductFeed,,Care Program Enrollee Product Feed
+CareProgramEnrolleeProductChangeEvent,,Care Program Enrollee Product Change Event
+CareProgramEnrollmentCard,,Care Program Enrollment Card
+CareProgramEnrollmentCardShare,,Care Program Enrollment Card Share
+CareProgramEnrollmentCardOwnerSharingRule,,Care Program Enrollment Card Owner Rule
+CareProgramEnrollmentCardHistory,,Care Program Enrollment Card History
+CareProgramEnrollmentCardFeed,,Care Program Enrollment Card Feed
+CareProgramEnrollmentCardChangeEvent,,Care Program Enrollment Card Change Event
+CareProgramGoal,,Care Program Goal
+CareProgramGoalShare,,Care Program Goal Share
+CareProgramGoalOwnerSharingRule,,Care Program Goal Owner Rule
+CareProgramGoalHistory,,Care Program Goal History
+CareProgramGoalFeed,,Care Program Goal Feed
+CareProgramGoalChangeEvent,,Care Program Goal Change Event
+CareProgramProduct,,Care Program Product
+CareProgramProductShare,,Care Program Product Share
+CareProgramProductOwnerSharingRule,,Care Program Product Owner Rule
+CareProgramProductHistory,,Care Program Product History
+CareProgramProductFeed,,Care Program Product Feed
+CareProgramProductChangeEvent,,Care Program Product Change Event
+CareProgramProvider,,Care Program Provider
+CareProgramProviderShare,,Care Program Provider Share
+CareProgramProviderOwnerSharingRule,,Care Program Provider Owner Rule
+CareProgramProviderHistory,,Care Program Provider History
+CareProgramProviderFeed,,Care Program Provider Feed
+CareProgramProviderChangeEvent,,Care Program Provider Change Event
+CareProviderFacilitySpecialty,,Care Provider Facility Specialty
+CareProviderFacilitySpecialtyShare,,Care Provider Facility Specialty Share
+CareProviderFacilitySpecialtyOwnerSharingRule,,Care Provider Facility Specialty Owner Rule
+CareProviderFacilitySpecialtyHistory,,Care Provider Facility Specialty History
+CareProviderFacilitySpecialtyFeed,,Care Provider Facility Specialty Feed
+CareProviderFacilitySpecialtyChangeEvent,,Care Provider Facility Specialty Change Event
+CareSpecialty,,Care Specialty
+CareSpecialtyShare,,Care Specialty Share
+CareSpecialtyOwnerSharingRule,,Care Specialty Owner Rule
+CareSpecialtyHistory,,Care Specialty History
+CareSpecialtyFeed,,Care Specialty Feed
+CareSpecialtyChangeEvent,,Care Specialty Change Event
+CareSystemFieldMapping,,Care System Field Mapping
+CareTaxonomy,,Care Taxonomy
+CareTaxonomyShare,,Care Taxonomy Share
+CareTaxonomyOwnerSharingRule,,Care Taxonomy Owner Rule
+CareTaxonomyHistory,,Care Taxonomy History
+CareTaxonomyFeed,,Care Taxonomy Feed
+CareTaxonomyChangeEvent,,Care Taxonomy Change Event
+CartDeliveryGroup,,Cart Delivery Group
+CartDeliveryGroupChangeEvent,,Cart Delivery Group Change Event
+CartItem,,Cart Item
+CartItemChangeEvent,,Cart Item Change Event
+CartRelatedItem,,Cart Related Item
+CartRelatedItemChangeEvent,,Cart Related Item Change Event
+ClaimParticipant,,Claim Participant
+ClaimParticipantHistory,,Claim Participant History
+ClaimParticipantFeed,,Claim Participant Feed
+ClaimParticipantChangeEvent,,Claim Participant Change Event
+CommerceEntitlementBuyerGroup,,Entitlement Buyer Group
+CommerceEntitlementBuyerGroupChangeEvent,,Entitlement Buyer Group Change Event
+CommerceEntitlementPolicy,,Entitlement Policy
+CommerceEntitlementPolicyShare,,Entitlement Policy Share
+CommerceEntitlementPolicyOwnerSharingRule,,Entitlement Policy Owner Rule
+CommerceEntitlementPolicyHistory,,Entitlement Policy History
+CommerceEntitlementPolicyFeed,,Entitlement Policy Feed
+CommerceEntitlementPolicyChangeEvent,,Entitlement Policy Change Event
+CommerceEntitlementProduct,,Entitlement Product
+CommerceEntitlementProductChangeEvent,,Entitlement Product Change Event
+CommerceSearchIndexInfoChangeEvent,,Commerce Search Index Info Change Event
+ConversationChannelResponse,,Conversation Channel Response
+EmbeddedServiceAppointmentSettings,,Embedded Service Deployment for Appointment Management
+EnhancedLetterhead,,Enhanced Letterhead
+EnhancedLetterheadFeed,,Enhanced Letterhead Feed
+EnrollmentEligibilityCriteria,,Enrollment Eligibility Criteria
+EnrollmentEligibilityCriteriaShare,,Enrollment Eligibility Criteria Share
+EnrollmentEligibilityCriteriaOwnerSharingRule,,Enrollment Eligibility Criteria Owner Rule
+EnrollmentEligibilityCriteriaHistory,,Enrollment Eligibility Criteria History
+EnrollmentEligibilityCriteriaFeed,,Enrollment Eligibility Criteria Feed
+EnrollmentEligibilityCriteriaChangeEvent,,Enrollment Eligibility Criteria Change Event
+ExternalAIModel,,External AI Model
+FlowApexClassDescriptor,,Flow Apex Class Descriptor
+FlowApexClassPropertyDesc,,Flow Apex Class Property Descriptor
+FlowDefinitionView,,Flow Definition
+FlowVariableView,,Flow Variable
+FlowVersionView,,Flow Version
+FulfillmentOrder,,Fulfillment Order
+FulfillmentOrderShare,,Fulfillment Order Share
+FulfillmentOrderOwnerSharingRule,,Fulfillment Order Owner Rule
+FulfillmentOrderFeed,,Fulfillment Order Feed
+FulfillmentOrderChangeEvent,,Fulfillment Order Change Event
+FulfillmentOrderLineItem,,Fulfillment Order Product
+FulfillmentOrderLineItemFeed,,Fulfillment Order Product Feed
+FulfillmentOrderLineItemChangeEvent,,Fulfillment Order Product Change Event
+HealthcarePractitionerFacility,,Healthcare Practitioner Facility
+HealthcarePractitionerFacilityShare,,Healthcare Practitioner Facility Share
+HealthcarePractitionerFacilityOwnerSharingRule,,Healthcare Practitioner Facility Owner Rule
+HealthcarePractitionerFacilityHistory,,Healthcare Practitioner Facility History
+HealthcarePractitionerFacilityFeed,,Healthcare Practitioner Facility Feed
+HealthcareProvider,,Healthcare Provider
+HealthcareProviderShare,,Healthcare Provider Share
+HealthcareProviderOwnerSharingRule,,Healthcare Provider Owner Rule
+HealthcareProviderHistory,,Healthcare Provider History
+HealthcareProviderFeed,,Healthcare Provider Feed
+HealthcareProviderChangeEvent,,Healthcare Provider Change Event
+HealthcareProviderNpi,,Healthcare Provider NPI
+HealthcareProviderNpiShare,,Healthcare Provider NPI Share
+HealthcareProviderNpiOwnerSharingRule,,Healthcare Provider NPI Owner Rule
+HealthcareProviderNpiHistory,,Healthcare Provider NPI History
+HealthcareProviderNpiFeed,,Healthcare Provider NPI Feed
+HealthcareProviderNpiChangeEvent,,Healthcare Provider NPI Change Event
+HealthcareProviderSpecialty,,Healthcare Provider Specialty
+HealthcareProviderSpecialtyShare,,Healthcare Provider Specialty Share
+HealthcareProviderSpecialtyOwnerSharingRule,,Healthcare Provider Specialty Owner Rule
+HealthcareProviderSpecialtyHistory,,Healthcare Provider Specialty History
+HealthcareProviderSpecialtyFeed,,Healthcare Provider Specialty Feed
+HealthcareProviderSpecialtyChangeEvent,,Healthcare Provider Specialty Change Event
+HealthcareProviderTaxonomy,,Healthcare Provider Taxonomy
+HealthcareProviderTaxonomyShare,,Healthcare Provider Taxonomy Share
+HealthcareProviderTaxonomyOwnerSharingRule,,Healthcare Provider Taxonomy Owner Rule
+HealthcareProviderTaxonomyHistory,,Healthcare Provider Taxonomy History
+HealthcareProviderTaxonomyFeed,,Healthcare Provider Taxonomy Feed
+HealthcareProviderTaxonomyChangeEvent,,Healthcare Provider Taxonomy Change Event
+Invoice,,Invoice
+InvoiceShare,,Invoice Share
+InvoiceOwnerSharingRule,,Invoice Owner Rule
+InvoiceHistory,,Invoice  History
+InvoiceFeed,,Invoice Feed
+InvoiceLine,,Invoice Line
+InvoiceLineHistory,,Invoice Line  History
+InvoiceLineFeed,,Invoice Line Feed
+LightningUriEvent,,Lightning URI Event
+LightningUriEventStream,,Lightning URI Event Stream
+ListViewEvent,,List View Event
+ListViewEventStream,,List View Event Stream
+LoanApplicant,,Loan Applicant
+LoanApplicantShare,,Loan Applicant Share
+LoanApplicantOwnerSharingRule,,Loan Applicant Owner Rule
+LoanApplicantHistory,,Loan Applicant History
+LoanApplicantFeed,,Loan Applicant Feed
+LoanApplicantChangeEvent,,Loan Applicant Change Event
+LoanApplicantAddress,,Loan Applicant Address
+LoanApplicantAddressHistory,,Loan Applicant Address History
+LoanApplicantAddressFeed,,Loan Applicant Address Feed
+LoanApplicantAddressChangeEvent,,Loan Applicant Address Change Event
+LoanApplicantDeclaration,,Loan Applicant Declaration
+LoanApplicantDeclarationShare,,Loan Applicant Declaration Share
+LoanApplicantDeclarationOwnerSharingRule,,Loan Applicant Declaration Owner Rule
+LoanApplicantDeclarationHistory,,Loan Applicant Declaration History
+LoanApplicantDeclarationFeed,,Loan Applicant Declaration Feed
+LoanApplicantDeclarationChangeEvent,,Loan Applicant Declaration Change Event
+LoanApplicantEmployment,,Loan Applicant Employment
+LoanApplicantEmploymentShare,,Loan Applicant Employment Share
+LoanApplicantEmploymentOwnerSharingRule,,Loan Applicant Employment Owner Rule
+LoanApplicantEmploymentHistory,,Loan Applicant Employment History
+LoanApplicantEmploymentFeed,,Loan Applicant Employment Feed
+LoanApplicantEmploymentChangeEvent,,Loan Applicant Employment Change Event
+LoanApplicantIncome,,Loan Applicant Income
+LoanApplicantIncomeShare,,Loan Applicant Income Share
+LoanApplicantIncomeOwnerSharingRule,,Loan Applicant Income Owner Rule
+LoanApplicantIncomeHistory,,Loan Applicant Income History
+LoanApplicantIncomeFeed,,Loan Applicant Income Feed
+LoanApplicantIncomeChangeEvent,,Loan Applicant Income Change Event
+LoanApplicationAsset,,Loan Application Asset
+LoanApplicationAssetShare,,Loan Application Asset Share
+LoanApplicationAssetOwnerSharingRule,,Loan Application Asset Owner Rule
+LoanApplicationAssetHistory,,Loan Application Asset History
+LoanApplicationAssetFeed,,__MISSING LABEL__ PropertyFile - val LoanApplicationAsset not found in section StandardFeedLabel
+LoanApplicationAssetChangeEvent,,Loan Application Asset Change Event
+LoanApplicationFinancial,,Loan Application Financial
+LoanApplicationFinancialHistory,,Loan Application Financial History
+LoanApplicationFinancialFeed,,Loan Application Financial Feed
+LoanApplicationFinancialChangeEvent,,Loan Application Financial Change Event
+LoanApplicationLiability,,Loan Application Liability
+LoanApplicationLiabilityShare,,Loan Application Liability Share
+LoanApplicationLiabilityOwnerSharingRule,,Loan Application Liability Owner Rule
+LoanApplicationLiabilityHistory,,Loan Application Liability History
+LoanApplicationLiabilityFeed,,__MISSING LABEL__ PropertyFile - val LoanApplicationLiability not found in section StandardFeedLabel
+LoanApplicationLiabilityChangeEvent,,Loan Application Liability Change Event
+LoanApplicationProperty,,Loan Application Property
+LoanApplicationPropertyHistory,,Loan Application Property History
+LoanApplicationPropertyFeed,,Loan Application Property Feed
+LoanApplicationPropertyChangeEvent,,Loan Application Property Change Event
+LoanApplicationTitleHolder,,Loan Application Title Holder
+LoanApplicationTitleHolderHistory,,Loan Application Title Holder History
+LoanApplicationTitleHolderFeed,,Loan Application Title Holder Feed
+LoanApplicationTitleHolderChangeEvent,,Loan Application Title Holder Change Event
+MacroUsage,,Macro Usage
+MacroUsageShare,,Macro Usage Share
+MacroUsageOwnerSharingRule,,Macro Usage Owner Rule
+ManagedContentChannel,,Managed Content Channel
+OauthCustomScope,,Oauth Custom Scope
+OauthCustomScopeApp,,OAuth Custom Scope App
+OrderDeliveryGroupSummary,,Order Delivery Group Summary
+OrderDeliveryGroupSummaryFeed,,Order Delivery Group Summary Feed
+OrderDeliveryGroupSummaryChangeEvent,,Order Delivery Group Summary Change Event
+OrderItemAdjustmentLineItem,,Order Product Adjustment Line Item
+OrderItemAdjustmentLineItemHistory,,Order Product Adjustment Line Item History
+OrderItemAdjustmentLineItemFeed,,Order Product Adjustment Line Item Feed
+OrderItemAdjustmentLineSummary,,Order Product Adjustment Line Item Summary
+OrderItemAdjustmentLineSummaryFeed,,Order Product Adjustment Line Item Summary Feed
+OrderItemTaxLineItem,,Order Product Tax Line Item
+OrderItemTaxLineItemHistory,,Order Product Tax Line Item History
+OrderItemTaxLineItemFeed,,Order Product Tax Line Item Feed
+OrderItemTaxLineItemSummary,,Order Product Tax Line Item Summary
+OrderItemTaxLineItemSummaryFeed,,Order Product Tax Line Item Summary Feed
+OrderItemTaxLineItemSummaryChangeEvent,,Order Product Tax Line Item Summary Change Event
+OrderPaymentSummary,,Order Payment Summary
+OrderPaymentSummaryShare,,Order Payment Summary Share
+OrderPaymentSummaryOwnerSharingRule,,Order Payment Summary Owner Rule
+OrderPaymentSummaryFeed,,Order Payment Summary Feed
+OrderPaymentSummaryChangeEvent,,Order Payment Summary Change Event
