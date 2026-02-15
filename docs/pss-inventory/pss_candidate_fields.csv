@@ -1,0 +1,562 @@
+object_api_name,field_api_name,field_label,data_type,nillable,createable,updateable
+PublicSector__EmergencyRequest__c,Id,Record ID,id,False,False,False
+PublicSector__EmergencyRequest__c,OwnerId,Owner ID,reference,False,True,True
+PublicSector__EmergencyRequest__c,IsDeleted,Deleted,boolean,False,False,False
+PublicSector__EmergencyRequest__c,Name,Emergency Request,string,False,False,False
+PublicSector__EmergencyRequest__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+PublicSector__EmergencyRequest__c,RecordTypeId,Record Type ID,reference,True,True,True
+PublicSector__EmergencyRequest__c,CreatedDate,Created Date,datetime,False,False,False
+PublicSector__EmergencyRequest__c,CreatedById,Created By ID,reference,False,False,False
+PublicSector__EmergencyRequest__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+PublicSector__EmergencyRequest__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+PublicSector__EmergencyRequest__c,SystemModstamp,System Modstamp,datetime,False,False,False
+PublicSector__EmergencyRequest__c,LastActivityDate,Last Activity Date,date,True,False,False
+PublicSector__EmergencyRequest__c,MayEdit,May Edit,boolean,False,False,False
+PublicSector__EmergencyRequest__c,IsLocked,Is Locked,boolean,False,False,False
+PublicSector__EmergencyRequest__c,LastViewedDate,Last Viewed Date,datetime,True,False,False
+PublicSector__EmergencyRequest__c,LastReferencedDate,Last Referenced Date,datetime,True,False,False
+PublicSector__EmergencyRequest__c,PublicSector__Account__c,Account,reference,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__Address__c,Delivery Address,reference,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__BusinessApplication__c,Business Application,reference,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__Contact_Address__c,Contact Address,textarea,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__DateRequired__c,Date Required,date,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__DeliveryInstructions__c,Delivery Instructions,textarea,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__DeliverySafetyConcerns__c,Delivery Health or Safety Concerns,textarea,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__DisinfectantQuantity__c,Disinfectant Quantity,double,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__DropOffDate__c,Drop-Off Date,datetime,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__Email__c,Email,email,False,True,True
+PublicSector__EmergencyRequest__c,PublicSector__FaceShieldsQuantity__c,Face Shields Quantity,double,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__GlovesQuantity__c,Gloves Quantity (Surgical or Exam),double,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__GogglesQuantity__c,Safety or Protective Goggles Quantity,double,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__GownsQuantity__c,Gowns Quantity(Surgical or Exam),double,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__HandSanitizerQuantity__c,Hand Sanitizer Quantity,double,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__IndividualApplication__c,Individual Application,reference,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__IsDropOffDonation__c,Drop-Off Donation,boolean,False,True,True
+PublicSector__EmergencyRequest__c,PublicSector__MasksQuantity__c,Masks Quantity (Surgical or Exam),double,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__OrganizationAddress__c,Organization Address,string,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__OrganizationName__c,Organization Name,string,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__OrganizationType__c,Organization Type,picklist,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__Phone__c,Phone,phone,False,True,True
+PublicSector__EmergencyRequest__c,PublicSector__PickUpDate__c,Pick-Up Date,datetime,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__PrimaryContactName__c,Primary Contact Name,string,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__PrimaryContactPhone__c,Primary Contact Phone,phone,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__PrimaryContactTitle__c,Primary Contact Title,string,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__RequestDetails__c,Request Details,textarea,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__RequestReason__c,Request Reason,picklist,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__RequestedLengthOfStay__c,Requested Length Of Stay,string,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__RequestedService__c,Requested Service,picklist,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__RequestedStartDateOfStay__c,Requested Start Date Of Stay,date,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__RequestorName__c,Requestor Name,string,False,True,True
+PublicSector__EmergencyRequest__c,PublicSector__RespiratorN95MaskQuantity__c,Respirator Quantity (N95 Mask),double,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__SecondaryContactName__c,Secondary Contact Name,string,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__SecondaryContactPhone__c,Secondary Contact Phone,phone,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__SecondaryContactTitle__c,Secondary Contact Title,string,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__Title__c,Title,string,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__VentilatorQuantity__c,Ventilator Quantity,double,True,True,True
+PublicSector__EmergencyRequest__c,PublicSector__ViralSwabsQuantity__c,Viral Swabs Quantity,double,True,True,True
+sfsp__AttainmentPlanConfigurationRowDetail__c,Id,Record ID,id,False,False,False
+sfsp__AttainmentPlanConfigurationRowDetail__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__AttainmentPlanConfigurationRowDetail__c,Name,Name,string,True,True,True
+sfsp__AttainmentPlanConfigurationRowDetail__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__AttainmentPlanConfigurationRowDetail__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__AttainmentPlanConfigurationRowDetail__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__AttainmentPlanConfigurationRowDetail__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__AttainmentPlanConfigurationRowDetail__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__AttainmentPlanConfigurationRowDetail__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__AttainmentPlanConfigurationRowDetail__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__AttainmentPlanConfigurationRowDetail__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__AttainmentPlanConfigurationRowDetail__c,sfsp__AttainmentPlanConfiguration__c,Attainment Plan Configuration,reference,False,True,False
+sfsp__AttainmentPlanConfigurationRowDetail__c,sfsp__SortOrder__c,Sort Order,double,False,True,True
+sfsp__AttainmentPlanConfiguration__c,Id,Record ID,id,False,False,False
+sfsp__AttainmentPlanConfiguration__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__AttainmentPlanConfiguration__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__AttainmentPlanConfiguration__c,Name,Name,string,True,True,True
+sfsp__AttainmentPlanConfiguration__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__AttainmentPlanConfiguration__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__AttainmentPlanConfiguration__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__AttainmentPlanConfiguration__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__AttainmentPlanConfiguration__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__AttainmentPlanConfiguration__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__AttainmentPlanConfiguration__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__AttainmentPlanConfiguration__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__AttainmentPlanConfiguration__c,sfsp__Period__c,Period,string,True,True,True
+sfsp__AttainmentPlanConfiguration__c,sfsp__User__c,User,reference,True,True,True
+sfsp__AttainmentPlanRowDetail__c,Id,Record ID,id,False,False,False
+sfsp__AttainmentPlanRowDetail__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__AttainmentPlanRowDetail__c,Name,Name,string,True,True,True
+sfsp__AttainmentPlanRowDetail__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__AttainmentPlanRowDetail__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__AttainmentPlanRowDetail__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__AttainmentPlanRowDetail__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__AttainmentPlanRowDetail__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__AttainmentPlanRowDetail__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__AttainmentPlanRowDetail__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__AttainmentPlanRowDetail__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__AttainmentPlanRowDetail__c,sfsp__AttainmentPlanRow__c,Attainment Plan Row,reference,False,True,False
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month10__c,Attainment Month 10,double,True,True,True
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month11__c,Attainment Month 11,double,True,True,True
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month12__c,Attainment Month 12,double,True,True,True
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month1__c,Attainment Month 1,double,True,True,True
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month2__c,Attainment Month 2,double,True,True,True
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month3__c,Attainment Month 3,double,True,True,True
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month4__c,Attainment Month 4,double,True,True,True
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month5__c,Attainment Month 5,double,True,True,True
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month6__c,Attainment Month 6,double,True,True,True
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month7__c,Attainment Month 7,double,True,True,True
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month8__c,Attainment Month 8,double,True,True,True
+sfsp__AttainmentPlanRowDetail__c,sfsp__Attainment_Month9__c,Attainment Month 9,double,True,True,True
+sfsp__AttainmentPlanRowDetail__c,sfsp__IsCustomDetailRow__c,Is Custom Detail Row,boolean,False,True,True
+sfsp__AttainmentPlanRow__c,Id,Record ID,id,False,False,False
+sfsp__AttainmentPlanRow__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__AttainmentPlanRow__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__AttainmentPlanRow__c,Name,Name,string,True,True,True
+sfsp__AttainmentPlanRow__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__AttainmentPlanRow__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__AttainmentPlanRow__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__AttainmentPlanRow__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__AttainmentPlanRow__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__AttainmentPlanRow__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__AttainmentPlanRow__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__AttainmentPlanRow__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__AttainmentPlanRow__c,sfsp__Account__c,Account,reference,True,True,True
+sfsp__AttainmentPlanRow__c,sfsp__AttainmentPlan__c,Attainment Plan,reference,True,True,True
+sfsp__AttainmentPlanRow__c,sfsp__IsPriority__c,Is Priority,boolean,False,True,True
+sfsp__AttainmentPlanRow__c,sfsp__Notes__c,Notes,textarea,True,True,True
+sfsp__AttainmentPlan__c,Id,Record ID,id,False,False,False
+sfsp__AttainmentPlan__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__AttainmentPlan__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__AttainmentPlan__c,Name,Name,string,True,True,True
+sfsp__AttainmentPlan__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__AttainmentPlan__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__AttainmentPlan__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__AttainmentPlan__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__AttainmentPlan__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__AttainmentPlan__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__AttainmentPlan__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__AttainmentPlan__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__AttainmentPlan__c,sfsp__Period__c,Period,string,True,True,True
+sfsp__AttainmentPlan__c,sfsp__Quota_Month10__c,Quota Month 10,double,True,True,True
+sfsp__AttainmentPlan__c,sfsp__Quota_Month11__c,Quota Month 11,double,True,True,True
+sfsp__AttainmentPlan__c,sfsp__Quota_Month12__c,Quota Month 12,double,True,True,True
+sfsp__AttainmentPlan__c,sfsp__Quota_Month1__c,Quota Month 1,double,True,True,True
+sfsp__AttainmentPlan__c,sfsp__Quota_Month2__c,Quota Month 2,double,True,True,True
+sfsp__AttainmentPlan__c,sfsp__Quota_Month3__c,Quota Month 3,double,True,True,True
+sfsp__AttainmentPlan__c,sfsp__Quota_Month4__c,Quota Month 4,double,True,True,True
+sfsp__AttainmentPlan__c,sfsp__Quota_Month5__c,Quota Month 5,double,True,True,True
+sfsp__AttainmentPlan__c,sfsp__Quota_Month6__c,Quota Month 6,double,True,True,True
+sfsp__AttainmentPlan__c,sfsp__Quota_Month7__c,Quota Month 7,double,True,True,True
+sfsp__AttainmentPlan__c,sfsp__Quota_Month8__c,Quota Month 8,double,True,True,True
+sfsp__AttainmentPlan__c,sfsp__Quota_Month9__c,Quota Month 9,double,True,True,True
+sfsp__AttainmentPlan__c,sfsp__Strategy__c,Strategy,textarea,True,True,True
+sfsp__AttainmentPlan__c,sfsp__User__c,User,reference,True,True,True
+sfsp__ListViewColumn__c,Id,Record ID,id,False,False,False
+sfsp__ListViewColumn__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__ListViewColumn__c,Name,Name,string,False,False,False
+sfsp__ListViewColumn__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__ListViewColumn__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__ListViewColumn__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__ListViewColumn__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__ListViewColumn__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__ListViewColumn__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__ListViewColumn__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__ListViewColumn__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__ListViewColumn__c,sfsp__ListView__c,List View,reference,False,True,False
+sfsp__ListViewColumn__c,sfsp__Column__c,Column,string,False,True,True
+sfsp__ListViewColumn__c,sfsp__Order__c,Order,double,True,True,True
+sfsp__ListViewColumn__c,sfsp__SalesAssignmentObject__c,Sales Assignment Object,reference,True,True,True
+sfsp__ListViewColumn__c,sfsp__SalesNodeBoundary__c,Sales Node Boundary Object,reference,True,True,True
+sfsp__ListViewColumn__c,sfsp__SummaryFormat__c,Summary Format,picklist,True,True,True
+sfsp__ListViewColumn__c,sfsp__Type__c,Type,picklist,True,True,True
+sfsp__ListView__c,Id,Record ID,id,False,False,False
+sfsp__ListView__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__ListView__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__ListView__c,Name,Name,string,True,True,True
+sfsp__ListView__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__ListView__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__ListView__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__ListView__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__ListView__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__ListView__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__ListView__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__ListView__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__ListView__c,sfsp__Area__c,Area,multipicklist,True,True,True
+sfsp__ListView__c,sfsp__LastViewed__c,Last Viewed,datetime,True,True,True
+sfsp__ListView__c,sfsp__SalesPlan__c,Sales Plan,reference,True,True,True
+sfsp__SalesActivity__c,Id,Record ID,id,False,False,False
+sfsp__SalesActivity__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesActivity__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesActivity__c,Name,Name,string,True,True,True
+sfsp__SalesActivity__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesActivity__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesActivity__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesActivity__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesActivity__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesActivity__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesActivity__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesActivity__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesActivity__c,sfsp__Description__c,Description,textarea,True,True,True
+sfsp__SalesActivity__c,sfsp__RecordType__c,Record Type,string,True,True,True
+sfsp__SalesActivity__c,sfsp__SalesPlan__c,Sales Plan,reference,True,True,True
+sfsp__SalesActivity__c,sfsp__Subtype__c,Sales Activity Subtype,picklist,True,True,True
+sfsp__SalesActivity__c,sfsp__Type__c,Sales Activity Type,picklist,True,True,True
+sfsp__SalesActivity__c,sfsp__Data__c,Data,textarea,True,True,True
+sfsp__SalesActivity__c,sfsp__SalesNode__c,Sales Node,reference,True,True,True
+sfsp__SalesAssignmentObject__c,Id,Record ID,id,False,False,False
+sfsp__SalesAssignmentObject__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesAssignmentObject__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesAssignmentObject__c,Name,Name,string,True,True,True
+sfsp__SalesAssignmentObject__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesAssignmentObject__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesAssignmentObject__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesAssignmentObject__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesAssignmentObject__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesAssignmentObject__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesAssignmentObject__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesAssignmentObject__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesAssignmentObject__c,sfsp__Label__c,Label,string,False,True,True
+sfsp__SalesAssignmentObject__c,sfsp__ReferenceFields__c,Reference Fields,textarea,True,True,True
+sfsp__SalesAssignmentObject__c,sfsp__SalesPlan__c,Sales Plan,reference,True,True,True
+sfsp__SalesAssignmentObject__c,External_ID__c,External ID,string,True,True,True
+sfsp__SalesAsyncJob__c,Id,Record ID,id,False,False,False
+sfsp__SalesAsyncJob__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesAsyncJob__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesAsyncJob__c,Name,Name,string,False,False,False
+sfsp__SalesAsyncJob__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesAsyncJob__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesAsyncJob__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesAsyncJob__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesAsyncJob__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesAsyncJob__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesAsyncJob__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesAsyncJob__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesAsyncJob__c,sfsp__Details__c,Details,textarea,True,True,True
+sfsp__SalesAsyncJob__c,sfsp__MaioEndpoint__c,Type,string,False,True,True
+sfsp__SalesAsyncJob__c,sfsp__SalesAssignmentObject__c,Sales Assignment Object,reference,True,True,True
+sfsp__SalesAsyncJob__c,sfsp__Splunk__c,Splunk,textarea,True,True,True
+sfsp__SalesAsyncJob__c,sfsp__Status__c,Status,picklist,False,True,True
+sfsp__SalesAsyncJob__c,sfsp__Type__c,Type,string,False,True,True
+sfsp__SalesBoundary__c,Id,Record ID,id,False,False,False
+sfsp__SalesBoundary__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesBoundary__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesBoundary__c,Name,Sales Boundary Name,string,True,True,True
+sfsp__SalesBoundary__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesBoundary__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesBoundary__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesBoundary__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesBoundary__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesBoundary__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesBoundary__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesBoundary__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesBoundary__c,sfsp__ContainerSet__c,Container Set,string,False,True,True
+sfsp__SalesBoundary__c,sfsp__IncludePoints__c,IncludePoints,boolean,False,True,True
+sfsp__SalesBoundary__c,sfsp__SalesPlan__c,Sales Plan,reference,True,True,True
+sfsp__SalesDataSourceCRMFieldMapping__c,Id,Record ID,id,False,False,False
+sfsp__SalesDataSourceCRMFieldMapping__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesDataSourceCRMFieldMapping__c,Name,Sales Data Source CRM Field Mapping Name,string,False,False,False
+sfsp__SalesDataSourceCRMFieldMapping__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesDataSourceCRMFieldMapping__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesDataSourceCRMFieldMapping__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesDataSourceCRMFieldMapping__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesDataSourceCRMFieldMapping__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesDataSourceCRMFieldMapping__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesDataSourceCRMFieldMapping__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesDataSourceCRMFieldMapping__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesDataSourceCRMFieldMapping__c,sfsp__SalesDataSourceId__c,Sales Data Source,reference,False,True,False
+sfsp__SalesDataSourceCRMFieldMapping__c,sfsp__CRMFieldName__c,CRM Field Name,string,False,True,True
+sfsp__SalesDataSourceCRMFieldMapping__c,sfsp__SalesDataSourceReferenceFieldId__c,Sales Data Source Reference Field Id,string,False,True,True
+sfsp__SalesDataSource__c,Id,Record ID,id,False,False,False
+sfsp__SalesDataSource__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesDataSource__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesDataSource__c,Name,Name,string,True,True,True
+sfsp__SalesDataSource__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesDataSource__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesDataSource__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesDataSource__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesDataSource__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesDataSource__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesDataSource__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesDataSource__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesDataSource__c,sfsp__ReferenceFields__c,Reference Fields,textarea,True,True,True
+sfsp__SalesDataSource__c,sfsp__SourceId__c,Source Id,string,True,True,True
+sfsp__SalesGoal__c,Id,Record ID,id,False,False,False
+sfsp__SalesGoal__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesGoal__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesGoal__c,Name,Name,string,True,True,True
+sfsp__SalesGoal__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesGoal__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesGoal__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesGoal__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesGoal__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesGoal__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesGoal__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesGoal__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesMetric__c,Id,Record ID,id,False,False,False
+sfsp__SalesMetric__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesMetric__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesMetric__c,Name,Name,string,True,True,True
+sfsp__SalesMetric__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesMetric__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesMetric__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesMetric__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesMetric__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesMetric__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesMetric__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesMetric__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesMetric__c,sfsp__Description__c,Description,textarea,True,True,True
+sfsp__SalesMetric__c,sfsp__SalesPlanMetric__c,Sales Plan Metric,reference,True,True,True
+sfsp__SalesMetric__c,sfsp__SalesPlan__c,Sales Plan,reference,True,True,True
+sfsp__SalesMetric__c,sfsp__TargetOverrideEnabled__c,OverrideTarget,boolean,False,True,True
+sfsp__SalesMetric__c,sfsp__Type__c,Type,picklist,True,True,True
+sfsp__SalesMetric__c,External_ID__c,External ID,string,True,True,True
+sfsp__SalesMilestone__c,Id,Record ID,id,False,False,False
+sfsp__SalesMilestone__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesMilestone__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesMilestone__c,Name,Name,string,True,True,True
+sfsp__SalesMilestone__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesMilestone__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesMilestone__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesMilestone__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesMilestone__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesMilestone__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesMilestone__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesMilestone__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesNodeAssignment__c,Id,Record ID,id,False,False,False
+sfsp__SalesNodeAssignment__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesNodeAssignment__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesNodeAssignment__c,Name,Name,string,True,True,True
+sfsp__SalesNodeAssignment__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesNodeAssignment__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesNodeAssignment__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesNodeAssignment__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesNodeAssignment__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesNodeAssignment__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesNodeAssignment__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesNodeAssignment__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesNodeAssignment__c,sfsp__AssignmentType__c,Assignment Type,string,False,True,True
+sfsp__SalesNodeAssignment__c,sfsp__RecordId__c,Record Id,string,False,True,True
+sfsp__SalesNodeAssignment__c,sfsp__SalesAssignmentObject__c,Sales Assignment Object,reference,True,True,True
+sfsp__SalesNodeAssignment__c,sfsp__SalesNode__c,Sales Node,reference,True,True,True
+sfsp__SalesNodeAssignment__c,sfsp__Status__c,Status,string,False,True,True
+sfsp__SalesNodeBoundary__c,Id,Record ID,id,False,False,False
+sfsp__SalesNodeBoundary__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesNodeBoundary__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesNodeBoundary__c,Name,Sales Node Boundary Name,string,True,True,True
+sfsp__SalesNodeBoundary__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesNodeBoundary__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesNodeBoundary__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesNodeBoundary__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesNodeBoundary__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesNodeBoundary__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesNodeBoundary__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesNodeBoundary__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesNodeBoundary__c,sfsp__ContainerSet__c,Container Set (deprecated),string,False,True,True
+sfsp__SalesNodeBoundary__c,sfsp__Filter__c,Filter (deprecated),textarea,True,True,True
+sfsp__SalesNodeBoundary__c,sfsp__IncludePoints__c,IncludePoints (deprecated),boolean,False,True,True
+sfsp__SalesNodeBoundary__c,sfsp__SalesNode__c,Sales Node,reference,True,True,True
+sfsp__SalesNodeBoundary__c,sfsp__SalesPlan__c,Sales Plan (deprecated),reference,True,True,True
+sfsp__SalesNodeBoundary__c,sfsp__SalesBoundary__c,Sales Boundary,reference,True,True,True
+sfsp__SalesNodeExternalAsset__c,Id,Record ID,id,False,False,False
+sfsp__SalesNodeExternalAsset__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesNodeExternalAsset__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesNodeExternalAsset__c,Name,Name,string,True,True,True
+sfsp__SalesNodeExternalAsset__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesNodeExternalAsset__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesNodeExternalAsset__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesNodeExternalAsset__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesNodeExternalAsset__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesNodeExternalAsset__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesNodeExternalAsset__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesNodeExternalAsset__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesNodeExternalAsset__c,sfsp__AssetId__c,Asset Id,string,False,True,True
+sfsp__SalesNodeExternalAsset__c,sfsp__AssetType__c,Asset Type,string,False,True,True
+sfsp__SalesNodeExternalAsset__c,sfsp__SalesNode__c,Sales Node,reference,True,True,True
+sfsp__SalesNodeMetric__c,Id,Record ID,id,False,False,False
+sfsp__SalesNodeMetric__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesNodeMetric__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesNodeMetric__c,Name,Name,string,True,True,True
+sfsp__SalesNodeMetric__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesNodeMetric__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesNodeMetric__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesNodeMetric__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesNodeMetric__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesNodeMetric__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesNodeMetric__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesNodeMetric__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesNodeMetric__c,sfsp__SalesMetric__c,Sales Metric,reference,True,True,True
+sfsp__SalesNodeMetric__c,sfsp__SalesNode__c,Sales Node,reference,True,True,True
+sfsp__SalesNodeMetric__c,sfsp__SalesPlan__c,Sales Plan,reference,True,True,True
+sfsp__SalesNodeMetric__c,sfsp__TargetOverrideAmount__c,Override Amount,double,True,True,True
+sfsp__SalesNodeMetric__c,sfsp__TargetOverrideType__c,Type,picklist,True,True,True
+sfsp__SalesNodeMetric__c,sfsp__Target_Month10__c,Target Month 10,double,True,True,True
+sfsp__SalesNodeMetric__c,sfsp__Target_Month11__c,Target Month 11,double,True,True,True
+sfsp__SalesNodeMetric__c,sfsp__Target_Month12__c,Target Month 12,double,True,True,True
+sfsp__SalesNodeMetric__c,sfsp__Target_Month1__c,Target Month 1,double,True,True,True
+sfsp__SalesNodeMetric__c,sfsp__Target_Month2__c,Target Month 2,double,True,True,True
+sfsp__SalesNodeMetric__c,sfsp__Target_Month3__c,Target Month 3,double,True,True,True
+sfsp__SalesNodeMetric__c,sfsp__Target_Month4__c,Target Month 4,double,True,True,True
+sfsp__SalesNodeMetric__c,sfsp__Target_Month5__c,Target Month 5,double,True,True,True
+sfsp__SalesNodeMetric__c,sfsp__Target_Month6__c,Target Month 6,double,True,True,True
+sfsp__SalesNodeMetric__c,sfsp__Target_Month7__c,Target Month 7,double,True,True,True
+sfsp__SalesNodeMetric__c,sfsp__Target_Month8__c,Target Month 8,double,True,True,True
+sfsp__SalesNodeMetric__c,sfsp__Target_Month9__c,Target Month 9,double,True,True,True
+sfsp__SalesNodeMetric__c,External_ID__c,External ID,string,True,True,True
+sfsp__SalesNodeRuleItem__c,Id,Record ID,id,False,False,False
+sfsp__SalesNodeRuleItem__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesNodeRuleItem__c,Name,Name,string,True,True,True
+sfsp__SalesNodeRuleItem__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesNodeRuleItem__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesNodeRuleItem__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesNodeRuleItem__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesNodeRuleItem__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesNodeRuleItem__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesNodeRuleItem__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesNodeRuleItem__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesNodeRuleItem__c,sfsp__SalesNodeRule__c,Sales Node Rule,reference,False,True,False
+sfsp__SalesNodeRuleItem__c,sfsp__Field__c,Field,string,True,True,True
+sfsp__SalesNodeRuleItem__c,sfsp__Operator__c,Operator,picklist,False,True,True
+sfsp__SalesNodeRuleItem__c,sfsp__SortOrder__c,Sort Order,double,False,True,True
+sfsp__SalesNodeRuleItem__c,sfsp__Value__c,Value,textarea,True,True,True
+sfsp__SalesNodeRule__c,Id,Record ID,id,False,False,False
+sfsp__SalesNodeRule__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesNodeRule__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesNodeRule__c,Name,Name,string,True,True,True
+sfsp__SalesNodeRule__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesNodeRule__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesNodeRule__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesNodeRule__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesNodeRule__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesNodeRule__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesNodeRule__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesNodeRule__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesNodeRule__c,sfsp__BooleanFilter__c,Boolean Filter,textarea,False,True,True
+sfsp__SalesNodeRule__c,sfsp__FilterLogic__c,Filter Logic,picklist,False,True,True
+sfsp__SalesNodeRule__c,sfsp__SalesAssignmentObject__c,Sales Assignment Object,reference,True,True,True
+sfsp__SalesNodeRule__c,sfsp__SalesNodeBoundary__c,Sales Node Boundary,reference,True,True,True
+sfsp__SalesNodeRule__c,sfsp__SalesNode__c,Sales Node,reference,True,True,True
+sfsp__SalesNodeRule__c,sfsp__SortOrder__c,Sort Order,double,False,True,True
+sfsp__SalesNodeUser__c,Id,Record ID,id,False,False,False
+sfsp__SalesNodeUser__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesNodeUser__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesNodeUser__c,Name,AutoId,string,False,False,False
+sfsp__SalesNodeUser__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesNodeUser__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesNodeUser__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesNodeUser__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesNodeUser__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesNodeUser__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesNodeUser__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesNodeUser__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesNodeUser__c,sfsp__Role__c,Role,string,True,True,True
+sfsp__SalesNodeUser__c,sfsp__SalesNode__c,Sales Node,reference,True,True,True
+sfsp__SalesNodeUser__c,sfsp__User__c,User,reference,True,True,True
+sfsp__SalesNode__c,Id,Record ID,id,False,False,False
+sfsp__SalesNode__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesNode__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesNode__c,Name,Name,string,True,True,True
+sfsp__SalesNode__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesNode__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesNode__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesNode__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesNode__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesNode__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesNode__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesNode__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesNode__c,sfsp__AssignmentBehavior__c,Assignment Behavior,picklist,True,True,True
+sfsp__SalesNode__c,sfsp__Color__c,Node Color,string,True,True,True
+sfsp__SalesNode__c,sfsp__HierarchyReferenceData__c,Hierarchy Reference Data,textarea,True,True,True
+sfsp__SalesNode__c,sfsp__Owner__c,Owner,reference,True,True,True
+sfsp__SalesNode__c,sfsp__Parent__c,Parent,reference,True,True,True
+sfsp__SalesNode__c,sfsp__Priority__c,Priority,double,True,True,True
+sfsp__SalesNode__c,sfsp__RuleLogics__c,Rule Logics,textarea,True,True,True
+sfsp__SalesNode__c,sfsp__SalesPlanNode__c,Sales Plan Node,reference,True,True,True
+sfsp__SalesNode__c,sfsp__SalesPlan__c,Sales Plan,reference,True,True,True
+sfsp__SalesNode__c,External_ID__c,External ID,string,True,True,True
+sfsp__SalesNode__c,sfsp__QuotaRollup__c,Quota Rollup,double,True,True,True
+sfsp__SalesNode__c,sfsp__ReferenceFields__c,Reference Fields,textarea,True,True,True
+sfsp__SalesNode__c,sfsp__Segment__c,Segment,reference,True,True,True
+sfsp__SalesNode__c,sfsp__StampDataSourceId__c,Stamp Data Source Id,string,True,True,True
+sfsp__SalesNode__c,sfsp__Target__c,Target,double,True,True,True
+sfsp__SalesPlanUser__c,Id,Record ID,id,False,False,False
+sfsp__SalesPlanUser__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesPlanUser__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesPlanUser__c,Name,AutoId,string,False,False,False
+sfsp__SalesPlanUser__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesPlanUser__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesPlanUser__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesPlanUser__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesPlanUser__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesPlanUser__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesPlanUser__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesPlanUser__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesPlanUser__c,sfsp__Role__c,Role,string,True,True,True
+sfsp__SalesPlanUser__c,sfsp__SalesPlan__c,Sales Plan,reference,True,True,True
+sfsp__SalesPlanUser__c,sfsp__User__c,User,reference,True,True,True
+sfsp__SalesPlan__c,Id,Record ID,id,False,False,False
+sfsp__SalesPlan__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesPlan__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesPlan__c,Name,Name,string,True,True,True
+sfsp__SalesPlan__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesPlan__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesPlan__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesPlan__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesPlan__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesPlan__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesPlan__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesPlan__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesPlan__c,sfsp__AssignmentBehavior__c,Assignment Behavior,picklist,True,True,True
+sfsp__SalesPlan__c,sfsp__Description__c,Description,textarea,True,True,True
+sfsp__SalesPlan__c,sfsp__HierarchyReference__c,Hierarchy Reference,textarea,True,True,True
+sfsp__SalesPlan__c,sfsp__Owner__c,Owner,reference,True,True,True
+sfsp__SalesPlan__c,sfsp__Parent__c,Parent,reference,True,True,True
+sfsp__SalesPlan__c,sfsp__Period__c,Period,string,True,True,True
+sfsp__SalesPlan__c,sfsp__Status__c,Status,picklist,True,True,True
+sfsp__SalesPlan__c,External_ID__c,External ID,string,True,True,True
+sfsp__SalesPlan__c,sfsp__ReferenceFields__c,Reference Fields,textarea,True,True,True
+sfsp__SalesPlan__c,sfsp__SalesDataSource__c,Sales Data Source,reference,True,True,True
+sfsp__SalesPlan__c,sfsp__Type__c,Type,picklist,True,True,True
+sfsp__SalesProduct__c,Id,Record ID,id,False,False,False
+sfsp__SalesProduct__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesProduct__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesProduct__c,Name,Name,string,True,True,True
+sfsp__SalesProduct__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesProduct__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesProduct__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesProduct__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesProduct__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesProduct__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesProduct__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesProduct__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesUserAccess__c,Id,Record ID,id,False,False,False
+sfsp__SalesUserAccess__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesUserAccess__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesUserAccess__c,Name,Name,string,False,False,False
+sfsp__SalesUserAccess__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesUserAccess__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesUserAccess__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesUserAccess__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesUserAccess__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesUserAccess__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesUserAccess__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesUserAccess__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesUserAccess__c,sfsp__AccessLevel__c,Access Level,picklist,False,True,True
+sfsp__SalesUserAccess__c,sfsp__ApplicationAccess__c,Application Access,multipicklist,True,True,True
+sfsp__SalesUserAccess__c,sfsp__SalesNode__c,Sales Node,reference,True,True,True
+sfsp__SalesUserAccess__c,sfsp__SalesPlan__c,Sales Plan,reference,True,True,True
+sfsp__SalesUserAccess__c,sfsp__User__c,User,reference,True,True,True
+sfsp__SalesUserPreference__c,Id,Record ID,id,False,False,False
+sfsp__SalesUserPreference__c,OwnerId,Owner ID,reference,False,True,True
+sfsp__SalesUserPreference__c,IsDeleted,Deleted,boolean,False,False,False
+sfsp__SalesUserPreference__c,Name,AutoId,string,False,False,False
+sfsp__SalesUserPreference__c,CurrencyIsoCode,Currency ISO Code,picklist,True,True,True
+sfsp__SalesUserPreference__c,CreatedDate,Created Date,datetime,False,False,False
+sfsp__SalesUserPreference__c,CreatedById,Created By ID,reference,False,False,False
+sfsp__SalesUserPreference__c,LastModifiedDate,Last Modified Date,datetime,False,False,False
+sfsp__SalesUserPreference__c,LastModifiedById,Last Modified By ID,reference,False,False,False
+sfsp__SalesUserPreference__c,SystemModstamp,System Modstamp,datetime,False,False,False
+sfsp__SalesUserPreference__c,MayEdit,May Edit,boolean,False,False,False
+sfsp__SalesUserPreference__c,IsLocked,Is Locked,boolean,False,False,False
+sfsp__SalesUserPreference__c,sfsp__AccessLevel__c,Access Level,picklist,True,True,True
+sfsp__SalesUserPreference__c,sfsp__Preferences__c,Preferences,textarea,True,True,True
+sfsp__SalesUserPreference__c,sfsp__SalesNode__c,Sales Node,reference,True,True,True
+sfsp__SalesUserPreference__c,sfsp__SalesPlan__c,Sales Plan,reference,True,True,True
+sfsp__SalesUserPreference__c,sfsp__User__c,User,reference,True,True,True

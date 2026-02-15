@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>gps_Emergency_Request_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>PublicSector__Custom_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>PublicSector__Custom_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>PublicSector__RequestorName__c</fields>
+        <fields>PublicSector__Phone__c</fields>
+        <fields>RecordTypeId</fields>
+        <label>Custom Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>PublicSector__Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Emergency Requests</relationshipLabel>
+        <relationshipName>Emergency_Requests</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PublicSector__Address__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Delivery Address</label>
+        <referenceTo>Address</referenceTo>
+        <relationshipLabel>Emergency Requests</relationshipLabel>
+        <relationshipName>Emergency_Requests</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PublicSector__BusinessApplication__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Business Application</label>
+        <referenceTo>BusinessLicenseApplication</referenceTo>
+        <relationshipLabel>Emergency Requests</relationshipLabel>
+        <relationshipName>Emergency_Requests</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PublicSector__Contact_Address__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Contact Address</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PublicSector__DateRequired__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Date Required</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PublicSector__DeliveryInstructions__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Delivery Instructions</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PublicSector__DeliverySafetyConcerns__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Delivery Health or Safety Concerns</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PublicSector__DisinfectantQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Disinfectant Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__DropOffDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Drop-Off Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>PublicSector__Email__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Email</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__FaceShieldsQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Face Shields Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__GlovesQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Gloves Quantity (Surgical or Exam)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__GogglesQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Safety or Protective Goggles Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__GownsQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Gowns Quantity(Surgical or Exam)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__HandSanitizerQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Hand Sanitizer Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__IndividualApplication__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Individual Application</label>
+        <referenceTo>IndividualApplication</referenceTo>
+        <relationshipLabel>Emergency Requests</relationshipLabel>
+        <relationshipName>Emergency_Requests</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PublicSector__IsDropOffDonation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Drop-Off Donation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PublicSector__MasksQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Masks Quantity (Surgical or Exam)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__OrganizationAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Organization Address</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__OrganizationName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Organization Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__OrganizationType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Organization Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Acute Psychiatric Hospital (APH)</fullName>
+                    <default>false</default>
+                    <label>Acute Psychiatric Hospital (APH)</label>
+                </value>
+                <value>
+                    <fullName>Adult Day Health Care (ADHC)</fullName>
+                    <default>false</default>
+                    <label>Adult Day Health Care (ADHC)</label>
+                </value>
+                <value>
+                    <fullName>Ambulatory Surgical Center (ASC)</fullName>
+                    <default>false</default>
+                    <label>Ambulatory Surgical Center (ASC)</label>
+                </value>
+                <value>
+                    <fullName>Chemical Dependency Recovery Hospital (CDRH)</fullName>
+                    <default>false</default>
+                    <label>Chemical Dependency Recovery Hospital (CDRH)</label>
+                </value>
+                <value>
+                    <fullName>Chronic Dialysis Clinic (CDC)</fullName>
+                    <default>false</default>
+                    <label>Chronic Dialysis Clinic (CDC)</label>
+                </value>
+                <value>
+                    <fullName>Congregate Living Health Facility (CLHF)</fullName>
+                    <default>false</default>
+                    <label>Congregate Living Health Facility (CLHF)</label>
+                </value>
+                <value>
+                    <fullName>End Stage Renal Dialysis (CDC/ESRD)</fullName>
+                    <default>false</default>
+                    <label>End Stage Renal Dialysis (CDC/ESRD)</label>
+                </value>
+                <value>
+                    <fullName>General Acute Care Hospital (GACH)</fullName>
+                    <default>false</default>
+                    <label>General Acute Care Hospital (GACH)</label>
+                </value>
+                <value>
+                    <fullName>Home Health Agency (HHA)</fullName>
+                    <default>false</default>
+                    <label>Home Health Agency (HHA)</label>
+                </value>
+                <value>
+                    <fullName>Hospice Facility (HOFA)</fullName>
+                    <default>false</default>
+                    <label>Hospice Facility (HOFA)</label>
+                </value>
+                <value>
+                    <fullName>Intermediate Care Facility (ICF)</fullName>
+                    <default>false</default>
+                    <label>Intermediate Care Facility (ICF)</label>
+                </value>
+                <value>
+                    <fullName>Pediatric Day Health &amp; Respite Care Facility (PDHRC)</fullName>
+                    <default>false</default>
+                    <label>Pediatric Day Health &amp; Respite Care Facility (PDHRC)</label>
+                </value>
+                <value>
+                    <fullName>Primary Care Clinic (PCC)</fullName>
+                    <default>false</default>
+                    <label>Primary Care Clinic (PCC)</label>
+                </value>
+                <value>
+                    <fullName>Skilled Nursing Facility (SNF)</fullName>
+                    <default>false</default>
+                    <label>Skilled Nursing Facility (SNF)</label>
+                </value>
+                <value>
+                    <fullName>Surgical Clinic (SURGC)</fullName>
+                    <default>false</default>
+                    <label>Surgical Clinic (SURGC)</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PublicSector__Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Phone</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>PublicSector__PickUpDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Pick-Up Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>PublicSector__PrimaryContactName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Primary Contact Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__PrimaryContactPhone__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Contact Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>PublicSector__PrimaryContactTitle__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Primary Contact Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__RequestDetails__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Request Details</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PublicSector__RequestReason__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Request Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Isolated</fullName>
+                    <default>true</default>
+                    <label>Isolated</label>
+                </value>
+                <value>
+                    <fullName>Quarantined</fullName>
+                    <default>false</default>
+                    <label>Quarantined</label>
+                </value>
+                <value>
+                    <fullName>Disabled</fullName>
+                    <default>false</default>
+                    <label>Disabled</label>
+                </value>
+                <value>
+                    <fullName>Elderly</fullName>
+                    <default>false</default>
+                    <label>Elderly</label>
+                </value>
+                <value>
+                    <fullName>Homeless</fullName>
+                    <default>false</default>
+                    <label>Homeless</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PublicSector__RequestedLengthOfStay__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Requested Length Of Stay</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__RequestedService__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requested Service</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Food Delivery</fullName>
+                    <default>true</default>
+                    <label>Food Delivery</label>
+                </value>
+                <value>
+                    <fullName>Medicine / Medical Supplies Delivery</fullName>
+                    <default>false</default>
+                    <label>Medicine / Medical Supplies Delivery</label>
+                </value>
+                <value>
+                    <fullName>Temporary Housing</fullName>
+                    <default>false</default>
+                    <label>Temporary Housing</label>
+                </value>
+                <value>
+                    <fullName>Well-Being Check</fullName>
+                    <default>false</default>
+                    <label>Well-Being Check</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PublicSector__RequestedStartDateOfStay__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requested Start Date Of Stay</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PublicSector__RequestorName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Requestor Name</label>
+        <length>100</length>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__RespiratorN95MaskQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Respirator Quantity (N95 Mask)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__SecondaryContactName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Secondary Contact Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__SecondaryContactPhone__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Secondary Contact Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>PublicSector__SecondaryContactTitle__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Secondary Contact Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__Title__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Title</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__VentilatorQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ventilator Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__ViralSwabsQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Viral Swabs Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Emergency Request</label>
+    <listViews>
+        <fullName>PublicSector__All</fullName>
+        <columns>NAME</columns>
+        <columns>PublicSector__DeliveryInstructions__c</columns>
+        <columns>PublicSector__DeliverySafetyConcerns__c</columns>
+        <columns>PublicSector__PrimaryContactName__c</columns>
+        <columns>PublicSector__PrimaryContactTitle__c</columns>
+        <columns>PublicSector__PrimaryContactPhone__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Records</label>
+    </listViews>
+    <nameField>
+        <displayFormat>ER-{0000000}</displayFormat>
+        <label>Emergency Request</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Emergency Requests</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypes>
+        <fullName>PublicSector__Emergency_Assistance_Request</fullName>
+        <active>true</active>
+        <label>Emergency Assistance Request</label>
+        <picklistValues>
+            <picklist>PublicSector__OrganizationType__c</picklist>
+            <values>
+                <fullName>Acute Psychiatric Hospital %28APH%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adult Day Health Care %28ADHC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ambulatory Surgical Center %28ASC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chemical Dependency Recovery Hospital %28CDRH%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chronic Dialysis Clinic %28CDC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Congregate Living Health Facility %28CLHF%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>End Stage Renal Dialysis %28CDC%2FESRD%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Acute Care Hospital %28GACH%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home Health Agency %28HHA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospice Facility %28HOFA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Intermediate Care Facility %28ICF%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pediatric Day Health %26 Respite Care Facility %28PDHRC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primary Care Clinic %28PCC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Skilled Nursing Facility %28SNF%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Surgical Clinic %28SURGC%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PublicSector__RequestReason__c</picklist>
+            <values>
+                <fullName>Disabled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Elderly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homeless</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Isolated</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quarantined</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PublicSector__RequestedService__c</picklist>
+            <values>
+                <fullName>Food Delivery</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Medicine %2F Medical Supplies Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporary Housing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Well-Being Check</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>PublicSector__Emergency_Supplies_Donation</fullName>
+        <active>true</active>
+        <label>Emergency Supplies Donation</label>
+        <picklistValues>
+            <picklist>PublicSector__OrganizationType__c</picklist>
+            <values>
+                <fullName>Acute Psychiatric Hospital %28APH%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adult Day Health Care %28ADHC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ambulatory Surgical Center %28ASC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chemical Dependency Recovery Hospital %28CDRH%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chronic Dialysis Clinic %28CDC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Congregate Living Health Facility %28CLHF%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>End Stage Renal Dialysis %28CDC%2FESRD%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Acute Care Hospital %28GACH%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home Health Agency %28HHA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospice Facility %28HOFA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Intermediate Care Facility %28ICF%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pediatric Day Health %26 Respite Care Facility %28PDHRC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primary Care Clinic %28PCC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Skilled Nursing Facility %28SNF%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Surgical Clinic %28SURGC%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PublicSector__RequestReason__c</picklist>
+            <values>
+                <fullName>Disabled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Elderly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homeless</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Isolated</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quarantined</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PublicSector__RequestedService__c</picklist>
+            <values>
+                <fullName>Food Delivery</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Medicine %2F Medical Supplies Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporary Housing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Well-Being Check</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>PublicSector__Emergency_Supplies_Request</fullName>
+        <active>true</active>
+        <label>Emergency Supplies Request</label>
+        <picklistValues>
+            <picklist>PublicSector__OrganizationType__c</picklist>
+            <values>
+                <fullName>Acute Psychiatric Hospital %28APH%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adult Day Health Care %28ADHC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ambulatory Surgical Center %28ASC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chemical Dependency Recovery Hospital %28CDRH%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chronic Dialysis Clinic %28CDC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Congregate Living Health Facility %28CLHF%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>End Stage Renal Dialysis %28CDC%2FESRD%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Acute Care Hospital %28GACH%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home Health Agency %28HHA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospice Facility %28HOFA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Intermediate Care Facility %28ICF%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pediatric Day Health %26 Respite Care Facility %28PDHRC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primary Care Clinic %28PCC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Skilled Nursing Facility %28SNF%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Surgical Clinic %28SURGC%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PublicSector__RequestReason__c</picklist>
+            <values>
+                <fullName>Disabled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Elderly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homeless</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Isolated</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quarantined</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PublicSector__RequestedService__c</picklist>
+            <values>
+                <fullName>Food Delivery</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Medicine %2F Medical Supplies Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporary Housing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Well-Being Check</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <searchResultsAdditionalFields>PublicSector__DeliveryInstructions__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PublicSector__DeliverySafetyConcerns__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PublicSector__PrimaryContactName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PublicSector__PrimaryContactTitle__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

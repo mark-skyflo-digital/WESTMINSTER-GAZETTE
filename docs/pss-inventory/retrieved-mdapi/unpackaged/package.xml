@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>PublicSector__EmergencyRequest__c</members>
+        <members>sfsp__AttainmentPlanConfigurationRowDetail__c</members>
+        <members>sfsp__AttainmentPlanConfiguration__c</members>
+        <members>sfsp__AttainmentPlanRowDetail__c</members>
+        <members>sfsp__AttainmentPlanRow__c</members>
+        <members>sfsp__AttainmentPlan__c</members>
+        <members>sfsp__ListViewColumn__c</members>
+        <members>sfsp__ListView__c</members>
+        <members>sfsp__SalesActivity__c</members>
+        <members>sfsp__SalesAssignmentObject__c</members>
+        <members>sfsp__SalesAsyncJob__c</members>
+        <members>sfsp__SalesBoundary__c</members>
+        <members>sfsp__SalesDataSourceCRMFieldMapping__c</members>
+        <members>sfsp__SalesDataSource__c</members>
+        <members>sfsp__SalesGoal__c</members>
+        <members>sfsp__SalesMetric__c</members>
+        <members>sfsp__SalesMilestone__c</members>
+        <members>sfsp__SalesNodeAssignment__c</members>
+        <members>sfsp__SalesNodeBoundary__c</members>
+        <members>sfsp__SalesNodeExternalAsset__c</members>
+        <members>sfsp__SalesNodeMetric__c</members>
+        <members>sfsp__SalesNodeRuleItem__c</members>
+        <members>sfsp__SalesNodeRule__c</members>
+        <members>sfsp__SalesNodeUser__c</members>
+        <members>sfsp__SalesNode__c</members>
+        <members>sfsp__SalesPlanUser__c</members>
+        <members>sfsp__SalesPlan__c</members>
+        <members>sfsp__SalesProduct__c</members>
+        <members>sfsp__SalesUserAccess__c</members>
+        <members>sfsp__SalesUserPreference__c</members>
+        <name>CustomObject</name>
+    </types>
+    <version>65.0</version>
+</Package>
