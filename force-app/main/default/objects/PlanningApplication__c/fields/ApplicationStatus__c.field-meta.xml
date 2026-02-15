@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ApplicationStatus__c</fullName>
+    <description>Current lifecycle stage of the planning application.</description>
+    <externalId>false</externalId>
+    <label>Application Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Draft</fullName><default>true</default><label>Draft</label></value>
+            <value><fullName>Submitted</fullName><default>false</default><label>Submitted</label></value>
+            <value><fullName>Validation</fullName><default>false</default><label>Validation</label></value>
+            <value><fullName>In Assessment</fullName><default>false</default><label>In Assessment</label></value>
+            <value><fullName>Consultation</fullName><default>false</default><label>Consultation</label></value>
+            <value><fullName>Decision Issued</fullName><default>false</default><label>Decision Issued</label></value>
+            <value><fullName>Closed</fullName><default>false</default><label>Closed</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

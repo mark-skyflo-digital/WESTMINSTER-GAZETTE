@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Targeted field access for Westminster Gazette E2E testing.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Westminster Test Field Access</label>
+    <fieldPermissions><editable>true</editable><field>GazetteerProperty__c.AddressLine2__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>GazetteerProperty__c.City__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>GazetteerProperty__c.Postcode__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>GazetteerProperty__c.Ward__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.GazetteerProperty__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.ApplicationType__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.ApplicationStatus__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.ApplicantName__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.ApplicantEmail__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.ApplicantPhone__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.ProposalSummary__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.SiteAddress__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.Ward__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.ReceivedChannel__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.SubmittedDate__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.ValidationDate__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.TargetDecisionDate__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.DecisionDate__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.DecisionOutcome__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.CaseOfficer__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.PortalSubmission__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.PublicComments__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>PlanningApplication__c.ReferenceNumberExternal__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>BuildingControlCase__c.GazetteerProperty__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>LicensingCase__c.GazetteerProperty__c</field><readable>true</readable></fieldPermissions>
+</PermissionSet>

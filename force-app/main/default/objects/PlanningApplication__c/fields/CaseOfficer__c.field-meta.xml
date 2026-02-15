@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CaseOfficer__c</fullName>
+    <description>Planning officer responsible for the case.</description>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Case Officer</label>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Planning Applications</relationshipLabel>
+    <relationshipName>PlanningApplications</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

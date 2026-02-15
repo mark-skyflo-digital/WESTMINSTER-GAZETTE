@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SiteAddress__c</fullName>
+    <description>Full site address entered by applicant.</description>
+    <externalId>false</externalId>
+    <label>Site Address</label>
+    <length>32768</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

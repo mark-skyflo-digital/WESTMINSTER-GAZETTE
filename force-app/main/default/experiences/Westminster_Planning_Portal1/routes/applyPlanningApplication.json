@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "a5b50150-e348-4efb-9106-9217eb50ccd5",
+  "appPageId" : "cb61e488-b558-462b-8399-d2034d023e47",
+  "configurationTags" : [ ],
+  "devName" : "Apply_Planning_Application",
+  "id" : "3abe5bcf-1787-4f9d-8d45-4836c8c9cfce",
+  "label" : "Apply for Planning Permission",
+  "routeType" : "custom-apply-planning-application",
+  "type" : "route",
+  "urlPrefix" : "apply"
+}

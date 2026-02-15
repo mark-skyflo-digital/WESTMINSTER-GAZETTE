@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PortalSubmission__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Indicates record was submitted through portal.</description>
+    <externalId>false</externalId>
+    <label>Portal Submission</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

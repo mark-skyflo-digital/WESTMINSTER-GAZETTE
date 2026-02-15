@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PublicComments__c</fullName>
+    <description>Comments captured from applicant or public consultation.</description>
+    <externalId>false</externalId>
+    <label>Public Comments</label>
+    <length>32768</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

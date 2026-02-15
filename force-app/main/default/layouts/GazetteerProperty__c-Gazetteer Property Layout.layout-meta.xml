@@ -6,15 +6,42 @@
         <editHeading>true</editHeading>
         <label>Property Details</label>
         <layoutColumns>
-            <layoutItems><behavior>Required</behavior><field>UPRN__c</field></layoutItems>
-            <layoutItems><behavior>Required</behavior><field>AddressLine1__c</field></layoutItems>
-            <layoutItems><behavior>Edit</behavior><field>AddressLine2__c</field></layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>UPRN__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>AddressLine1__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>AddressLine2__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
-            <layoutItems><behavior>Edit</behavior><field>City__c</field></layoutItems>
-            <layoutItems><behavior>Edit</behavior><field>Postcode__c</field></layoutItems>
-            <layoutItems><behavior>Edit</behavior><field>Ward__c</field></layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>City__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Postcode__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Ward__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
+    <relatedLists>
+        <relatedList>PlanningApplication__c.GazetteerProperty__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <relatedList>BuildingControlCase__c.GazetteerProperty__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <relatedList>LicensingCase__c.GazetteerProperty__c</relatedList>
+    </relatedLists>
 </Layout>
