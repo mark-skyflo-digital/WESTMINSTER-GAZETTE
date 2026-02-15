@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GazetteerProperty__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Gazetteer Property</label>
+    <referenceTo>GazetteerProperty__c</referenceTo>
+    <relationshipLabel>Planning Applications</relationshipLabel>
+    <relationshipName>PlanningApplications</relationshipName>
+    <type>Lookup</type>
+</CustomField>
